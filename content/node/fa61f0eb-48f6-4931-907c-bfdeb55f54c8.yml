@@ -1,0 +1,722 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fa61f0eb-48f6-4931-907c-bfdeb55f54c8
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    9a5cbe80-1c43-4418-9819-0e08c8855ae7: media
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: 'USP Unique Selling Proposition'
+  created:
+    -
+      value: 1750361000
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'USP Unique Selling Proposition | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/usp'
+  path:
+    -
+      alias: /layouts/usp
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750361029
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c9c3926b-d5cc-4e37-9f30-ec20c7503114
+          bundle: icms_layout_textcol_iconlist
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750361082
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: none
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_icon_text_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 5a7d4fbf-bedc-43ff-bf72-68110c7c725f
+                  bundle: icms_icon_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750361110
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Unique Selling Proposition 1'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: eb61976b-bfff-41b1-90bb-027bd2c23e23
+                  bundle: icms_icon_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750361110
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.'
+                  field_icms_title:
+                    -
+                      value: 'Unique Selling Proposition 2'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 56df5b8d-75e7-44b0-a8d6-4e5e6bd37c92
+                  bundle: icms_icon_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750361110
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Unique Selling Proposition 3'
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Layout für USPs (Unique Selling Propositions) dient dazu, die einzigartigen Vorteile eines Angebots auf den Punkt zu bringen. Die Präsentation der USPs muss visuell ansprechend, strukturiert und emotional gestaltet sein, um die Nutzenden direkt zu überzeugen und sie gezielt zur Interaktion zu führen.</p><p>Icons können je nach USP geändert werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'USP - Unique Selling Proposition'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 5a520717-2913-4d20-86cb-e46b87a9234a
+          bundle: icms_layout_textcol_iconlist
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750361082
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: dark
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_icon_text_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: d9659699-36a2-41ee-86e1-6cc39ddfd40b
+                  bundle: icms_icon_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750361110
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Unique Selling Proposition 1'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 0d570687-b132-470d-bb9f-f45c0fd92238
+                  bundle: icms_icon_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750361110
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.'
+                  field_icms_title:
+                    -
+                      value: 'Unique Selling Proposition 2'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 20378cac-d38c-4425-bed8-aa9337b6ebeb
+                  bundle: icms_icon_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750361110
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Unique Selling Proposition 3'
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Layout für USPs (Unique Selling Propositions) dient dazu, die einzigartigen Vorteile eines Angebots auf den Punkt zu bringen. Die Präsentation der USPs muss visuell ansprechend, strukturiert und emotional gestaltet sein, um die Nutzenden direkt zu überzeugen und sie gezielt zur Interaktion zu führen.</p><p>Icons können je nach USP geändert werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'USP - Unique Selling Proposition'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: dde3cab6-ff89-4348-8047-08830265e876
+          bundle: icms_layout_textcol_iconlist
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750361082
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: light
+                  spacingBottom: small
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_icon_text_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: c9ae3783-32b9-4e9b-b607-c6f043e880cd
+                  bundle: icms_icon_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750361110
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Unique Selling Proposition 1'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 462a4950-ae7c-4fc9-94dc-1dfe54e06fc8
+                  bundle: icms_icon_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750361110
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.'
+                  field_icms_title:
+                    -
+                      value: 'Unique Selling Proposition 2'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 6d87a5cb-8bba-4e59-8963-9393b142ce2a
+                  bundle: icms_icon_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750361110
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Unique Selling Proposition 3'
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Layout für USPs (Unique Selling Propositions) dient dazu, die einzigartigen Vorteile eines Angebots auf den Punkt zu bringen. Die Präsentation der USPs muss visuell ansprechend, strukturiert und emotional gestaltet sein, um die Nutzenden direkt zu überzeugen und sie gezielt zur Interaktion zu führen.</p><p>Icons können je nach USP geändert werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'USP - Unique Selling Proposition'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: cd9919d7-c77e-42b6-a27a-44937114f6d5
+          bundle: icms_layout_textcol_iconlist
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750361082
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: accent
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_icon_text_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 4e1e2558-9026-4203-a73a-ab999e05f0b5
+                  bundle: icms_icon_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750361110
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Unique Selling Proposition 1'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 24183bd8-bf24-4f4a-91f8-ca23d6df7a81
+                  bundle: icms_icon_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750361110
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.'
+                  field_icms_title:
+                    -
+                      value: 'Unique Selling Proposition 2'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 6f2d075f-cebb-46b8-90ea-b0c8531dd705
+                  bundle: icms_icon_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750361110
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Unique Selling Proposition 3'
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Layout für USPs (Unique Selling Propositions) dient dazu, die einzigartigen Vorteile eines Angebots auf den Punkt zu bringen. Die Präsentation der USPs muss visuell ansprechend, strukturiert und emotional gestaltet sein, um die Nutzenden direkt zu überzeugen und sie gezielt zur Interaktion zu führen.</p><p>Icons können je nach USP geändert werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'USP - Unique Selling Proposition'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das Layout-Element <strong data-start="19" data-end="55">Unique Selling Proposition (USP)</strong> hebt in prägnanter Form das zentrale Alleinstellungsmerkmal eines Unternehmens oder Produkts hervor und zeigt den Nutzerinnen und Nutzern auf den ersten Blick, warum sie sich gerade dafür entscheiden sollten.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: 'USP Unique Selling Proposition'

@@ -1,0 +1,303 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d890cf10-c1e3-46d7-ae15-4d799b344fee
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    3ae39fff-ab61-4bd0-9f49-9cbf722e1f54: node
+    5ebf1aac-9d21-4f1d-83e3-c6fb6a5d4709: node
+    273160d7-2a9f-424e-a097-de946819114e: node
+    e978affa-fb09-4d9d-bc97-7e8fad2b1798: node
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: Teasers
+  created:
+    -
+      value: 1750359698
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Teasers | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/teasers'
+  path:
+    -
+      alias: /layouts/teasers
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750359749
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8e6798a0-f2ec-421a-899f-8d5a337626e1
+          bundle: icms_layout_teasers
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750359808
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_content_entities:
+            -
+              entity: 3ae39fff-ab61-4bd0-9f49-9cbf722e1f54
+            -
+              entity: 5ebf1aac-9d21-4f1d-83e3-c6fb6a5d4709
+            -
+              entity: 273160d7-2a9f-424e-a097-de946819114e
+            -
+              entity: e978affa-fb09-4d9d-bc97-7e8fad2b1798
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Teaser-Element dient als aufmerksamkeitsstarker Einstiegspunkt, der die Nutzenden neugierig macht, emotionale Anknüpfungspunkte schafft und ihn zu einer Aktion motiviert. Durch klare Struktur, ansprechendes Design und gezielte Ansprache wird der Teaser zu einem mächtigen Werkzeug zur Nutzeraktivierung.<br><br>Der Teaser muss in wenigen Sekunden die Kernbotschaft vermitteln. Eine emotionale Headline, kombiniert mit einem klaren Nutzenversprechen, zieht die Aufmerksamkeit der Nutzer auf sich.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Teasers
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 53e35a5f-bd6b-405b-96dd-f2cd8f7f04f9
+          bundle: icms_layout_teasers
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750359808
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: dark
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_content_entities:
+            -
+              entity: 3ae39fff-ab61-4bd0-9f49-9cbf722e1f54
+            -
+              entity: 5ebf1aac-9d21-4f1d-83e3-c6fb6a5d4709
+            -
+              entity: 273160d7-2a9f-424e-a097-de946819114e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Teaser-Element dient als aufmerksamkeitsstarker Einstiegspunkt, der die Nutzenden neugierig macht, emotionale Anknüpfungspunkte schafft und ihn zu einer Aktion motiviert. Durch klare Struktur, ansprechendes Design und gezielte Ansprache wird der Teaser zu einem mächtigen Werkzeug zur Nutzeraktivierung.<br><br>Der Teaser muss in wenigen Sekunden die Kernbotschaft vermitteln. Eine emotionale Headline, kombiniert mit einem klaren Nutzenversprechen, zieht die Aufmerksamkeit der Nutzer auf sich.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Teasers
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: aceaaefa-1460-43d1-9c99-921761b8a5d8
+          bundle: icms_layout_teasers
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750359808
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: light
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_content_entities:
+            -
+              entity: 3ae39fff-ab61-4bd0-9f49-9cbf722e1f54
+            -
+              entity: 5ebf1aac-9d21-4f1d-83e3-c6fb6a5d4709
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Teaser-Element dient als aufmerksamkeitsstarker Einstiegspunkt, der die Nutzenden neugierig macht, emotionale Anknüpfungspunkte schafft und ihn zu einer Aktion motiviert. Durch klare Struktur, ansprechendes Design und gezielte Ansprache wird der Teaser zu einem mächtigen Werkzeug zur Nutzeraktivierung.<br><br>Der Teaser muss in wenigen Sekunden die Kernbotschaft vermitteln. Eine emotionale Headline, kombiniert mit einem klaren Nutzenversprechen, zieht die Aufmerksamkeit der Nutzer auf sich.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Teasers
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 64b84cc8-6441-4cd7-a576-86de806762a9
+          bundle: icms_layout_teasers
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750359808
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: accent
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_content_entities:
+            -
+              entity: 3ae39fff-ab61-4bd0-9f49-9cbf722e1f54
+            -
+              entity: 5ebf1aac-9d21-4f1d-83e3-c6fb6a5d4709
+            -
+              entity: 273160d7-2a9f-424e-a097-de946819114e
+            -
+              entity: e978affa-fb09-4d9d-bc97-7e8fad2b1798
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Teaser-Element dient als aufmerksamkeitsstarker Einstiegspunkt, der die Nutzenden neugierig macht, emotionale Anknüpfungspunkte schafft und ihn zu einer Aktion motiviert. Durch klare Struktur, ansprechendes Design und gezielte Ansprache wird der Teaser zu einem mächtigen Werkzeug zur Nutzeraktivierung.<br><br>Der Teaser muss in wenigen Sekunden die Kernbotschaft vermitteln. Eine emotionale Headline, kombiniert mit einem klaren Nutzenversprechen, zieht die Aufmerksamkeit der Nutzer auf sich.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Teasers
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="22">Teasers-Layout</strong> präsentiert kurze Vorschauen auf Inhalte, Produkte oder Seitenbereiche, um Interesse zu wecken und Nutzer gezielt zum Weiterklicken oder Vertiefen eines Themas zu motivieren.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: Teasers

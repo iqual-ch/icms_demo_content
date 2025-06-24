@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 320cc166-9080-4b14-9fae-96c4c4c774ca
+  default_langcode: de
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'KKIII-KI Use Cases Summary-2025.pdf'
+  uri:
+    -
+      value: 'public://media/documents/KKIII-KI Use Cases Summary-2025.pdf'
+  filemime:
+    -
+      value: application/pdf
+  filesize:
+    -
+      value: 716825
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1747387067

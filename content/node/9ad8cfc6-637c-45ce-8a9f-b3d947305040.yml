@@ -1,0 +1,1356 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9ad8cfc6-637c-45ce-8a9f-b3d947305040
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: FAQ
+  created:
+    -
+      value: 1750350690
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'FAQ | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/faq'
+  path:
+    -
+      alias: /layouts/faq
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750350734
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 84b86e84-81af-49b5-9dd5-08ad37685a1d
+          bundle: icms_layout_faq
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750350773
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: none
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 0b656cd7-81ae-4f8d-a54c-d2dcf55c334f
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351261
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Weitere Fragen?'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Klicke hier'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_faq_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 03fcc651-5205-45fd-a7c1-ea1407a8b09e
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 1 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: f2446450-e8a3-41e0-8695-950b4553d3fe
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750351130
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr zu Frage 1'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Hier klicken!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
+                  field_icms_question:
+                    -
+                      value: 'Frage 1'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 503c387d-6125-47f6-91a1-7b39aafb6ef7
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 2 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 69066964-3a70-4ba6-b5ac-84cbe818ee72
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750351130
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr zu Frage 2'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Hier klicken!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
+                  field_icms_question:
+                    -
+                      value: 'Frage 2'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 1f223477-5fe2-4d12-868c-7486a37977b0
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 3 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: bd38e45f-2b57-4bed-b0f0-8391341f76e7
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750351130
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr zu Frage 3'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Hier klicken!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
+                  field_icms_question:
+                    -
+                      value: 'Frage 3'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 8e036227-4537-40ab-b6b8-a9e503e4560e
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 4 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 8141fb5e-007d-4bb4-963a-16ce1e67c64a
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750351130
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr zu Frage 4'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Hier klicken!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
+                  field_icms_question:
+                    -
+                      value: 'Frage 4'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 17366bf8-ecaa-4618-90e1-fcfaae9f688e
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 5 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 8f5a9ebd-9b9c-4a09-bd97-233cc17c0b04
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750351130
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr zu Frage 5'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Hier klicken!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
+                  field_icms_question:
+                    -
+                      value: 'Frage 5'
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das „FAQ Layout“ bietet eine effektive Möglichkeit, die Fragen und Unsicherheiten der Besuchenden zu klären, bevor sie aufkommen. Es schafft Vertrauen durch Transparenz, spart Support-Ressourcen und führt die Nutzenden gezielt zu einer Entscheidung. Die Komponente ist ein essenzieller Bestandteil jeder Conversion-optimierten Website.</p><p>Ein FAQ-Layout mit Akkordeon-Struktur bietet klare und kompakte Darstellung häufig gestellter Fragen. Titel, Einleitungstext sowie Bild heben das Thema visuell hervor und bieten Kontext. Durch Buttons in den Antworten können Verlinkungen zu weiterführenden Inhalten eingebettet werden. Dieses Layout kombiniert Übersichtlichkeit mit Funktionalität, verbessert die Benutzererfahrung und erleichtert den Zugriff auf relevante Informationen.</p><p>Die FAQs sollen mit <a href="http://Schema.org">http://Schema.org</a> ausgezeichnet werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'FAQ - Fequently Asked Questions'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b0b39d4c-e1f6-4de4-b9c6-9a0f1fda28e3
+          bundle: icms_layout_faq
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750350773
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: dark
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ac69af0b-d182-447f-96e4-21a5694b2b3d
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351261
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Weitere Fragen?'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Klicke hier'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_faq_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ba9f6ea4-ea4c-4588-902b-c79dcd8dff51
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 1 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_question:
+                    -
+                      value: 'Frage 1'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: c7f05223-fca2-4577-8b90-b7eced2aaa79
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 2 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_question:
+                    -
+                      value: 'Frage 2'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 6edc638e-916b-4376-ad03-595c81b3fad7
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 3 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_question:
+                    -
+                      value: 'Frage 3'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 3a25e91f-8049-48ff-aca8-c1632c9681f9
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 4 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_question:
+                    -
+                      value: 'Frage 4'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: d2b2c4d9-e6f5-412e-a018-bb0d01d23537
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 5 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_question:
+                    -
+                      value: 'Frage 5'
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das „FAQ Layout“ bietet eine effektive Möglichkeit, die Fragen und Unsicherheiten der Besuchenden zu klären, bevor sie aufkommen. Es schafft Vertrauen durch Transparenz, spart Support-Ressourcen und führt die Nutzenden gezielt zu einer Entscheidung. Die Komponente ist ein essenzieller Bestandteil jeder Conversion-optimierten Website.</p><p>Ein FAQ-Layout mit Akkordeon-Struktur bietet klare und kompakte Darstellung häufig gestellter Fragen. Titel, Einleitungstext sowie Bild heben das Thema visuell hervor und bieten Kontext. Durch Buttons in den Antworten können Verlinkungen zu weiterführenden Inhalten eingebettet werden. Dieses Layout kombiniert Übersichtlichkeit mit Funktionalität, verbessert die Benutzererfahrung und erleichtert den Zugriff auf relevante Informationen.</p><p>Die FAQs sollen mit <a href="http://Schema.org">http://Schema.org</a> ausgezeichnet werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'FAQ - Fequently Asked Questions'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 17b2ebfc-b31c-47b3-aa20-cfde79f7dafd
+          bundle: icms_layout_faq
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750350773
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: light
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: e2e177b3-c130-4453-acd9-e74019793630
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351261
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Weitere Fragen?'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Klicke hier'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_faq_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 36543358-de13-493a-84c5-e6d1c6e9261d
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 1 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_question:
+                    -
+                      value: 'Frage 1'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: f02458f9-d887-4e34-ab78-fe1c5b59c2ef
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 2 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_question:
+                    -
+                      value: 'Frage 2'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ff497b50-f606-49f6-85f0-36579212cedb
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 3 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_question:
+                    -
+                      value: 'Frage 3'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ac1eea42-70b7-451d-9da3-e0a06e0c61ee
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 4 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_question:
+                    -
+                      value: 'Frage 4'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 7bc29034-fc73-4c3e-9ccb-6e800b840429
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 5 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_question:
+                    -
+                      value: 'Frage 5'
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das „FAQ Layout“ bietet eine effektive Möglichkeit, die Fragen und Unsicherheiten der Besuchenden zu klären, bevor sie aufkommen. Es schafft Vertrauen durch Transparenz, spart Support-Ressourcen und führt die Nutzenden gezielt zu einer Entscheidung. Die Komponente ist ein essenzieller Bestandteil jeder Conversion-optimierten Website.</p><p>Ein FAQ-Layout mit Akkordeon-Struktur bietet klare und kompakte Darstellung häufig gestellter Fragen. Titel, Einleitungstext sowie Bild heben das Thema visuell hervor und bieten Kontext. Durch Buttons in den Antworten können Verlinkungen zu weiterführenden Inhalten eingebettet werden. Dieses Layout kombiniert Übersichtlichkeit mit Funktionalität, verbessert die Benutzererfahrung und erleichtert den Zugriff auf relevante Informationen.</p><p>Die FAQs sollen mit <a href="http://Schema.org">http://Schema.org</a> ausgezeichnet werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'FAQ - Fequently Asked Questions'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: cfd6a94b-2578-41fa-8653-1afa03f3bf10
+          bundle: icms_layout_faq
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750350773
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: accent
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: f85269bb-badb-4eb9-acdc-f81d26090bbc
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351261
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Weitere Fragen?'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Klicke hier'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_faq_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 131a2a1a-1ad3-4272-ad65-2b56cb7f759b
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 1 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_question:
+                    -
+                      value: 'Frage 1'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 864120d4-e8f1-4df5-bfd0-1d3460aaa477
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 2 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_question:
+                    -
+                      value: 'Frage 2'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: e40656d2-a6f2-4f66-aea9-0bec9f2e854f
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 3 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_question:
+                    -
+                      value: 'Frage 3'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 81d18234-1e57-4939-9931-19b1ed92bc94
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 4 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_question:
+                    -
+                      value: 'Frage 4'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 5073646f-b69c-4529-bf54-19783e7a885c
+                  bundle: icms_faq_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750350838
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_answer:
+                    -
+                      value: '<p>Antwort 5 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+                  field_icms_question:
+                    -
+                      value: 'Frage 5'
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das „FAQ Layout“ bietet eine effektive Möglichkeit, die Fragen und Unsicherheiten der Besuchenden zu klären, bevor sie aufkommen. Es schafft Vertrauen durch Transparenz, spart Support-Ressourcen und führt die Nutzenden gezielt zu einer Entscheidung. Die Komponente ist ein essenzieller Bestandteil jeder Conversion-optimierten Website.</p><p>Ein FAQ-Layout mit Akkordeon-Struktur bietet klare und kompakte Darstellung häufig gestellter Fragen. Titel, Einleitungstext sowie Bild heben das Thema visuell hervor und bieten Kontext. Durch Buttons in den Antworten können Verlinkungen zu weiterführenden Inhalten eingebettet werden. Dieses Layout kombiniert Übersichtlichkeit mit Funktionalität, verbessert die Benutzererfahrung und erleichtert den Zugriff auf relevante Informationen.</p><p>Die FAQs sollen mit <a href="http://Schema.org">http://Schema.org</a> ausgezeichnet werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'FAQ - Fequently Asked Questions'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="18">FAQ-Layout</strong> stellt eine strukturierte Liste häufig gestellter Fragen und entsprechender Antworten dar, um den Nutzenden schnell Klarheit zu bieten und den Supportaufwand zu reduzieren.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: FAQ

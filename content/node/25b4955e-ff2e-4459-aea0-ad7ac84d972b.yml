@@ -1,0 +1,368 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 25b4955e-ff2e-4459-aea0-ad7ac84d972b
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+    8a653cc6-f666-4cbb-99db-349cb90b9659: media
+    a15d0669-724a-47fe-8032-91e7a6246667: media
+    da923ff9-3c3a-4d38-998d-29b826b1036f: media
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: Galerie
+  created:
+    -
+      value: 1750351533
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Galerie | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/galerie'
+  path:
+    -
+      alias: /layouts/galerie
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750351550
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 2d539f17-f05e-4509-bebe-1c0e92bf98fa
+          bundle: icms_layout_gallery
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750351593
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+            -
+              entity: a15d0669-724a-47fe-8032-91e7a6246667
+            -
+              entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+          field_icms_pretitle:
+            -
+              value: 'Layout '
+          field_icms_text:
+            -
+              value: '<p>Das „Gallery Layout“ hebt visuelle Inhalte in den Vordergrund und vermittelt Qualität, Emotionen und Professionalität. Es dient als Inspirationsquelle, baut Vertrauen auf und fördert die Interaktion der Besuchenden mit der Website. Ob für ein Portfolio, Produkte oder Impressionen — die Galerie schafft einen bleibenden visuellen Eindruck.</p><p>Ein Website-Layout für eine Bildgalerie kombiniert Titel und Einleitungstext, um den Inhalt einzuleiten. Eine flexible Anzahl an Bildern wird in einem Raster dargestellt. Beim Anklicken vergrössert eine Lightbox die Bilder für detaillierte Ansichten. Navigation erfolgt über Pfeile oder Swipe-Gesten auf mobilen Geräten, was eine intuitive und ansprechende Benutzererfahrung bietet.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Galerie
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: bbd740a2-7689-42a5-8ce6-f914391f797a
+          bundle: icms_layout_gallery
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750351593
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: dark
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+            -
+              entity: a15d0669-724a-47fe-8032-91e7a6246667
+            -
+              entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+          field_icms_pretitle:
+            -
+              value: 'Layout '
+          field_icms_text:
+            -
+              value: '<p>Das „Gallery Layout“ hebt visuelle Inhalte in den Vordergrund und vermittelt Qualität, Emotionen und Professionalität. Es dient als Inspirationsquelle, baut Vertrauen auf und fördert die Interaktion der Besuchenden mit der Website. Ob für ein Portfolio, Produkte oder Impressionen — die Galerie schafft einen bleibenden visuellen Eindruck.</p><p>Ein Website-Layout für eine Bildgalerie kombiniert Titel und Einleitungstext, um den Inhalt einzuleiten. Eine flexible Anzahl an Bildern wird in einem Raster dargestellt. Beim Anklicken vergrössert eine Lightbox die Bilder für detaillierte Ansichten. Navigation erfolgt über Pfeile oder Swipe-Gesten auf mobilen Geräten, was eine intuitive und ansprechende Benutzererfahrung bietet.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Galerie
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: f95e013b-6459-4895-a9e3-6cd91c19063b
+          bundle: icms_layout_gallery
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750351593
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: light
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+            -
+              entity: a15d0669-724a-47fe-8032-91e7a6246667
+            -
+              entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+          field_icms_pretitle:
+            -
+              value: 'Layout '
+          field_icms_text:
+            -
+              value: '<p>Das „Gallery Layout“ hebt visuelle Inhalte in den Vordergrund und vermittelt Qualität, Emotionen und Professionalität. Es dient als Inspirationsquelle, baut Vertrauen auf und fördert die Interaktion der Besuchenden mit der Website. Ob für ein Portfolio, Produkte oder Impressionen — die Galerie schafft einen bleibenden visuellen Eindruck.</p><p>Ein Website-Layout für eine Bildgalerie kombiniert Titel und Einleitungstext, um den Inhalt einzuleiten. Eine flexible Anzahl an Bildern wird in einem Raster dargestellt. Beim Anklicken vergrössert eine Lightbox die Bilder für detaillierte Ansichten. Navigation erfolgt über Pfeile oder Swipe-Gesten auf mobilen Geräten, was eine intuitive und ansprechende Benutzererfahrung bietet.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Galerie
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 66d36648-3bb7-4e63-8529-16f618019d30
+          bundle: icms_layout_gallery
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750351593
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: accent
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+            -
+              entity: a15d0669-724a-47fe-8032-91e7a6246667
+            -
+              entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+          field_icms_pretitle:
+            -
+              value: 'Layout '
+          field_icms_text:
+            -
+              value: '<p>Das „Gallery Layout“ hebt visuelle Inhalte in den Vordergrund und vermittelt Qualität, Emotionen und Professionalität. Es dient als Inspirationsquelle, baut Vertrauen auf und fördert die Interaktion der Besuchenden mit der Website. Ob für ein Portfolio, Produkte oder Impressionen — die Galerie schafft einen bleibenden visuellen Eindruck.</p><p>Ein Website-Layout für eine Bildgalerie kombiniert Titel und Einleitungstext, um den Inhalt einzuleiten. Eine flexible Anzahl an Bildern wird in einem Raster dargestellt. Beim Anklicken vergrössert eine Lightbox die Bilder für detaillierte Ansichten. Navigation erfolgt über Pfeile oder Swipe-Gesten auf mobilen Geräten, was eine intuitive und ansprechende Benutzererfahrung bietet.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Galerie
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 3145d91f-9e72-42ac-8964-989f38173a3b
+          bundle: icms_layout_gallery
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750351593
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+            -
+              entity: a15d0669-724a-47fe-8032-91e7a6246667
+            -
+              entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+          field_icms_pretitle:
+            -
+              value: 'Layout '
+          field_icms_text:
+            -
+              value: '<p>Das „Gallery Layout“ hebt visuelle Inhalte in den Vordergrund und vermittelt Qualität, Emotionen und Professionalität. Es dient als Inspirationsquelle, baut Vertrauen auf und fördert die Interaktion der Besuchenden mit der Website. Ob für ein Portfolio, Produkte oder Impressionen — die Galerie schafft einen bleibenden visuellen Eindruck.</p><p>Ein Website-Layout für eine Bildgalerie kombiniert Titel und Einleitungstext, um den Inhalt einzuleiten. Eine flexible Anzahl an Bildern wird in einem Raster dargestellt. Beim Anklicken vergrössert eine Lightbox die Bilder für detaillierte Ansichten. Navigation erfolgt über Pfeile oder Swipe-Gesten auf mobilen Geräten, was eine intuitive und ansprechende Benutzererfahrung bietet.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Galerie
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="22">Galerie-Layout</strong> dient der ansprechenden Darstellung mehrerer Bilder in einem strukturierten Raster oder einer Slideshow, um visuelle Eindrücke kompakt und benutzerfreundlich zu präsentieren.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: Galerie
+  field_icms_topics:
+    -
+      entity: 73a2d543-f54a-4839-82e8-b47627635b66

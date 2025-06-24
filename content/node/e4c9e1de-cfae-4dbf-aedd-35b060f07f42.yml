@@ -1,0 +1,280 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e4c9e1de-cfae-4dbf-aedd-35b060f07f42
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: iFrame
+  created:
+    -
+      value: 1750356985
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'iFrame | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/iframe'
+  path:
+    -
+      alias: /layouts/iframe
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750357015
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 86c990e5-7f2d-4eb9-a371-8642d1e7f290
+          bundle: icms_layout_iframe
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750357138
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  spacingBottom: large
+                  spacingTop: small
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_iframe_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: b1f5edd8-9af6-4376-8cd3-168187bbcf44
+                  bundle: icms_iframe_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750357247
+                  behavior_settings:
+                    -
+                      value: {  }
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link:
+                    -
+                      uri: 'https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1888.3057384925382!2d7.4421083219440245!3d46.95155988785175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sde!2sch!4v1750357185245!5m2!1sde!2sch'
+                      title: ''
+                      options: {  }
+                  field_icms_number:
+                    -
+                      value: 600
+                  field_icms_title:
+                    -
+                      value: 'Bollwerk 31, 3011 Bern'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 31d91a17-6405-495e-a32e-9b7e9e23c1dd
+                  bundle: icms_iframe_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750357295
+                  behavior_settings:
+                    -
+                      value: {  }
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link:
+                    -
+                      uri: 'https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8246.667023353582!2d7.497510990115444!3d46.91391798728772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sde!2sch!4v1750357283096!5m2!1sde!2sch'
+                      title: ''
+                      options: {  }
+                  field_icms_number:
+                    -
+                      value: 600
+                  field_icms_title:
+                    -
+                      value: 'Flugplatz Bern-Belp'
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das iFrame-Layout ermöglicht das einfache Einbetten von externen Inhalten (z. B. Karten, Formulare oder Mediatheken) über sogenannte Inline-Frames (iFrames). Ein iFrame ist ein HTML-Element, mit dem externe Webseiten oder Dienste innerhalb der aktuellen Seite dargestellt werden können, ohne dass der Benutzer die Seite verlassen muss. Das Layout kann per Drag&amp;Drop in den Seitenaufbau integriert und individuell mit einer URL sowie optionalen Attributen (z. B. Höhe, Breite, Rahmen) konfiguriert werden. Die Verwendung von iFrames ist ideal für Inhalte, die aus technischen oder sicherheitsbezogenen Gründen nicht direkt im CMS gepflegt werden sollen.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: iFrame
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 791a4ea5-2d59-4d00-8082-55a0c980a914
+          bundle: icms_layout_iframe
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750357138
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_iframe_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 33bcf6ee-6863-44e8-9688-cafe8a1a3afd
+                  bundle: icms_iframe_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750357247
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link:
+                    -
+                      uri: 'https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1888.3057384925382!2d7.4421083219440245!3d46.95155988785175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sde!2sch!4v1750357185245!5m2!1sde!2sch'
+                      title: ''
+                      options: {  }
+                  field_icms_number:
+                    -
+                      value: 600
+                  field_icms_title:
+                    -
+                      value: 'Bollwerk 31, 3011 Bern'
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das iFrame-Layout ermöglicht das einfache Einbetten von externen Inhalten (z. B. Karten, Formulare oder Mediatheken) über sogenannte Inline-Frames (iFrames). Ein iFrame ist ein HTML-Element, mit dem externe Webseiten oder Dienste innerhalb der aktuellen Seite dargestellt werden können, ohne dass der Benutzer die Seite verlassen muss. Das Layout kann per Drag&amp;Drop in den Seitenaufbau integriert und individuell mit einer URL sowie optionalen Attributen (z. B. Höhe, Breite, Rahmen) konfiguriert werden. Die Verwendung von iFrames ist ideal für Inhalte, die aus technischen oder sicherheitsbezogenen Gründen nicht direkt im CMS gepflegt werden sollen.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: iFrame
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="21">iFrame-Layout</strong> ermöglicht die Einbettung externer Inhalte wie Karten, Videos oder ganze Webseiten direkt in die eigene Website, ohne dass der eingebettete Inhalt technisch in das CMS integriert werden muss.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: iFrame

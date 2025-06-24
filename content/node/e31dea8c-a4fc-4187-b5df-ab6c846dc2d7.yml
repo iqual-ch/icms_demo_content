@@ -1,0 +1,653 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e31dea8c-a4fc-4187-b5df-ab6c846dc2d7
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: Kontakt
+  created:
+    -
+      value: 1750357424
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Kontakt | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/kontakt'
+  path:
+    -
+      alias: /layouts/kontakt
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750357451
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 49e972d3-398f-4125-bc1c-4f93c1ba944e
+          bundle: icms_layout_contact
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750357503
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: small
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ad3ecf6d-43cd-45a3-accb-d619bfcb5969
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750357529
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: '+41 31 550 50 00'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Ruf uns an!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 8d034a5f-746e-4e4e-850a-c63d420e74b3
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750357529
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: Email
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Schreibe uns eine Email!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das „Kontakt” Layout ist darauf ausgelegt, den Besuchenden eine einfache und direkte Möglichkeit zu bieten, mit dem Unternehmen in Verbindung zu treten. Sie kombiniert klare Kontaktinformationen, benutzerfreundliche Formulare und eine ansprechende visuelle Gestaltung, um eine schnelle und problemlose Kommunikation zu ermöglichen. Durch diese Komponente wird Vertrauen aufgebaut und die Besuchenden motiviert, den nächsten Schritt zu gehen.</p><p>Die verschiedenen Kontaktmöglichkeiten (mailto, Booking-Link, Telefon-Link, etc.) können frei definiert werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Kontakt
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+          field_icms_webform:
+            -
+              target_id: contact
+              default_data: ''
+              status: open
+              open: ''
+              close: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 1190cbc5-62d9-4949-ad86-a160a7bf288f
+          bundle: icms_layout_contact
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750357503
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: dark
+                  spacingBottom: small
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ef883050-e3fa-483f-b462-fb56516effe2
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750357529
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: '+41 31 550 50 00'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Ruf uns an!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: d7c14738-2b3e-4e2d-b06a-1a1a1524fbdc
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750357529
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: Email
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Schreibe uns eine Email!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das „Kontakt” Layout ist darauf ausgelegt, den Besuchenden eine einfache und direkte Möglichkeit zu bieten, mit dem Unternehmen in Verbindung zu treten. Sie kombiniert klare Kontaktinformationen, benutzerfreundliche Formulare und eine ansprechende visuelle Gestaltung, um eine schnelle und problemlose Kommunikation zu ermöglichen. Durch diese Komponente wird Vertrauen aufgebaut und die Besuchenden motiviert, den nächsten Schritt zu gehen.</p><p>Die verschiedenen Kontaktmöglichkeiten (mailto, Booking-Link, Telefon-Link, etc.) können frei definiert werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Kontakt
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+          field_icms_webform:
+            -
+              target_id: contact
+              default_data: ''
+              status: open
+              open: ''
+              close: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9077351c-a0ad-462c-8790-cf641d298602
+          bundle: icms_layout_contact
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750357503
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: light
+                  spacingBottom: small
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: afcc2455-435b-475e-91eb-d3e48b02758d
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750357529
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: '+41 31 550 50 00'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Ruf uns an!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 528efb9c-7f9b-4466-9747-4adfec9661db
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750357529
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: Email
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Schreibe uns eine Email!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das „Kontakt” Layout ist darauf ausgelegt, den Besuchenden eine einfache und direkte Möglichkeit zu bieten, mit dem Unternehmen in Verbindung zu treten. Sie kombiniert klare Kontaktinformationen, benutzerfreundliche Formulare und eine ansprechende visuelle Gestaltung, um eine schnelle und problemlose Kommunikation zu ermöglichen. Durch diese Komponente wird Vertrauen aufgebaut und die Besuchenden motiviert, den nächsten Schritt zu gehen.</p><p>Die verschiedenen Kontaktmöglichkeiten (mailto, Booking-Link, Telefon-Link, etc.) können frei definiert werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Kontakt
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+          field_icms_webform:
+            -
+              target_id: contact
+              default_data: ''
+              status: open
+              open: ''
+              close: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 3d43e99a-8efd-4bb3-ac0b-5098d2243304
+          bundle: icms_layout_contact
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750357503
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: accent
+                  spacingBottom: small
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: b952254f-1fda-4ecb-a671-d48936e098fd
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750357529
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: '+41 31 550 50 00'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Ruf uns an!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: c75ba0ca-f570-432e-a349-5fb2b08d5058
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750357529
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: Email
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Schreibe uns eine Email!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das „Kontakt” Layout ist darauf ausgelegt, den Besuchenden eine einfache und direkte Möglichkeit zu bieten, mit dem Unternehmen in Verbindung zu treten. Sie kombiniert klare Kontaktinformationen, benutzerfreundliche Formulare und eine ansprechende visuelle Gestaltung, um eine schnelle und problemlose Kommunikation zu ermöglichen. Durch diese Komponente wird Vertrauen aufgebaut und die Besuchenden motiviert, den nächsten Schritt zu gehen.</p><p>Die verschiedenen Kontaktmöglichkeiten (mailto, Booking-Link, Telefon-Link, etc.) können frei definiert werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Kontakt
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+          field_icms_webform:
+            -
+              target_id: contact
+              default_data: ''
+              status: open
+              open: ''
+              close: ''
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="22">Kontakt-Layout</strong> bietet den Nutzerinnen und Nutzern eine strukturierte Möglichkeit, mit dem Unternehmen in Verbindung zu treten – meist über ein Formular, Kontaktdaten oder interaktive Elemente wie Karten oder Social-Media-Links.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: Kontakt
+  field_icms_topics:
+    -
+      entity: 73a2d543-f54a-4839-82e8-b47627635b66

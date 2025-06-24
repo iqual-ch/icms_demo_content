@@ -1,0 +1,553 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a496efab-37c0-4139-954c-03863fff713f
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: 'Wichtige Fragen'
+  created:
+    -
+      value: 1750351329
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Wichtige Fragen | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/wichtige-fragen'
+  path:
+    -
+      alias: /layouts/wichtige-fragen
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750351362
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8cd2c895-3e56-4f72-9865-7dcffa9a2701
+          bundle: icms_layout_2_col_text_elements
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750351512
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_2_col_text_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: dbc54800-b065-4582-9870-466994e8f080
+                  bundle: icms_2_col_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351408
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_text:
+                    -
+                      value: '<p>Fragen zu Live-Changing Moments, welche sich ein User der Website potentiell stellt. Im Vergleich zu FAQs handelt es sich hierbei um essentielle Fragen, welche im Zusammenhang der Bedürfnisse der Kunden stehen (pains und gains).</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Wichtige Frage 1'
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: e3229f79-0eb3-44eb-97ea-1806144113bb
+                  bundle: icms_2_col_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351408
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_text:
+                    -
+                      value: '<p>Fragen zu Live-Changing Moments, welche sich ein User der Website potentiell stellt. Im Vergleich zu FAQs handelt es sich hierbei um essentielle Fragen, welche im Zusammenhang der Bedürfnisse der Kunden stehen (pains und gains).</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Wichtige Frage 2'
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 22a80143-bd76-40ff-8c8c-cb9b34f1337f
+          bundle: icms_layout_2_col_text_elements
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750351512
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: dark
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_2_col_text_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 6e2efcb1-e5d7-44c8-9845-b351811a303e
+                  bundle: icms_2_col_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351408
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_text:
+                    -
+                      value: '<p>Fragen zu Live-Changing Moments, welche sich ein User der Website potentiell stellt. Im Vergleich zu FAQs handelt es sich hierbei um essentielle Fragen, welche im Zusammenhang der Bedürfnisse der Kunden stehen (pains und gains).</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Wichtige Frage 1'
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 6a2fbc10-735b-4cb4-9998-dc2eff9cc828
+                  bundle: icms_2_col_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351408
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_text:
+                    -
+                      value: '<p>Fragen zu Live-Changing Moments, welche sich ein User der Website potentiell stellt. Im Vergleich zu FAQs handelt es sich hierbei um essentielle Fragen, welche im Zusammenhang der Bedürfnisse der Kunden stehen (pains und gains).</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Wichtige Frage 2'
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 2b3df49d-f35e-4bfa-816e-ebc6c990cda6
+          bundle: icms_layout_2_col_text_elements
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750351512
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: light
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_2_col_text_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 1d3619f4-4418-40f9-8348-4348fc66ed79
+                  bundle: icms_2_col_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351408
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_text:
+                    -
+                      value: '<p>Fragen zu Live-Changing Moments, welche sich ein User der Website potentiell stellt. Im Vergleich zu FAQs handelt es sich hierbei um essentielle Fragen, welche im Zusammenhang der Bedürfnisse der Kunden stehen (pains und gains).</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Wichtige Frage 1'
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: cb853ee1-6e73-40c5-ab7a-2c5783dc3596
+                  bundle: icms_2_col_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351408
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_text:
+                    -
+                      value: '<p>Fragen zu Live-Changing Moments, welche sich ein User der Website potentiell stellt. Im Vergleich zu FAQs handelt es sich hierbei um essentielle Fragen, welche im Zusammenhang der Bedürfnisse der Kunden stehen (pains und gains).</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Wichtige Frage 2'
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8611a8e3-786d-43c8-aa54-1f9176eac44b
+          bundle: icms_layout_2_col_text_elements
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750351512
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: accent
+                  spacingBottom: small
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_2_col_text_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: def03f12-461e-4509-9d78-7767a704b7e7
+                  bundle: icms_2_col_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351408
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_text:
+                    -
+                      value: '<p>Fragen zu Live-Changing Moments, welche sich ein User der Website potentiell stellt. Im Vergleich zu FAQs handelt es sich hierbei um essentielle Fragen, welche im Zusammenhang der Bedürfnisse der Kunden stehen (pains und gains).</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Wichtige Frage 1'
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 8b4a00b2-3404-4c42-9dbd-3c076ce05d60
+                  bundle: icms_2_col_text_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351408
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_text:
+                    -
+                      value: '<p>Fragen zu Live-Changing Moments, welche sich ein User der Website potentiell stellt. Im Vergleich zu FAQs handelt es sich hierbei um essentielle Fragen, welche im Zusammenhang der Bedürfnisse der Kunden stehen (pains und gains).</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Wichtige Frage 2'
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="30">Wichtige-Fragen-Layout</strong> präsentiert Fragen zu Life-Changeing-Moments samt Antworten in übersichtlicher Form.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: 'Wichtige Fragen'

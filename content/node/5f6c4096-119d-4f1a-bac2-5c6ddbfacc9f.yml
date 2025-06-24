@@ -1,0 +1,1160 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5f6c4096-119d-4f1a-bac2-5c6ddbfacc9f
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    8a653cc6-f666-4cbb-99db-349cb90b9659: media
+    a15d0669-724a-47fe-8032-91e7a6246667: media
+    da923ff9-3c3a-4d38-998d-29b826b1036f: media
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: Tabs
+  created:
+    -
+      value: 1750359049
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Tabs | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/tabs'
+  path:
+    -
+      alias: /layouts/tabs
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750359081
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 1eeca487-0ce9-481c-af59-a614dbb6e80a
+          bundle: icms_layout_tabs
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750359101
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: none
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_tab_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 9ece58b1-26e8-45e5-8947-01e49bbafb31
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 8dcb5195-47d4-495e-8fe8-2a0b9d569471
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
+                  field_icms_media_elements:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 1'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ec359114-6888-484e-895e-5f8dc7a4fc15
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 5006f54b-97b9-4d8e-9d07-ff872f7d704d
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
+                  field_icms_media_elements:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 2'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: a8981071-31ae-4318-827f-63f7c470b909
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: b290841e-7ded-4e38-b776-71831e4ec6c1
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
+                  field_icms_media_elements:
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 3'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ab5e1887-2780-4e65-94bd-a5fce224cfde
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: e69f34aa-2aaa-4d58-aa35-5f0d00832e08
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
+                  field_icms_media_elements:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 4'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+          field_icms_title:
+            -
+              value: Tabs
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ae03fd3a-4c00-4a44-806e-8eb4353442cb
+          bundle: icms_layout_tabs
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750359101
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: dark
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_tab_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 6049f052-6ee8-4b63-ae81-7fc89d94a3d8
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 1'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: e06f073c-ed1d-4f72-8572-5d1b864a8ab5
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 2'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: cdc72798-3ad8-45c4-a950-3190d903a859
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 3'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 928d8697-d2eb-4b4c-958e-01367790629a
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 4'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+          field_icms_title:
+            -
+              value: Tabs
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8c676a3c-8fc2-4c2f-8454-2428a5b35b3b
+          bundle: icms_layout_tabs
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750359101
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: light
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_tab_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: abe82f34-26d5-4082-9602-9815370ce0d5
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 1'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 65df3c07-c130-48b9-8f7e-7021fba47e16
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 2'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 12df8b29-0f6c-4b73-81da-9ce4c57f5510
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 3'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 1cbd92d6-fa3a-4234-8738-8a959a0774f5
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 4'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+          field_icms_title:
+            -
+              value: Tabs
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 66d21fc4-7453-49c1-8365-4a3967f7af99
+          bundle: icms_layout_tabs
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750359101
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: accent
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_tab_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: f0964b2b-4ad6-4212-a830-f4118257efdc
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 1'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: eb20014f-7cbe-47ed-ac18-48fd3d0f180f
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 2'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 3e25dd0e-4942-4be8-8d66-ab74d0863f1b
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 3'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 10691f25-26a3-47e6-a679-f6402269f1bc
+                  bundle: icms_tab_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359143
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_pretitle:
+                    -
+                      value: Layout
+                  field_icms_tab_title:
+                    -
+                      value: 'Tab 4'
+                  field_icms_text:
+                    -
+                      value: '<p>Ein <strong>Dialogelement (oder Filterelement) in Form eines Tabbed-Contents</strong> ermöglicht es Nutzenden, Inhalte gezielt nach ihren Bedürfnissen zu filtern. Es ist besonders nützlich, um verschiedene <strong>Zielgruppen</strong> anzusprechen, indem relevante Inhalte in separaten Tabs organisiert werden.</p><p>Über den Tabs kann ein <strong>kurzer Einführung-Text </strong>stehen, welcher den Nutzern erklärt, welche Auswahlmöglichkeiten bestehen und wie sie das beste Ergebnis für ihre Anforderungen finden.</p><p><strong>Typische Tabs für unterschiedliche Zielgruppen:</strong></p><ol><li><strong>Privatkunden</strong> – Individuelle Lösungen &amp; Produkte</li><li><strong>Geschäftskunden</strong> – Unternehmensangebote &amp; Services</li><li><strong>Partner</strong> – Kooperationsmöglichkeiten</li><li><strong>Support</strong> – Hilfe &amp; Anleitungen</li><li>etc.</li></ol><p>Diese Struktur verbessert die Usability, da Nutzende direkt zu den für sie relevanten Inhalten navigieren können.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Tabs
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+          field_icms_title:
+            -
+              value: Tabs
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="26">Tabs-Filterelement</strong> ist ein interaktives Layout-Element, das Inhalte in übersichtlichen Reitern gliedert und es den Nutzerinnen und Nutzern ermöglicht, gezielt zwischen verschiedenen Kategorien oder Themenbereichen zu wechseln, ohne die Seite neu laden zu müssen.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: Tabs

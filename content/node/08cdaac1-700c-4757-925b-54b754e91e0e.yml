@@ -1,0 +1,1433 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 08cdaac1-700c-4757-925b-54b754e91e0e
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: Referenzen
+  created:
+    -
+      value: 1750358170
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Referenzen | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/referenzen'
+  path:
+    -
+      alias: /layouts/referenzen
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750358207
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 76ae4311-e560-41f5-9b91-30097819bc7b
+          bundle: icms_layout_testimonial
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750358267
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: none
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: e2585b21-b4fa-4546-b462-75c0f5ecd15a
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358373
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Interessiert?'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Kontaktieren Sie uns!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_logo_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 5b44b383-aace-431c-8864-ff5322f572f2
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 452a9817-a1fa-49e1-8223-ecbd25bb1b5f
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: f03152d5-fb1c-493d-9c96-d11e00f6baa1
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: c2cf9884-9ee9-42bf-af1f-599218af9ae3
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 241c2242-d85c-4878-ae93-fddedce42bdc
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: d5c793a0-f8b5-440f-95d1-fa6cf28a5483
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 3f905144-3138-4149-98be-17de3a174f38
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 12c0fc1c-b77d-4554-afaf-578fe160f2f4
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Referenzen Layout dient dazu, Vertrauen und Kompetenz zu signalisieren, indem greifbare Erfolge und bekannte Kund*innen vorgestellt werden. Das Layout demonstriert die Professionalität und Leistungsfähigkeit des Unternehmens durch ausgewählte Projekte, Partnerschaften oder zufriedene Kund*innen.</p><p>Im “Logo-Salat” werden in der jeweiligen Branche bekannte Kund*innen aufgeführt.</p>'
+              format: icms_basic
+          field_icms_text_plain:
+            -
+              value: 'Ein Auszug unserer Kunden.'
+          field_icms_title:
+            -
+              value: Referenzen
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 67a615d4-2759-407e-b14b-b4fc6e9f2eef
+          bundle: icms_layout_testimonial
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750358267
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: dark
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: e2fe629c-bc3d-4f2f-b645-f2ef929901d3
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358373
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Interessiert?'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Kontaktieren Sie uns!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_logo_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: f59ecab0-ded6-4fcf-8ac8-baf3d3440f04
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 60065f3e-3e70-44ca-9d07-b2a4b0ab2ff0
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 2b80617e-6b3b-4586-929a-1ed6841b3aa0
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 4b54b52e-1701-4ac1-af5b-7748583841ab
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 85866529-17ba-4706-875b-80c9388c9eab
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 4db86a0f-7d0e-47e9-b4c9-c344f968e480
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: bfa0578f-179f-48d5-9a60-99f5e49b5b5e
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 6357f4af-6771-45eb-b850-599898969f6d
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Referenzen Layout dient dazu, Vertrauen und Kompetenz zu signalisieren, indem greifbare Erfolge und bekannte Kund*innen vorgestellt werden. Das Layout demonstriert die Professionalität und Leistungsfähigkeit des Unternehmens durch ausgewählte Projekte, Partnerschaften oder zufriedene Kund*innen.</p><p>Im “Logo-Salat” werden in der jeweiligen Branche bekannte Kund*innen aufgeführt.</p>'
+              format: icms_basic
+          field_icms_text_plain:
+            -
+              value: 'Ein Auszug unserer Kunden.'
+          field_icms_title:
+            -
+              value: Referenzen
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 36284da5-bd85-4728-babb-fb9ce5389827
+          bundle: icms_layout_testimonial
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750358267
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: light
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: c6ba3f20-39d4-4d0b-baaa-790735fb5c15
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358373
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Interessiert?'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Kontaktieren Sie uns!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_logo_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 65bc9e6a-b379-4b2a-b6f8-c2abea357285
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 5296b03e-0bd9-4f1d-9ca1-301ed28ebafc
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 617f9482-384a-4b03-a955-b00e4e885ff1
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 2c5b2ce1-7c22-47e5-8119-4a3160d4be48
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 6671b2ba-b13e-4955-9c64-9217d06057d9
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 68aaa58e-6a5d-4df5-90a8-cdd64c608b01
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: d72c5f57-7b76-4540-9925-8f350a9f1e79
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: b589a247-5a61-470c-b3ca-d797aa2f08bb
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Referenzen Layout dient dazu, Vertrauen und Kompetenz zu signalisieren, indem greifbare Erfolge und bekannte Kund*innen vorgestellt werden. Das Layout demonstriert die Professionalität und Leistungsfähigkeit des Unternehmens durch ausgewählte Projekte, Partnerschaften oder zufriedene Kund*innen.</p><p>Im “Logo-Salat” werden in der jeweiligen Branche bekannte Kund*innen aufgeführt.</p>'
+              format: icms_basic
+          field_icms_text_plain:
+            -
+              value: 'Ein Auszug unserer Kunden.'
+          field_icms_title:
+            -
+              value: Referenzen
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 12dfb21e-c3b4-49ef-9980-72e50c60d618
+          bundle: icms_layout_testimonial
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750358267
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: accent
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 42995fed-8a5f-4fb5-9b72-9b3239dec558
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358373
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Interessiert?'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Kontaktieren Sie uns!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_logo_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 9213c16c-dc42-4c5d-89fc-85c5a2a5b79f
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 579a16fc-772a-43b6-be26-c2908525cebf
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 453630fc-05e7-451d-87da-69dee52b7780
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: a2d1cfc9-03e4-4add-b011-a21ab82c9ee9
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 612957af-b28d-47d3-8733-791b62eff82b
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 233e1de0-3ff2-4385-a55a-a00b2b9389c3
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: a2934d41-12f3-4396-8c81-226bd303f6ab
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 68bd4965-8000-4aa0-8896-9e4c79a86e82
+                  bundle: icms_logo_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750358333
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Referenzen Layout dient dazu, Vertrauen und Kompetenz zu signalisieren, indem greifbare Erfolge und bekannte Kund*innen vorgestellt werden. Das Layout demonstriert die Professionalität und Leistungsfähigkeit des Unternehmens durch ausgewählte Projekte, Partnerschaften oder zufriedene Kund*innen.</p><p>Im “Logo-Salat” werden in der jeweiligen Branche bekannte Kund*innen aufgeführt.</p>'
+              format: icms_basic
+          field_icms_text_plain:
+            -
+              value: 'Ein Auszug unserer Kunden.'
+          field_icms_title:
+            -
+              value: Referenzen
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong>Referenzen-Layout</strong> zeigt ausgewählte Projekte, Kundenarbeiten oder Fallstudien, um die Erfahrung, Kompetenz und Qualität des Unternehmens anhand konkreter Beispiele sichtbar zu machen.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: Referenzen

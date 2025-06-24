@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 00952130-4108-49f0-b0ce-8018ecdbd73f
+  default_langcode: de
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Icon3.svg
+  uri:
+    -
+      value: 'public://media/icons/Icon3.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 478
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1733996300

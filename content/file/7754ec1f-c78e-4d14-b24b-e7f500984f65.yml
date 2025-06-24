@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7754ec1f-c78e-4d14-b24b-e7f500984f65
+  default_langcode: de
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Testdokument.pdf
+  uri:
+    -
+      value: 'public://media/documents/Testdokument.pdf'
+  filemime:
+    -
+      value: application/pdf
+  filesize:
+    -
+      value: 15499
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1744640423

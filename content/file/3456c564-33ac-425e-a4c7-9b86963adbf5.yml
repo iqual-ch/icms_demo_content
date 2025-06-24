@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3456c564-33ac-425e-a4c7-9b86963adbf5
+  default_langcode: de
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: logoipsum-290.svg
+  uri:
+    -
+      value: 'public://media/icons/logoipsum-290.svg'
+  filemime:
+    -
+      value: image/svg+xml
+  filesize:
+    -
+      value: 5865
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734510744

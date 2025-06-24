@@ -1,0 +1,639 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7c4d9a87-99d8-434e-aaa0-a989b224fa6d
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: Text
+  created:
+    -
+      value: 1750360290
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Text | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/text'
+  path:
+    -
+      alias: /layouts/text
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750360314
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 04acd0de-4f09-4370-a655-f30703cc6fdf
+          bundle: icms_layout_text
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360364
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: none
+                  spacingBottom: small
+                  spacingTop: small
+                  textColumns: three
+                  textWidth: wide
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: facfddec-b908-4573-aab2-0a25935c476e
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360387
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Mehr erfahren?'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Klicken Sie hier!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Layout für Informationstexte ist darauf ausgelegt, Inhalte so zu präsentieren, dass sie für die Nutzenden intuitiv erfassbar, emotional ansprechend und konversionsfördernd sind. Informationstexte sollen nicht nur informieren, sondern die Lesenden gezielt durch die Inhalte führen und aktivieren.</p><p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Text
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 915bb14f-54d3-4a50-8d9c-7659a9f4889d
+          bundle: icms_layout_text
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360364
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: none
+                  spacingBottom: small
+                  spacingTop: small
+                  textColumns: two
+                  textWidth: medium
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 64406f38-2589-465f-89cd-3238ef462dfb
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360387
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Mehr erfahren?'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Klicken Sie hier!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Layout für Informationstexte ist darauf ausgelegt, Inhalte so zu präsentieren, dass sie für die Nutzenden intuitiv erfassbar, emotional ansprechend und konversionsfördernd sind. Informationstexte sollen nicht nur informieren, sondern die Lesenden gezielt durch die Inhalte führen und aktivieren.</p><p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Text
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 71ec4c8f-067e-4cb7-9701-7346ab2f4fec
+          bundle: icms_layout_text
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360364
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: none
+                  spacingBottom: small
+                  spacingTop: small
+                  textColumns: one
+                  textWidth: narrow
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: a30f3f25-2685-4064-acb0-ccd4cf625530
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360387
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Mehr erfahren?'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Klicken Sie hier!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Layout für Informationstexte ist darauf ausgelegt, Inhalte so zu präsentieren, dass sie für die Nutzenden intuitiv erfassbar, emotional ansprechend und konversionsfördernd sind. Informationstexte sollen nicht nur informieren, sondern die Lesenden gezielt durch die Inhalte führen und aktivieren.</p><p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Text
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 04c62b1b-57ef-4100-b5a9-6077cd95fe06
+          bundle: icms_layout_text
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360364
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: dark
+                  spacingBottom: large
+                  spacingTop: large
+                  textColumns: three
+                  textWidth: wide
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 6ea10d38-bff8-4b28-a6eb-70a93deaa5fd
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360387
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Mehr erfahren?'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Klicken Sie hier!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Layout für Informationstexte ist darauf ausgelegt, Inhalte so zu präsentieren, dass sie für die Nutzenden intuitiv erfassbar, emotional ansprechend und konversionsfördernd sind. Informationstexte sollen nicht nur informieren, sondern die Lesenden gezielt durch die Inhalte führen und aktivieren.</p><p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Text
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c3066bd7-410a-4182-b69b-ee58f128362c
+          bundle: icms_layout_text
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360364
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: light
+                  spacingBottom: large
+                  spacingTop: large
+                  textColumns: two
+                  textWidth: medium
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 267ee9de-0c05-4088-97fe-7d016e4d8a8e
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360387
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Mehr erfahren?'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Klicken Sie hier!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Layout für Informationstexte ist darauf ausgelegt, Inhalte so zu präsentieren, dass sie für die Nutzenden intuitiv erfassbar, emotional ansprechend und konversionsfördernd sind. Informationstexte sollen nicht nur informieren, sondern die Lesenden gezielt durch die Inhalte führen und aktivieren.</p><p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Text
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a22ca30a-802f-4e51-b15e-b011d5b1f74c
+          bundle: icms_layout_text
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360364
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: accent
+                  spacingBottom: small
+                  spacingTop: small
+                  textColumns: one
+                  textWidth: narrow
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: d57af86d-fe0d-41c1-adfb-b1435be00f2f
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360387
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Mehr erfahren?'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Klicken Sie hier!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Layout für Informationstexte ist darauf ausgelegt, Inhalte so zu präsentieren, dass sie für die Nutzenden intuitiv erfassbar, emotional ansprechend und konversionsfördernd sind. Informationstexte sollen nicht nur informieren, sondern die Lesenden gezielt durch die Inhalte führen und aktivieren.</p><p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Text
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="19">Text-Layout</strong> ist ein Website-Element zur strukturierten Darstellung von Fließtexten, mit dem Inhalte leserfreundlich präsentiert und zentrale Informationen verständlich vermittelt werden.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: Text

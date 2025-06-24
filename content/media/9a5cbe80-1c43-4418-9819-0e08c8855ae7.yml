@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+  bundle: icon
+  default_langcode: de
+  depends:
+    00952130-4108-49f0-b0ce-8018ecdbd73f: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Icon3
+  created:
+    -
+      value: 1733996300
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de'
+  path:
+    -
+      alias: ''
+      langcode: de
+      pathauto: 0
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_media_svg:
+    -
+      entity: 00952130-4108-49f0-b0ce-8018ecdbd73f
+      alt: Icon3
+      title: ''
+      width: 0
+      height: 0

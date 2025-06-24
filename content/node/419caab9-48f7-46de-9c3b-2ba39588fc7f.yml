@@ -1,0 +1,474 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 419caab9-48f7-46de-9c3b-2ba39588fc7f
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+    4ad45ce3-ea09-4ffc-b177-e401c8ad7183: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Empathische Einführung'
+  created:
+    -
+      value: 1750688782
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Empathische Einführung | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/empathische-einfuehrung'
+  path:
+    -
+      alias: /layouts/empathische-einfuehrung
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750688786
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4db65448-9aa4-4bcd-8d26-ea156d931d93
+          bundle: icms_layout_text_image_intro
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750688833
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: none
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: dcba58df-26e8-447c-9089-d10f4899fb60
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750694788
+                  behavior_settings:
+                    -
+                      value: {  }
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link:
+                    -
+                      uri: 'route:<nolink>'
+                      title: ''
+                      options: {  }
+                  field_icms_link_label:
+                    -
+                      value: 'Mehr lesen'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Hier klicken!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_media_element:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_signature:
+            -
+              entity: 4ad45ce3-ea09-4ffc-b177-e401c8ad7183
+          field_icms_text:
+            -
+              value: '<p>Die empathische Einführung ist ein zentrales Element zur Vertrauensbildung. Sie dient dazu, Nutzende emotional zu erreichen, ihr Vertrauen zu gewinnen und sie von Beginn an in die richtige Richtung zu lenken. Der erste Eindruck zählt — und eine empathisch gestaltete Einführung entscheidet, ob die Besuchenden bleiben oder abspringen.&nbsp;<br><br>Emotion sind der Schlüssel zu einer erfolgreichen Nutzerführung. Bilder, Sprache und Tonalität sollten gezielt eingesetzt werden, um positive Gefühle wie Vertrauen, Neugier oder Begeisterung auszulösen.<br><br>Die empathische Einführung wird meistens in Geschäftsmodellen verwendet, in denen der persönliche Kontakt wichtig ist. Bspw. Arztpraxis, Massage-Praxis, kleines Beratungsunternehmen, Coiffeur etc.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Empathische Einführung'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 6440889e-b46c-4e62-9e8b-86044b77dc07
+          bundle: icms_layout_text_image_intro
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750688833
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: dark
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 1819b482-b965-4152-8d0f-5e896d6fd521
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750694863
+                  behavior_settings:
+                    -
+                      value: {  }
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link:
+                    -
+                      uri: 'route:<nolink>'
+                      title: ''
+                      options: {  }
+                  field_icms_link_label:
+                    -
+                      value: 'Mehr lesen'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Hier klicken!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_media_element:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_signature:
+            -
+              entity: 4ad45ce3-ea09-4ffc-b177-e401c8ad7183
+          field_icms_text:
+            -
+              value: '<p>Die empathische Einführung ist ein zentrales Element zur Vertrauensbildung. Sie dient dazu, Nutzende emotional zu erreichen, ihr Vertrauen zu gewinnen und sie von Beginn an in die richtige Richtung zu lenken. Der erste Eindruck zählt — und eine empathisch gestaltete Einführung entscheidet, ob die Besuchenden bleiben oder abspringen.&nbsp;<br><br>Emotion sind der Schlüssel zu einer erfolgreichen Nutzerführung. Bilder, Sprache und Tonalität sollten gezielt eingesetzt werden, um positive Gefühle wie Vertrauen, Neugier oder Begeisterung auszulösen.<br><br>Die empathische Einführung wird meistens in Geschäftsmodellen verwendet, in denen der persönliche Kontakt wichtig ist. Bspw. Arztpraxis, Massage-Praxis, kleines Beratungsunternehmen, Coiffeur etc.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Empathische Einführung'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: d133965e-db9a-4fa8-93d6-90968ce2a3f5
+          bundle: icms_layout_text_image_intro
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750688833
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: light
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 2abfa260-024a-499f-b3dc-f622d22a4a65
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750694889
+                  behavior_settings:
+                    -
+                      value: {  }
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link:
+                    -
+                      uri: 'route:<nolink>'
+                      title: ''
+                      options: {  }
+                  field_icms_link_label:
+                    -
+                      value: 'Mehr lesen'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Hier klicken!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_media_element:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_signature:
+            -
+              entity: 4ad45ce3-ea09-4ffc-b177-e401c8ad7183
+          field_icms_text:
+            -
+              value: '<p>Die empathische Einführung ist ein zentrales Element zur Vertrauensbildung. Sie dient dazu, Nutzende emotional zu erreichen, ihr Vertrauen zu gewinnen und sie von Beginn an in die richtige Richtung zu lenken. Der erste Eindruck zählt — und eine empathisch gestaltete Einführung entscheidet, ob die Besuchenden bleiben oder abspringen.&nbsp;<br><br>Emotion sind der Schlüssel zu einer erfolgreichen Nutzerführung. Bilder, Sprache und Tonalität sollten gezielt eingesetzt werden, um positive Gefühle wie Vertrauen, Neugier oder Begeisterung auszulösen.<br><br>Die empathische Einführung wird meistens in Geschäftsmodellen verwendet, in denen der persönliche Kontakt wichtig ist. Bspw. Arztpraxis, Massage-Praxis, kleines Beratungsunternehmen, Coiffeur etc.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Empathische Einführung'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7686e2c1-3551-4ce9-8fc0-7e94e75a2c7f
+          bundle: icms_layout_text_image_intro
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750688833
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: accent
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: a5a17fda-fef1-4534-b114-ccb94fb31f14
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750694908
+                  behavior_settings:
+                    -
+                      value: {  }
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link:
+                    -
+                      uri: 'route:<nolink>'
+                      title: ''
+                      options: {  }
+                  field_icms_link_label:
+                    -
+                      value: 'Mehr lesen'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Hier klicken!'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_media_element:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_signature:
+            -
+              entity: 4ad45ce3-ea09-4ffc-b177-e401c8ad7183
+          field_icms_text:
+            -
+              value: '<p>Die empathische Einführung ist ein zentrales Element zur Vertrauensbildung. Sie dient dazu, Nutzende emotional zu erreichen, ihr Vertrauen zu gewinnen und sie von Beginn an in die richtige Richtung zu lenken. Der erste Eindruck zählt — und eine empathisch gestaltete Einführung entscheidet, ob die Besuchenden bleiben oder abspringen.&nbsp;<br><br>Emotion sind der Schlüssel zu einer erfolgreichen Nutzerführung. Bilder, Sprache und Tonalität sollten gezielt eingesetzt werden, um positive Gefühle wie Vertrauen, Neugier oder Begeisterung auszulösen.<br><br>Die empathische Einführung wird meistens in Geschäftsmodellen verwendet, in denen der persönliche Kontakt wichtig ist. Bspw. Arztpraxis, Massage-Praxis, kleines Beratungsunternehmen, Coiffeur etc.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Empathische Einführung'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="37">Empathische-Einführung-Layout</strong> leitet eine Seite mit einem einfühlsam formulierten Text ein, der die Perspektive und Bedürfnisse der Zielgruppe aufgreift, um eine emotionale Verbindung herzustellen und Vertrauen aufzubauen.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: 'Empathische Einführung'

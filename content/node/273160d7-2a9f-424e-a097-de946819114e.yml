@@ -1,0 +1,521 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 273160d7-2a9f-424e-a097-de946819114e
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: Tabelle
+  created:
+    -
+      value: 1750358446
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Tabelle | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/tabelle'
+  path:
+    -
+      alias: /layouts/tabelle
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750358474
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c99ff43a-268d-4329-8919-21365c6114fd
+          bundle: icms_layout_table
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750358686
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_table:
+            -
+              value:
+                0:
+                  weight: '0'
+                  0: ''
+                  1: 'Produkt A'
+                  2: 'Produkt B'
+                  3: 'Produkt C'
+                  4: 'Produkt D'
+                1:
+                  weight: '1'
+                  0: Farbe
+                  1: 'rot, grün'
+                  2: 'rot, grün und blau'
+                  3: 'schwarz, weiss'
+                  4: pink
+                2:
+                  weight: '2'
+                  0: Grösse
+                  1: '10 x 10 x 10'
+                  2: '15 x 15 x 10'
+                  3: '15 x 20 x 15'
+                  4: '5 x 5 x 10'
+                3:
+                  weight: '3'
+                  0: Check
+                  1: check
+                  2: check
+                  3: x
+                  4: x
+                4:
+                  weight: '4'
+                  0: Preis
+                  1: '10 CHF'
+                  2: '15 CHF'
+                  3: '50 CHF'
+                  4: '80 CHF'
+                caption: 'Beschreibung des Tabelleninhaltes'
+              format: icms_restricted
+              caption: 'Beschreibung des Tabelleninhaltes'
+          field_icms_text:
+            -
+              value: '<p>Das „Konditionen (Tabelle)” Layout ist ein effektives Element zur übersichtlichen Darstellung von Preisen, Leistungen oder Vertragsbedingungen. Sie hilft Besuchenden Angebote schnell zu vergleichen, Entscheidungen zu treffen und schafft durch Transparenz Vertrauen. Das Layout kombiniert Klarheit mit einem ansprechenden Design, das den Fokus auf die wichtigsten Informationen lenkt.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Tabelle
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a2f37067-4b35-4168-8825-de8441fd7081
+          bundle: icms_layout_table
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750358686
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: dark
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_table:
+            -
+              value:
+                0:
+                  weight: '0'
+                  0: ''
+                  1: 'Produkt A'
+                  2: 'Produkt B'
+                  3: 'Produkt C'
+                  4: 'Produkt D'
+                1:
+                  weight: '1'
+                  0: Farbe
+                  1: 'rot, grün'
+                  2: 'rot, grün und blau'
+                  3: 'schwarz, weiss'
+                  4: pink
+                2:
+                  weight: '2'
+                  0: Grösse
+                  1: '10 x 10 x 10'
+                  2: '15 x 15 x 10'
+                  3: '15 x 20 x 15'
+                  4: '5 x 5 x 10'
+                3:
+                  weight: '3'
+                  0: Check
+                  1: check
+                  2: check
+                  3: x
+                  4: x
+                4:
+                  weight: '4'
+                  0: Preis
+                  1: '10 CHF'
+                  2: '15 CHF'
+                  3: '50 CHF'
+                  4: '80 CHF'
+                caption: 'Beschreibung des Tabelleninhaltes'
+              format: icms_restricted
+              caption: 'Beschreibung des Tabelleninhaltes'
+          field_icms_text:
+            -
+              value: '<p>Das „Konditionen (Tabelle)” Layout ist ein effektives Element zur übersichtlichen Darstellung von Preisen, Leistungen oder Vertragsbedingungen. Sie hilft Besuchenden Angebote schnell zu vergleichen, Entscheidungen zu treffen und schafft durch Transparenz Vertrauen. Das Layout kombiniert Klarheit mit einem ansprechenden Design, das den Fokus auf die wichtigsten Informationen lenkt.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Tabelle
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 455542cb-6fd0-4177-aaa6-14eca155a562
+          bundle: icms_layout_table
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750358686
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: light
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_table:
+            -
+              value:
+                0:
+                  weight: '0'
+                  0: ''
+                  1: 'Produkt A'
+                  2: 'Produkt B'
+                  3: 'Produkt C'
+                  4: 'Produkt D'
+                1:
+                  weight: '1'
+                  0: Farbe
+                  1: 'rot, grün'
+                  2: 'rot, grün und blau'
+                  3: 'schwarz, weiss'
+                  4: pink
+                2:
+                  weight: '2'
+                  0: Grösse
+                  1: '10 x 10 x 10'
+                  2: '15 x 15 x 10'
+                  3: '15 x 20 x 15'
+                  4: '5 x 5 x 10'
+                3:
+                  weight: '3'
+                  0: Check
+                  1: check
+                  2: check
+                  3: x
+                  4: x
+                4:
+                  weight: '4'
+                  0: Preis
+                  1: '10 CHF'
+                  2: '15 CHF'
+                  3: '50 CHF'
+                  4: '80 CHF'
+                caption: 'Beschreibung des Tabelleninhaltes'
+              format: icms_restricted
+              caption: 'Beschreibung des Tabelleninhaltes'
+          field_icms_text:
+            -
+              value: '<p>Das „Konditionen (Tabelle)” Layout ist ein effektives Element zur übersichtlichen Darstellung von Preisen, Leistungen oder Vertragsbedingungen. Sie hilft Besuchenden Angebote schnell zu vergleichen, Entscheidungen zu treffen und schafft durch Transparenz Vertrauen. Das Layout kombiniert Klarheit mit einem ansprechenden Design, das den Fokus auf die wichtigsten Informationen lenkt.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Tabelle
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7325a4c1-e810-45dc-8d24-c3e1d5301cc4
+          bundle: icms_layout_table
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750358686
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: accent
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_table:
+            -
+              value:
+                0:
+                  weight: '0'
+                  0: ''
+                  1: 'Produkt A'
+                  2: 'Produkt B'
+                  3: 'Produkt C'
+                  4: 'Produkt D'
+                1:
+                  weight: '1'
+                  0: Farbe
+                  1: 'rot, grün'
+                  2: 'rot, grün und blau'
+                  3: 'schwarz, weiss'
+                  4: pink
+                2:
+                  weight: '2'
+                  0: Grösse
+                  1: '10 x 10 x 10'
+                  2: '15 x 15 x 10'
+                  3: '15 x 20 x 15'
+                  4: '5 x 5 x 10'
+                3:
+                  weight: '3'
+                  0: Check
+                  1: check
+                  2: check
+                  3: x
+                  4: x
+                4:
+                  weight: '4'
+                  0: Preis
+                  1: '10 CHF'
+                  2: '15 CHF'
+                  3: '50 CHF'
+                  4: '80 CHF'
+                caption: 'Beschreibung des Tabelleninhaltes'
+              format: icms_restricted
+              caption: 'Beschreibung des Tabelleninhaltes'
+          field_icms_text:
+            -
+              value: '<p>Das „Konditionen (Tabelle)” Layout ist ein effektives Element zur übersichtlichen Darstellung von Preisen, Leistungen oder Vertragsbedingungen. Sie hilft Besuchenden Angebote schnell zu vergleichen, Entscheidungen zu treffen und schafft durch Transparenz Vertrauen. Das Layout kombiniert Klarheit mit einem ansprechenden Design, das den Fokus auf die wichtigsten Informationen lenkt.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Tabelle
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 11906824-1cef-4567-8ebf-feb9501f7856
+          bundle: icms_layout_table
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750358686
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: small
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_table:
+            -
+              value:
+                0:
+                  weight: '0'
+                  0: ''
+                  1: 'Produkt A'
+                  2: 'Produkt B'
+                  3: 'Produkt C'
+                  4: 'Produkt D'
+                1:
+                  weight: '1'
+                  0: Farbe
+                  1: 'rot, grün'
+                  2: 'rot, grün und blau'
+                  3: 'schwarz, weiss'
+                  4: pink
+                2:
+                  weight: '2'
+                  0: Grösse
+                  1: '10 x 10 x 10'
+                  2: '15 x 15 x 10'
+                  3: '15 x 20 x 15'
+                  4: '5 x 5 x 10'
+                3:
+                  weight: '3'
+                  0: Check
+                  1: check
+                  2: check
+                  3: x
+                  4: x
+                4:
+                  weight: '4'
+                  0: Preis
+                  1: '10 CHF'
+                  2: '15 CHF'
+                  3: '50 CHF'
+                  4: '80 CHF'
+                caption: 'Beschreibung des Tabelleninhaltes'
+              format: icms_restricted
+              caption: 'Beschreibung des Tabelleninhaltes'
+          field_icms_text:
+            -
+              value: '<p>Das „Konditionen (Tabelle)” Layout ist ein effektives Element zur übersichtlichen Darstellung von Preisen, Leistungen oder Vertragsbedingungen. Sie hilft Besuchenden Angebote schnell zu vergleichen, Entscheidungen zu treffen und schafft durch Transparenz Vertrauen. Das Layout kombiniert Klarheit mit einem ansprechenden Design, das den Fokus auf die wichtigsten Informationen lenkt.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Tabelle
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="23">Tabellen-Layout</strong> dient der strukturierten Darstellung von Daten oder Informationen in Zeilen und Spalten, um Vergleiche, Zusammenhänge oder Details übersichtlich und leicht erfassbar zu präsentieren.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: Tabelle

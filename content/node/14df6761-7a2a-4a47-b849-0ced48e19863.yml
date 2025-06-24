@@ -1,0 +1,321 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 14df6761-7a2a-4a47-b849-0ced48e19863
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    b7eb12c9-c157-4eea-a112-05960d87714d: media
+    b79ae2a0-5a07-4143-8fa0-b1eba0024085: media
+    e4998ae5-4bea-47f3-b4ac-0276f58f7851: media
+    06ca251e-0a53-4475-8f3b-ead80bd9cf7a: media
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: Downloads
+  created:
+    -
+      value: 1750350296
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Downloads | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/downloads'
+  path:
+    -
+      alias: /layouts/downloads
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750350331
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 0f1ae831-428a-41e2-9d22-696652285a75
+          bundle: icms_layout_downloads
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750350383
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_documents:
+            -
+              entity: b7eb12c9-c157-4eea-a112-05960d87714d
+            -
+              entity: b79ae2a0-5a07-4143-8fa0-b1eba0024085
+            -
+              entity: e4998ae5-4bea-47f3-b4ac-0276f58f7851
+            -
+              entity: 06ca251e-0a53-4475-8f3b-ead80bd9cf7a
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Download-Layout bietet den Website-Besuchern eine strukturierte Übersicht über alle verfügbaren Dokumente. Die Dateien werden in einer übersichtlichen Liste dargestellt, ergänzt durch aussagekräftige Titel und kurze Beschreibungen, die den Inhalt und Zweck der einzelnen Dateien erläutern.</p><p>Den Nutzern können sämtliche gängigen Dateiformate wie PDF, DOCX, XLSX, PPTX und weitere zur Verfügung gestellt werden. Damit eignet sich dieser Bereich ideal für den Zugriff auf Broschüren, Präsentationen, Formulare, Geschäftsberichte oder technische Dokumentationen. Die Dateien sind direkt herunterladbar, sodass ein effizienter Informationszugriff ohne zusätzliche Barrieren gewährleistet ist.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Downloads
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 6f988338-10bb-440e-a678-50b3a35276c5
+          bundle: icms_layout_downloads
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750350383
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: dark
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_documents:
+            -
+              entity: b7eb12c9-c157-4eea-a112-05960d87714d
+            -
+              entity: b79ae2a0-5a07-4143-8fa0-b1eba0024085
+            -
+              entity: e4998ae5-4bea-47f3-b4ac-0276f58f7851
+            -
+              entity: 06ca251e-0a53-4475-8f3b-ead80bd9cf7a
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Download-Layout bietet den Website-Besuchern eine strukturierte Übersicht über alle verfügbaren Dokumente. Die Dateien werden in einer übersichtlichen Liste dargestellt, ergänzt durch aussagekräftige Titel und kurze Beschreibungen, die den Inhalt und Zweck der einzelnen Dateien erläutern.</p><p>Den Nutzern können sämtliche gängigen Dateiformate wie PDF, DOCX, XLSX, PPTX und weitere zur Verfügung gestellt werden. Damit eignet sich dieser Bereich ideal für den Zugriff auf Broschüren, Präsentationen, Formulare, Geschäftsberichte oder technische Dokumentationen. Die Dateien sind direkt herunterladbar, sodass ein effizienter Informationszugriff ohne zusätzliche Barrieren gewährleistet ist.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Downloads
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4000c44f-cb8a-4678-b29d-e76bb23519c7
+          bundle: icms_layout_downloads
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750350383
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: light
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_documents:
+            -
+              entity: b7eb12c9-c157-4eea-a112-05960d87714d
+            -
+              entity: b79ae2a0-5a07-4143-8fa0-b1eba0024085
+            -
+              entity: e4998ae5-4bea-47f3-b4ac-0276f58f7851
+            -
+              entity: 06ca251e-0a53-4475-8f3b-ead80bd9cf7a
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Download-Layout bietet den Website-Besuchern eine strukturierte Übersicht über alle verfügbaren Dokumente. Die Dateien werden in einer übersichtlichen Liste dargestellt, ergänzt durch aussagekräftige Titel und kurze Beschreibungen, die den Inhalt und Zweck der einzelnen Dateien erläutern.</p><p>Den Nutzern können sämtliche gängigen Dateiformate wie PDF, DOCX, XLSX, PPTX und weitere zur Verfügung gestellt werden. Damit eignet sich dieser Bereich ideal für den Zugriff auf Broschüren, Präsentationen, Formulare, Geschäftsberichte oder technische Dokumentationen. Die Dateien sind direkt herunterladbar, sodass ein effizienter Informationszugriff ohne zusätzliche Barrieren gewährleistet ist.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Downloads
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 3581bcab-dd2c-4c69-bb40-9c340241b481
+          bundle: icms_layout_downloads
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750350383
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: accent
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_documents:
+            -
+              entity: b7eb12c9-c157-4eea-a112-05960d87714d
+            -
+              entity: b79ae2a0-5a07-4143-8fa0-b1eba0024085
+            -
+              entity: e4998ae5-4bea-47f3-b4ac-0276f58f7851
+            -
+              entity: 06ca251e-0a53-4475-8f3b-ead80bd9cf7a
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Download-Layout bietet den Website-Besuchern eine strukturierte Übersicht über alle verfügbaren Dokumente. Die Dateien werden in einer übersichtlichen Liste dargestellt, ergänzt durch aussagekräftige Titel und kurze Beschreibungen, die den Inhalt und Zweck der einzelnen Dateien erläutern.</p><p>Den Nutzern können sämtliche gängigen Dateiformate wie PDF, DOCX, XLSX, PPTX und weitere zur Verfügung gestellt werden. Damit eignet sich dieser Bereich ideal für den Zugriff auf Broschüren, Präsentationen, Formulare, Geschäftsberichte oder technische Dokumentationen. Die Dateien sind direkt herunterladbar, sodass ein effizienter Informationszugriff ohne zusätzliche Barrieren gewährleistet ist.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Downloads
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="24">Downloads-Layout</strong> bietet eine übersichtliche Liste von Dateien wie PDFs, Präsentationen oder Dokumenten zum Herunterladen, oft ergänzt durch Titel, Beschreibungen und Dateiformate für eine einfache Auswahl.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: Downloads

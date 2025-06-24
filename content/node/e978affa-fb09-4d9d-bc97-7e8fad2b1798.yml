@@ -1,0 +1,864 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e978affa-fb09-4d9d-bc97-7e8fad2b1798
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    8a653cc6-f666-4cbb-99db-349cb90b9659: media
+    a15d0669-724a-47fe-8032-91e7a6246667: media
+    da923ff9-3c3a-4d38-998d-29b826b1036f: media
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: Team
+  created:
+    -
+      value: 1750359357
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Team | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/team'
+  path:
+    -
+      alias: /layouts/team
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750359379
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 3c772658-a280-4e22-b4c8-064837945c6f
+          bundle: icms_layout_team
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750359416
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_team_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 221a1ef0-3264-422f-b306-8a34879a08ff
+                  bundle: icms_team_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359430
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_email:
+                    -
+                      value: mm@test.ch
+                  field_icms_first_name:
+                    -
+                      value: Max
+                  field_icms_last_name:
+                    -
+                      value: Muster
+                  field_icms_media_element:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_phone:
+                    -
+                      value: '+41 31 550 50 00'
+                  field_icms_position:
+                    -
+                      value: CEO
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.</p>'
+                      format: icms_basic
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: c3fea637-c5bc-4613-b539-bf0b7ab92627
+                  bundle: icms_team_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359430
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_email:
+                    -
+                      value: fz@test.ch
+                  field_icms_first_name:
+                    -
+                      value: Fritz
+                  field_icms_last_name:
+                    -
+                      value: Zufall
+                  field_icms_media_element:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_phone:
+                    -
+                      value: '+41 31 550 50 01'
+                  field_icms_position:
+                    -
+                      value: COO
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 32c40be1-115f-42fb-86b2-8ed36ce89a30
+                  bundle: icms_team_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359430
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_email:
+                    -
+                      value: ri@test.ch
+                  field_icms_first_name:
+                    -
+                      value: Ron
+                  field_icms_last_name:
+                    -
+                      value: Irgendwer
+                  field_icms_media_element:
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                  field_icms_phone:
+                    -
+                      value: '+41 31 550 50 02'
+                  field_icms_position:
+                    -
+                      value: CTO
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.</p>'
+                      format: icms_basic
+          field_icms_text:
+            -
+              value: '<p>Das „Team Layout“ stärkt die menschliche Verbindung zwischen Unternehmen und Besuchenden. Es zeigt, dass hinter der Marke echte Menschen stehen, die kompetent, engagiert und authentisch sind. Dadurch wird Vertrauen aufgebaut, das die Entscheidungsfindung der Besuchenden positiv beeinflusst.</p><p>Je nach Wunsch können die Beschreibung, Email, Telefonnummer, Buchungslink und/oder LinkedIn Verlinkung eingefügt werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Team
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b5cb850c-88c2-46ab-87b8-d932e856676d
+          bundle: icms_layout_team
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750359416
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: dark
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_team_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: f241c9fd-a3e0-46ab-8860-95cae315901e
+                  bundle: icms_team_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359430
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_email:
+                    -
+                      value: mm@test.ch
+                  field_icms_first_name:
+                    -
+                      value: Max
+                  field_icms_last_name:
+                    -
+                      value: Muster
+                  field_icms_media_element:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_phone:
+                    -
+                      value: '+41 31 550 50 00'
+                  field_icms_position:
+                    -
+                      value: CEO
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.</p>'
+                      format: icms_basic
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 3862ce2a-326f-4784-8563-03cbbddaa61b
+                  bundle: icms_team_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359430
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_email:
+                    -
+                      value: fz@test.ch
+                  field_icms_first_name:
+                    -
+                      value: Fritz
+                  field_icms_last_name:
+                    -
+                      value: Zufall
+                  field_icms_media_element:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_phone:
+                    -
+                      value: '+41 31 550 50 01'
+                  field_icms_position:
+                    -
+                      value: COO
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 05da18ea-76af-4199-a217-afbdfa6c6d7b
+                  bundle: icms_team_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359430
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_email:
+                    -
+                      value: ri@test.ch
+                  field_icms_first_name:
+                    -
+                      value: Ron
+                  field_icms_last_name:
+                    -
+                      value: Irgendwer
+                  field_icms_media_element:
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                  field_icms_phone:
+                    -
+                      value: '+41 31 550 50 02'
+                  field_icms_position:
+                    -
+                      value: CTO
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.</p>'
+                      format: icms_basic
+          field_icms_text:
+            -
+              value: '<p>Das „Team Layout“ stärkt die menschliche Verbindung zwischen Unternehmen und Besuchenden. Es zeigt, dass hinter der Marke echte Menschen stehen, die kompetent, engagiert und authentisch sind. Dadurch wird Vertrauen aufgebaut, das die Entscheidungsfindung der Besuchenden positiv beeinflusst.</p><p>Je nach Wunsch können die Beschreibung, Email, Telefonnummer, Buchungslink und/oder LinkedIn Verlinkung eingefügt werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Team
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 05c4f47f-8dd7-4a52-91d5-d15d53025a12
+          bundle: icms_layout_team
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750359416
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: light
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_team_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ef50dc82-7b91-48eb-b095-10138843823c
+                  bundle: icms_team_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359430
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_email:
+                    -
+                      value: mm@test.ch
+                  field_icms_first_name:
+                    -
+                      value: Max
+                  field_icms_last_name:
+                    -
+                      value: Muster
+                  field_icms_media_element:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_phone:
+                    -
+                      value: '+41 31 550 50 00'
+                  field_icms_position:
+                    -
+                      value: CEO
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.</p>'
+                      format: icms_basic
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ce8cc824-e32f-4544-aa51-802e38368f92
+                  bundle: icms_team_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359430
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_email:
+                    -
+                      value: fz@test.ch
+                  field_icms_first_name:
+                    -
+                      value: Fritz
+                  field_icms_last_name:
+                    -
+                      value: Zufall
+                  field_icms_media_element:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_phone:
+                    -
+                      value: '+41 31 550 50 01'
+                  field_icms_position:
+                    -
+                      value: COO
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 7af494b7-ebc8-4632-8087-f654dee43212
+                  bundle: icms_team_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359430
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_email:
+                    -
+                      value: ri@test.ch
+                  field_icms_first_name:
+                    -
+                      value: Ron
+                  field_icms_last_name:
+                    -
+                      value: Irgendwer
+                  field_icms_media_element:
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                  field_icms_phone:
+                    -
+                      value: '+41 31 550 50 02'
+                  field_icms_position:
+                    -
+                      value: CTO
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.</p>'
+                      format: icms_basic
+          field_icms_text:
+            -
+              value: '<p>Das „Team Layout“ stärkt die menschliche Verbindung zwischen Unternehmen und Besuchenden. Es zeigt, dass hinter der Marke echte Menschen stehen, die kompetent, engagiert und authentisch sind. Dadurch wird Vertrauen aufgebaut, das die Entscheidungsfindung der Besuchenden positiv beeinflusst.</p><p>Je nach Wunsch können die Beschreibung, Email, Telefonnummer, Buchungslink und/oder LinkedIn Verlinkung eingefügt werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Team
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 0a2cde27-e0e6-438c-ba81-7198424a448f
+          bundle: icms_layout_team
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750359416
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: accent
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_team_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: eb7372da-0116-40f6-aeb2-4b181fa836ed
+                  bundle: icms_team_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359430
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_email:
+                    -
+                      value: mm@test.ch
+                  field_icms_first_name:
+                    -
+                      value: Max
+                  field_icms_last_name:
+                    -
+                      value: Muster
+                  field_icms_media_element:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_phone:
+                    -
+                      value: '+41 31 550 50 00'
+                  field_icms_position:
+                    -
+                      value: CEO
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.</p>'
+                      format: icms_basic
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: f6191fbe-2d3a-41ba-9d48-819cd2c92300
+                  bundle: icms_team_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359430
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_email:
+                    -
+                      value: fz@test.ch
+                  field_icms_first_name:
+                    -
+                      value: Fritz
+                  field_icms_last_name:
+                    -
+                      value: Zufall
+                  field_icms_media_element:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_phone:
+                    -
+                      value: '+41 31 550 50 01'
+                  field_icms_position:
+                    -
+                      value: COO
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>'
+                      format: icms_basic
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: b0fa0164-131c-4480-8df4-cbab2ac1c98a
+                  bundle: icms_team_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750359430
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_email:
+                    -
+                      value: ri@test.ch
+                  field_icms_first_name:
+                    -
+                      value: Ron
+                  field_icms_last_name:
+                    -
+                      value: Irgendwer
+                  field_icms_media_element:
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                  field_icms_phone:
+                    -
+                      value: '+41 31 550 50 02'
+                  field_icms_position:
+                    -
+                      value: CTO
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.</p>'
+                      format: icms_basic
+          field_icms_text:
+            -
+              value: '<p>Das „Team Layout“ stärkt die menschliche Verbindung zwischen Unternehmen und Besuchenden. Es zeigt, dass hinter der Marke echte Menschen stehen, die kompetent, engagiert und authentisch sind. Dadurch wird Vertrauen aufgebaut, das die Entscheidungsfindung der Besuchenden positiv beeinflusst.</p><p>Je nach Wunsch können die Beschreibung, Email, Telefonnummer, Buchungslink und/oder LinkedIn Verlinkung eingefügt werden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Team
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="19">Team-Layout</strong> stellt die Mitarbeitenden oder Ansprechpersonen eines Unternehmens mit Bild, Name und Funktion vor, um Transparenz zu schaffen und die persönliche Verbindung zu den Website-Besuchern zu stärken.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: Team

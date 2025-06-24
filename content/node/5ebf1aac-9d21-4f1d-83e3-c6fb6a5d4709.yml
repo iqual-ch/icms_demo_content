@@ -1,0 +1,455 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5ebf1aac-9d21-4f1d-83e3-c6fb6a5d4709
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: 'Hero Image'
+  created:
+    -
+      value: 1750351850
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Hero Image | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/hero-image'
+  path:
+    -
+      alias: /layouts/hero-image
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750351876
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: fa810de9-2fcc-4544-9fb5-9eee1f38c04f
+          bundle: icms_layout_hero_image
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750351897
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorMode: none
+                  reverseColumns: '1'
+                  textShadow: none
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 82772b12-da87-4948-8b06-5e2fafdb22ab
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351944
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Mehr Information'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Hier klicken'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_media_element:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Hero Image Layout ist die digitale Bühne, auf welcher der erste Eindruck entsteht. Dieses Layout erfüllt eine zentrale Aufgabe: Emotionen wecken, die Nutzenden gezielt führen und sie zu einer klaren Handlung motivieren.</p><p>Das Hero-Bild ist der erste Kontaktpunkt. Es sollte nicht nur ästhetisch ansprechend sein, sondern gezielt Emotionen auslösen, die zur Zielgruppe und Botschaft passen. Ob Menschen, die das Produkt nutzen, oder eine inspirierende Szene — das Bild erzählt eine Geschichte, die im Gedächtnis bleibt.</p><p>Die weiteren Elementen nebst dem Bild sind der Titel, der Pre-Title und/oder der Sub-Title sind optional.<br>Es können mehrere Buttons eingefügt werden. Hierbei sind klare Call-to Actions zu definieren.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Hero Image'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a0269356-4853-48e3-aeb9-590c175a6ea3
+          bundle: icms_layout_hero_image
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750351897
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorMode: dark
+                  textShadow: none
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: e1539989-52cd-43cb-9021-240d019fde9b
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351944
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Mehr Information'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Hier klicken'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_media_element:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Hero Image Layout ist die digitale Bühne, auf welcher der erste Eindruck entsteht. Dieses Layout erfüllt eine zentrale Aufgabe: Emotionen wecken, die Nutzenden gezielt führen und sie zu einer klaren Handlung motivieren.</p><p>Das Hero-Bild ist der erste Kontaktpunkt. Es sollte nicht nur ästhetisch ansprechend sein, sondern gezielt Emotionen auslösen, die zur Zielgruppe und Botschaft passen. Ob Menschen, die das Produkt nutzen, oder eine inspirierende Szene — das Bild erzählt eine Geschichte, die im Gedächtnis bleibt.</p><p>Die weiteren Elementen nebst dem Bild sind der Titel, der Pre-Title und/oder der Sub-Title sind optional.<br>Es können mehrere Buttons eingefügt werden. Hierbei sind klare Call-to Actions zu definieren.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Hero Image'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7e857d3d-e44d-4d93-ab64-545207f4f3fd
+          bundle: icms_layout_hero_image
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750351897
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorMode: light
+                  textShadow: none
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 14e75966-2a36-4ef4-ad75-500d9855837d
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351944
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Mehr Information'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Hier klicken'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_media_element:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Hero Image Layout ist die digitale Bühne, auf welcher der erste Eindruck entsteht. Dieses Layout erfüllt eine zentrale Aufgabe: Emotionen wecken, die Nutzenden gezielt führen und sie zu einer klaren Handlung motivieren.</p><p>Das Hero-Bild ist der erste Kontaktpunkt. Es sollte nicht nur ästhetisch ansprechend sein, sondern gezielt Emotionen auslösen, die zur Zielgruppe und Botschaft passen. Ob Menschen, die das Produkt nutzen, oder eine inspirierende Szene — das Bild erzählt eine Geschichte, die im Gedächtnis bleibt.</p><p>Die weiteren Elementen nebst dem Bild sind der Titel, der Pre-Title und/oder der Sub-Title sind optional.<br>Es können mehrere Buttons eingefügt werden. Hierbei sind klare Call-to Actions zu definieren.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Hero Image'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 80bf29d9-0e54-45a5-b67a-b9c60d4362f0
+          bundle: icms_layout_hero_image
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750351897
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorMode: dark
+                  reverseColumns: '1'
+                  textShadow: none
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_buttons:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 6a0cff5b-b608-47db-ab63-3274aee4794e
+                  bundle: icms_button_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750351944
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_link_label:
+                    -
+                      value: 'Mehr Information'
+                  field_icms_link_style:
+                    -
+                      value: normal
+                  field_icms_link_subline:
+                    -
+                      value: 'Hier klicken'
+                  field_icms_link_target_blank:
+                    -
+                      value: false
+                  field_icms_text_alignment:
+                    -
+                      value: left
+          field_icms_media_element:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Hero Image Layout ist die digitale Bühne, auf welcher der erste Eindruck entsteht. Dieses Layout erfüllt eine zentrale Aufgabe: Emotionen wecken, die Nutzenden gezielt führen und sie zu einer klaren Handlung motivieren.</p><p>Das Hero-Bild ist der erste Kontaktpunkt. Es sollte nicht nur ästhetisch ansprechend sein, sondern gezielt Emotionen auslösen, die zur Zielgruppe und Botschaft passen. Ob Menschen, die das Produkt nutzen, oder eine inspirierende Szene — das Bild erzählt eine Geschichte, die im Gedächtnis bleibt.</p><p>Die weiteren Elementen nebst dem Bild sind der Titel, der Pre-Title und/oder der Sub-Title sind optional.<br>Es können mehrere Buttons eingefügt werden. Hierbei sind klare Call-to Actions zu definieren.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Hero Image'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="25">Hero-Image-Layout</strong> ist ein grossformatiges, aufmerksamkeitsstarkes Bildelement im oberen Bereich einer Webseite, das mit prägnanter Botschaft und visuellem Eindruck den Einstieg in den Inhalt unterstützt und das Markenbild prägt.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: 'Hero Image'

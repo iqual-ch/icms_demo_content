@@ -1,0 +1,835 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6b798f09-3634-402c-846e-6c4079936eaf
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+    8a653cc6-f666-4cbb-99db-349cb90b9659: media
+    a15d0669-724a-47fe-8032-91e7a6246667: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: Testimonials
+  created:
+    -
+      value: 1750359938
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Testimonials | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/testimonials'
+  path:
+    -
+      alias: /layouts/testimonials
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750359968
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b62e4339-1255-45ff-8abd-c5b37619c1ae
+          bundle: icms_layout_testimonials
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360008
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_testimonial_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 11b0bfc9-6b24-41df-8929-f6bd41c3833a
+                  bundle: icms_testimonial_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360059
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_first_name:
+                    -
+                      value: Max
+                  field_icms_last_name:
+                    -
+                      value: Muster
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_position:
+                    -
+                      value: CEO
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Projekt A'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 51ffe793-6226-4b62-abf6-4feba32d143f
+                  bundle: icms_testimonial_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360059
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_first_name:
+                    -
+                      value: Fritz
+                  field_icms_last_name:
+                    -
+                      value: Irgendwer
+                  field_icms_logo:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_media_element:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_position:
+                    -
+                      value: COO
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Projekt B'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 5aec9404-6cc1-4d36-8326-d0a995981f4d
+                  bundle: icms_testimonial_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360059
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_first_name:
+                    -
+                      value: Ralf
+                  field_icms_last_name:
+                    -
+                      value: Zufall
+                  field_icms_logo:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_media_element:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_position:
+                    -
+                      value: 'Chief of Sunshine and Happiness'
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Projekt A'
+          field_icms_title:
+            -
+              value: Testimonials
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ea265e54-5bf4-4c6c-b116-a7fc135b667b
+          bundle: icms_layout_testimonials
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360008
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: dark
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_testimonial_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 029a8bf1-4176-494c-abe2-d92aa2ee41ec
+                  bundle: icms_testimonial_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360059
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_first_name:
+                    -
+                      value: Max
+                  field_icms_last_name:
+                    -
+                      value: Muster
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_position:
+                    -
+                      value: CEO
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Projekt A'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 048ee80a-8050-4ce9-94f4-a138753d5ae3
+                  bundle: icms_testimonial_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360059
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_first_name:
+                    -
+                      value: Fritz
+                  field_icms_last_name:
+                    -
+                      value: Irgendwer
+                  field_icms_logo:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_media_element:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_position:
+                    -
+                      value: COO
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Projekt B'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 182fcba6-128c-475c-8ab9-57cdf3231800
+                  bundle: icms_testimonial_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360059
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_first_name:
+                    -
+                      value: Ralf
+                  field_icms_last_name:
+                    -
+                      value: Zufall
+                  field_icms_logo:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_media_element:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_position:
+                    -
+                      value: 'Chief of Sunshine and Happiness'
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Projekt A'
+          field_icms_title:
+            -
+              value: Testimonials
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 852d3c7a-ad95-4540-9582-1ce964b5ec15
+          bundle: icms_layout_testimonials
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360008
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: light
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_testimonial_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: ece55787-69c0-4d2d-959d-e53a4daeb58e
+                  bundle: icms_testimonial_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360059
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_first_name:
+                    -
+                      value: Max
+                  field_icms_last_name:
+                    -
+                      value: Muster
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_position:
+                    -
+                      value: CEO
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Projekt A'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 34e24f47-116d-4d9a-8997-2dc2f6fa1ea7
+                  bundle: icms_testimonial_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360059
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_first_name:
+                    -
+                      value: Fritz
+                  field_icms_last_name:
+                    -
+                      value: Irgendwer
+                  field_icms_logo:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_media_element:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_position:
+                    -
+                      value: COO
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Projekt B'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: bb94c23f-af02-4d94-bc8a-69686a822d07
+                  bundle: icms_testimonial_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360059
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_first_name:
+                    -
+                      value: Ralf
+                  field_icms_last_name:
+                    -
+                      value: Zufall
+                  field_icms_logo:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_media_element:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_position:
+                    -
+                      value: 'Chief of Sunshine and Happiness'
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Projekt A'
+          field_icms_title:
+            -
+              value: Testimonials
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 2d145fea-2873-40fc-afd7-8ef36cc998c7
+          bundle: icms_layout_testimonials
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360008
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: accent
+                  spacingBottom: large
+                  spacingTop: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_testimonial_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 863f91e7-c038-4068-a81e-e96fe123e661
+                  bundle: icms_testimonial_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360059
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_first_name:
+                    -
+                      value: Max
+                  field_icms_last_name:
+                    -
+                      value: Muster
+                  field_icms_logo:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_position:
+                    -
+                      value: CEO
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Projekt A'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 69d36e5b-6e1f-4da5-a9ad-e116623cfa8d
+                  bundle: icms_testimonial_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360059
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_first_name:
+                    -
+                      value: Fritz
+                  field_icms_last_name:
+                    -
+                      value: Irgendwer
+                  field_icms_logo:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_media_element:
+                    -
+                      entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+                  field_icms_position:
+                    -
+                      value: COO
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Projekt B'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 0b44cd7f-bc06-4040-945b-afaa0fa1a029
+                  bundle: icms_testimonial_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360059
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_first_name:
+                    -
+                      value: Ralf
+                  field_icms_last_name:
+                    -
+                      value: Zufall
+                  field_icms_logo:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_media_element:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_position:
+                    -
+                      value: 'Chief of Sunshine and Happiness'
+                  field_icms_text_plain:
+                    -
+                      value: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+                  field_icms_title:
+                    -
+                      value: 'Projekt A'
+          field_icms_title:
+            -
+              value: Testimonials
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="27">Testimonials-Layout</strong> zeigt authentische Kundenstimmen oder Erfahrungsberichte, um Vertrauen aufzubauen und die Glaubwürdigkeit des Angebots durch soziale Bewährtheit zu stärken.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: Testimonials

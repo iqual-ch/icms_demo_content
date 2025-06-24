@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: c775e1f2-1ef3-4783-a582-4c7e4e387093
+  bundle: main
+  default_langcode: de
+  depends:
+    39bbc369-ca3f-43a3-a316-861c36b08cc0: menu_link_content
+    e4c9e1de-cfae-4dbf-aedd-35b060f07f42: node
+    d99e7252-4555-4701-a788-25befa086176: user
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: iFrame
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: e4c9e1de-cfae-4dbf-aedd-35b060f07f42
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:39bbc369-ca3f-43a3-a316-861c36b08cc0'
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de'
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1750357015

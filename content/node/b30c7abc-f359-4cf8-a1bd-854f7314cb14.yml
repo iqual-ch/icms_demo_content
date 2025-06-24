@@ -1,0 +1,754 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b30c7abc-f359-4cf8-a1bd-854f7314cb14
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    9a5cbe80-1c43-4418-9819-0e08c8855ae7: media
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: Trust
+  created:
+    -
+      value: 1750360797
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Trust | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/trust'
+  path:
+    -
+      alias: /layouts/trust
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750360824
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: fd54afac-a360-42d8-978b-2290f8b89a3b
+          bundle: icms_layout_cards
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360862
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: small
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_card_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 1b7c005d-1551-4e51-851c-b1ea736bf435
+                  bundle: icms_card_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360900
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_text:
+                    -
+                      value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Trustelement 1'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 5dec15d0-6f69-4e50-869d-8662d684cccd
+                  bundle: icms_card_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360900
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_text:
+                    -
+                      value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Trustelement 2'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 4ec764c1-9cc7-4566-b471-ab760fa0bbd8
+                  bundle: icms_card_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360900
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_text:
+                    -
+                      value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Trustelement 3'
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.<br><br>Je nach Persönlichkeitstyp bauen Nutzende unterschiedlich schnell Vertrauen zu einem Anbieter oder einer Anbieterin auf. Über Trust-Element können die Vertrauensbildenden Faktoren explizit präsentiert werden. Häufig genutzte Beispiele sind Siegel, bekannte Marken, redaktionelle Zertifikate, bekannte Gesichter, USPs.</p><p>Zusätzlich zu diesen Elementen ist eine professionelle Gestaltung und eine verständliche Struktur der Seiten vertrauensfördernd.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Trust
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 5fc52064-be91-4299-832d-b589e7b50270
+          bundle: icms_layout_cards
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360862
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: dark
+                  spacingBottom: small
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_card_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: d2f7d2f3-9ced-4f28-a2c0-59022367a918
+                  bundle: icms_card_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360900
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_text:
+                    -
+                      value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Trustelement 1'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: e13f5e03-0a49-4fdc-8daf-fbad85279a81
+                  bundle: icms_card_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360900
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_text:
+                    -
+                      value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Trustelement 2'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 8f146a7e-345f-4405-afef-64ae357183a1
+                  bundle: icms_card_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360900
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_text:
+                    -
+                      value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Trustelement 3'
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.<br><br>Je nach Persönlichkeitstyp bauen Nutzende unterschiedlich schnell Vertrauen zu einem Anbieter oder einer Anbieterin auf. Über Trust-Element können die Vertrauensbildenden Faktoren explizit präsentiert werden. Häufig genutzte Beispiele sind Siegel, bekannte Marken, redaktionelle Zertifikate, bekannte Gesichter, USPs.</p><p>Zusätzlich zu diesen Elementen ist eine professionelle Gestaltung und eine verständliche Struktur der Seiten vertrauensfördernd.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Trust
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 5d4a4c26-d3c9-4ce7-a5a9-697b4256bc2d
+          bundle: icms_layout_cards
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360862
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: light
+                  spacingBottom: small
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_card_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 9bb080ff-a063-4390-9b3c-94bffbf16671
+                  bundle: icms_card_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360900
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_text:
+                    -
+                      value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Trustelement 1'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: c9582430-a278-456a-80de-d4119544deff
+                  bundle: icms_card_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360900
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_text:
+                    -
+                      value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Trustelement 2'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: f7498769-afeb-42a7-a5fb-8ea4b186649a
+                  bundle: icms_card_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360900
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_text:
+                    -
+                      value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Trustelement 3'
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.<br><br>Je nach Persönlichkeitstyp bauen Nutzende unterschiedlich schnell Vertrauen zu einem Anbieter oder einer Anbieterin auf. Über Trust-Element können die Vertrauensbildenden Faktoren explizit präsentiert werden. Häufig genutzte Beispiele sind Siegel, bekannte Marken, redaktionelle Zertifikate, bekannte Gesichter, USPs.</p><p>Zusätzlich zu diesen Elementen ist eine professionelle Gestaltung und eine verständliche Struktur der Seiten vertrauensfördernd.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Trust
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 177aaee5-40a9-4876-8bbb-40a3008037fd
+          bundle: icms_layout_cards
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360862
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: accent
+                  spacingBottom: large
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_card_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: de452b85-3e33-43b3-9fde-3d66bee99d65
+                  bundle: icms_card_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360900
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_text:
+                    -
+                      value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Trustelement 1'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 31f4d122-2942-443e-a270-22b08fd28f89
+                  bundle: icms_card_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360900
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_text:
+                    -
+                      value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Trustelement 2'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 18187e23-1ecd-449a-9b9a-3f0af9574bed
+                  bundle: icms_card_element
+                  default_langcode: de
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1750360900
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_icon:
+                    -
+                      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+                  field_icms_media_element:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_text:
+                    -
+                      value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: 'Trustelement 3'
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Vertrauen ist ein sehr starkes psychologisches Motiv - Misstrauen hingegen ist der grösste Konversionskiller.<br><br>Je nach Persönlichkeitstyp bauen Nutzende unterschiedlich schnell Vertrauen zu einem Anbieter oder einer Anbieterin auf. Über Trust-Element können die Vertrauensbildenden Faktoren explizit präsentiert werden. Häufig genutzte Beispiele sind Siegel, bekannte Marken, redaktionelle Zertifikate, bekannte Gesichter, USPs.</p><p>Zusätzlich zu diesen Elementen ist eine professionelle Gestaltung und eine verständliche Struktur der Seiten vertrauensfördernd.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Trust
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="20">Trust-Layout</strong> ist ein Website-Element, das durch vertrauensbildende Inhalte wie Kundenlogos, Bewertungen, Zertifikate oder Medienberichte das Vertrauen der Besucher stärkt und deren Entscheidung zur Interaktion oder Konversion positiv beeinflusst.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: Trust

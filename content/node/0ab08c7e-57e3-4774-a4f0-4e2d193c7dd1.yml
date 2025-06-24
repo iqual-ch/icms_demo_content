@@ -1,0 +1,399 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0ab08c7e-57e3-4774-a4f0-4e2d193c7dd1
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: 'Text Medien'
+  created:
+    -
+      value: 1750360543
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Text Medien | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de/layouts/text-medien'
+  path:
+    -
+      alias: /layouts/text-medien
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750360571
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: adab7497-9fec-4b6b-9029-d71164e2bdcf
+          bundle: icms_layout_text_media
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360656
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: none
+                  spacingBottom: small
+                  spacingTop: small
+                  textAlign: left
+                  textWidth: wide
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Ein flexibles Website-Layout kombiniert Text mit Bildern oder Videos, um Inhalte ansprechend darzustellen. Der Text ergänzt visuelle Elemente, unterstützt Botschaften und verbessert die Verständlichkeit. Dank responsivem Design passt sich das Layout automatisch an mobile Endgeräte an, gewährleistet optimale Lesbarkeit sowie Benutzerfreundlichkeit auf verschiedenen Bildschirmgrössen und bietet ein modernes, visuell ansprechendes Erlebnis für alle Nutzenden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Text /  Medien (Video/Bild)'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 1cadeed6-7267-4c21-beb6-478077a60a73
+          bundle: icms_layout_text_media
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360656
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: none
+                  spacingBottom: small
+                  spacingTop: small
+                  textAlign: left
+                  textWidth: medium
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Ein flexibles Website-Layout kombiniert Text mit Bildern oder Videos, um Inhalte ansprechend darzustellen. Der Text ergänzt visuelle Elemente, unterstützt Botschaften und verbessert die Verständlichkeit. Dank responsivem Design passt sich das Layout automatisch an mobile Endgeräte an, gewährleistet optimale Lesbarkeit sowie Benutzerfreundlichkeit auf verschiedenen Bildschirmgrössen und bietet ein modernes, visuell ansprechendes Erlebnis für alle Nutzenden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Text /  Medien (Video/Bild)'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7901326e-fab8-497f-ab49-e41e340364d5
+          bundle: icms_layout_text_media
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360656
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: none
+                  spacingBottom: small
+                  spacingTop: small
+                  textAlign: left
+                  textWidth: narrow
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Ein flexibles Website-Layout kombiniert Text mit Bildern oder Videos, um Inhalte ansprechend darzustellen. Der Text ergänzt visuelle Elemente, unterstützt Botschaften und verbessert die Verständlichkeit. Dank responsivem Design passt sich das Layout automatisch an mobile Endgeräte an, gewährleistet optimale Lesbarkeit sowie Benutzerfreundlichkeit auf verschiedenen Bildschirmgrössen und bietet ein modernes, visuell ansprechendes Erlebnis für alle Nutzenden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Text /  Medien (Video/Bild)'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: bab7da6f-44ca-4292-bd16-0f897ebec57c
+          bundle: icms_layout_text_media
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360656
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: dark
+                  spacingBottom: small
+                  spacingTop: small
+                  textAlign: left
+                  textWidth: medium
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Ein flexibles Website-Layout kombiniert Text mit Bildern oder Videos, um Inhalte ansprechend darzustellen. Der Text ergänzt visuelle Elemente, unterstützt Botschaften und verbessert die Verständlichkeit. Dank responsivem Design passt sich das Layout automatisch an mobile Endgeräte an, gewährleistet optimale Lesbarkeit sowie Benutzerfreundlichkeit auf verschiedenen Bildschirmgrössen und bietet ein modernes, visuell ansprechendes Erlebnis für alle Nutzenden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Text /  Medien (Video/Bild)'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 412ea9c9-8ede-4399-8361-c835204b3e5e
+          bundle: icms_layout_text_media
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360656
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: light
+                  spacingBottom: large
+                  spacingTop: large
+                  textAlign: right
+                  textWidth: medium
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Ein flexibles Website-Layout kombiniert Text mit Bildern oder Videos, um Inhalte ansprechend darzustellen. Der Text ergänzt visuelle Elemente, unterstützt Botschaften und verbessert die Verständlichkeit. Dank responsivem Design passt sich das Layout automatisch an mobile Endgeräte an, gewährleistet optimale Lesbarkeit sowie Benutzerfreundlichkeit auf verschiedenen Bildschirmgrössen und bietet ein modernes, visuell ansprechendes Erlebnis für alle Nutzenden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Text /  Medien (Video/Bild)'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 2ad6e387-5334-431c-85b9-d5df2fb8e63e
+          bundle: icms_layout_text_media
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750360656
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: accent
+                  spacingBottom: large
+                  spacingTop: large
+                  textAlign: left
+                  textWidth: medium
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_media_elements:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Ein flexibles Website-Layout kombiniert Text mit Bildern oder Videos, um Inhalte ansprechend darzustellen. Der Text ergänzt visuelle Elemente, unterstützt Botschaften und verbessert die Verständlichkeit. Dank responsivem Design passt sich das Layout automatisch an mobile Endgeräte an, gewährleistet optimale Lesbarkeit sowie Benutzerfreundlichkeit auf verschiedenen Bildschirmgrössen und bietet ein modernes, visuell ansprechendes Erlebnis für alle Nutzenden.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Text /  Medien (Video/Bild)'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="30">Text-Bild/Video-Layout</strong> kombiniert einen erklärenden Text mit einem ergänzenden Bild oder Video, um Inhalte anschaulich darzustellen und die Aufmerksamkeit sowie das Verständnis der Nutzer gezielt zu fördern.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: 'Text Medien'

@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4ad45ce3-ea09-4ffc-b177-e401c8ad7183
+  bundle: icon
+  default_langcode: de
+  depends:
+    3456c564-33ac-425e-a4c7-9b86963adbf5: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: logoipsum-290.svg
+  created:
+    -
+      value: 1734510744
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de'
+  path:
+    -
+      alias: ''
+      langcode: de
+      pathauto: 0
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_media_svg:
+    -
+      entity: 3456c564-33ac-425e-a4c7-9b86963adbf5
+      alt: logoipsum-290.svg
+      title: ''
+      width: 0
+      height: 0

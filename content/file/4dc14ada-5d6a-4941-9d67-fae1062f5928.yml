@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4dc14ada-5d6a-4941-9d67-fae1062f5928
+  default_langcode: de
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'KKIII-KI Use Cases Summary-140525-071236.pdf.jpg'
+  uri:
+    -
+      value: 'public://media/documents/KKIII-KI Use Cases Summary-140525-071236.pdf.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 79863
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1748011956

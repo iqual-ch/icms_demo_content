@@ -1,0 +1,74 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: afd131fa-871f-4637-ac06-ff81c7f99eb6
+  bundle: main
+  default_langcode: de
+  depends:
+    39bbc369-ca3f-43a3-a316-861c36b08cc0: menu_link_content
+    419caab9-48f7-46de-9c3b-2ba39588fc7f: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Empathische Einführung'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 419caab9-48f7-46de-9c3b-2ba39588fc7f
+      title: ''
+      options:
+        attributes:
+          class:
+            - ''
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:39bbc369-ca3f-43a3-a316-861c36b08cc0'
+  revision_translation_affected:
+    -
+      value: true
+  view_mode:
+    -
+      value: default
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de'
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1750688826

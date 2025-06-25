@@ -6,6 +6,11 @@ _meta:
   default_langcode: de
   depends:
     d99e7252-4555-4701-a788-25befa086176: user
+    5ebf1aac-9d21-4f1d-83e3-c6fb6a5d4709: node
+    e31dea8c-a4fc-4187-b5df-ab6c846dc2d7: node
+    3ae39fff-ab61-4bd0-9f49-9cbf722e1f54: node
+    d890cf10-c1e3-46d7-ae15-4d799b344fee: node
+    7c4d9a87-99d8-434e-aaa0-a989b224fa6d: node
     cb243a23-6d6f-4352-8bfd-e57eb50239ea: node
     96ad394b-bb4b-49d3-a0d9-bd48d2f102a7: node
     14df6761-7a2a-4a47-b849-0ced48e19863: node
@@ -13,25 +18,20 @@ _meta:
     9ad8cfc6-637c-45ce-8a9f-b3d947305040: node
     a496efab-37c0-4139-954c-03863fff713f: node
     25b4955e-ff2e-4459-aea0-ad7ac84d972b: node
-    5ebf1aac-9d21-4f1d-83e3-c6fb6a5d4709: node
     e4c9e1de-cfae-4dbf-aedd-35b060f07f42: node
-    e31dea8c-a4fc-4187-b5df-ab6c846dc2d7: node
-    3ae39fff-ab61-4bd0-9f49-9cbf722e1f54: node
     e12fc9a5-207a-40bc-9b2c-33aa2e251f89: node
     08cdaac1-700c-4757-925b-54b754e91e0e: node
     273160d7-2a9f-424e-a097-de946819114e: node
     5f6c4096-119d-4f1a-bac2-5c6ddbfacc9f: node
     e978affa-fb09-4d9d-bc97-7e8fad2b1798: node
-    d890cf10-c1e3-46d7-ae15-4d799b344fee: node
     6b798f09-3634-402c-846e-6c4079936eaf: node
-    7c4d9a87-99d8-434e-aaa0-a989b224fa6d: node
     0ab08c7e-57e3-4774-a4f0-4e2d193c7dd1: node
     b30c7abc-f359-4cf8-a1bd-854f7314cb14: node
     fa61f0eb-48f6-4931-907c-bfdeb55f54c8: node
 default:
   revision_uid:
     -
-      target_id: 1
+      entity: d99e7252-4555-4701-a788-25befa086176
   status:
     -
       value: true
@@ -120,6 +120,64 @@ default:
               value: false
           field_icms_content_entities:
             -
+              entity: 5ebf1aac-9d21-4f1d-83e3-c6fb6a5d4709
+            -
+              entity: e31dea8c-a4fc-4187-b5df-ab6c846dc2d7
+            -
+              entity: 3ae39fff-ab61-4bd0-9f49-9cbf722e1f54
+            -
+              entity: d890cf10-c1e3-46d7-ae15-4d799b344fee
+            -
+              entity: 7c4d9a87-99d8-434e-aaa0-a989b224fa6d
+          field_icms_pretitle:
+            -
+              value: Layouts
+          field_icms_text:
+            -
+              value: '<p><strong>An dieser Stelle werden alle im Basispaket enthaltenen Layouts aufgelistet. </strong>Dazu gehören neben der <strong>Meta-Header-Navigation</strong>, der <strong>Hauptnavigation</strong> und dem <strong>Footer</strong> auch die nachfolgend aufgeführten <strong>Standard-Layouts</strong>, die im Paket enthalten sind.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Im Basispaket enthaltene Layouts'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b7503cf3-7964-453e-b9d3-d56dd644c46e
+          bundle: icms_layout_teasers
+          default_langcode: de
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750361334
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: small
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_content_entities:
+            -
               entity: cb243a23-6d6f-4352-8bfd-e57eb50239ea
             -
               entity: 96ad394b-bb4b-49d3-a0d9-bd48d2f102a7
@@ -134,13 +192,9 @@ default:
             -
               entity: 25b4955e-ff2e-4459-aea0-ad7ac84d972b
             -
-              entity: 5ebf1aac-9d21-4f1d-83e3-c6fb6a5d4709
-            -
               entity: e4c9e1de-cfae-4dbf-aedd-35b060f07f42
             -
               entity: e31dea8c-a4fc-4187-b5df-ab6c846dc2d7
-            -
-              entity: 3ae39fff-ab61-4bd0-9f49-9cbf722e1f54
             -
               entity: e12fc9a5-207a-40bc-9b2c-33aa2e251f89
             -
@@ -152,11 +206,7 @@ default:
             -
               entity: e978affa-fb09-4d9d-bc97-7e8fad2b1798
             -
-              entity: d890cf10-c1e3-46d7-ae15-4d799b344fee
-            -
               entity: 6b798f09-3634-402c-846e-6c4079936eaf
-            -
-              entity: 7c4d9a87-99d8-434e-aaa0-a989b224fa6d
             -
               entity: 0ab08c7e-57e3-4774-a4f0-4e2d193c7dd1
             -
@@ -168,11 +218,11 @@ default:
               value: Layouts
           field_icms_text:
             -
-              value: '<p>In der Unterstruktur dieser Seite werden sämtliche verfügbaren Layouts systematisch aufgelistet und in verschiedenen Variationen sowie Konfigurationsmöglichkeiten dargestellt, um einen umfassenden Überblick über die gestalterischen und funktionalen Einsatzmöglichkeiten zu bieten.</p>'
+              value: '<p><strong>An dieser Stelle werden optional verwendbare Layouts aufgeführt. </strong>Diese können <strong>frei gewählt</strong>, <strong>initial eingebunden</strong> oder <strong>nachträglich ergänzt</strong> werden. Sie lassen sich <strong>designtechnisch individuell ausgestalten oder anpassen</strong>.<br>Darüber hinaus besteht selbstverständlich die Möglichkeit, <strong>neue, massgeschneiderte Layouts</strong> zu erstellen.</p>'
               format: icms_basic
           field_icms_title:
             -
-              value: 'Alle iqual CMS Layouts '
+              value: 'Optional buchbare iqual CMS Layouts '
           field_icms_title_style:
             -
               value: heading-2

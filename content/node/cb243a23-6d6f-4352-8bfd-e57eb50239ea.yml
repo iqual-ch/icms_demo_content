@@ -1,12 +1,15 @@
 _meta:
   version: '1.0'
   entity_type: node
-  uuid: 14df6761-7a2a-4a47-b849-0ced48e19863
+  uuid: cb243a23-6d6f-4352-8bfd-e57eb50239ea
   bundle: icms_page
   default_langcode: de
   depends:
     d99e7252-4555-4701-a788-25befa086176: user
-    b7eb12c9-c157-4eea-a112-05960d87714d: media
+    cb243a23-6d6f-4352-8bfd-e57eb50239ea: node
+    96ad394b-bb4b-49d3-a0d9-bd48d2f102a7: node
+    14df6761-7a2a-4a47-b849-0ced48e19863: node
+    419caab9-48f7-46de-9c3b-2ba39588fc7f: node
     6462ab73-beb9-449b-b85b-29b185216c3e: media
 default:
   revision_uid:
@@ -20,10 +23,10 @@ default:
       entity: d99e7252-4555-4701-a788-25befa086176
   title:
     -
-      value: Downloads
+      value: Angebot
   created:
     -
-      value: 1750350296
+      value: 1750349799
   promote:
     -
       value: false
@@ -41,15 +44,15 @@ default:
       tag: meta
       attributes:
         name: title
-        content: 'Downloads | ICMS'
+        content: 'Angebot | ICMS'
     -
       tag: link
       attributes:
         rel: canonical
-        href: 'http://default/de/layouts/downloads'
+        href: 'http://default/de/layouts/angebot'
   path:
     -
-      alias: /layouts/downloads
+      alias: /layouts/angebot
       langcode: de
       pathauto: 1
   content_translation_source:
@@ -62,7 +65,7 @@ default:
     -
       status: 2
       cid: 0
-      last_comment_timestamp: 1750350331
+      last_comment_timestamp: 1750349882
       last_comment_name: ''
       last_comment_uid: 17
       comment_count: 0
@@ -72,8 +75,8 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: 0f1ae831-428a-41e2-9d22-696652285a75
-          bundle: icms_layout_downloads
+          uuid: b83aa5ce-aade-4cd4-bb38-1caea8576c15
+          bundle: icms_layout_flip_teasers
           default_langcode: de
         default:
           status:
@@ -81,14 +84,14 @@ default:
               value: true
           created:
             -
-              value: 1750350383
+              value: 1750349983
           behavior_settings:
             -
               value:
                 paragraphs_blokkli_data:
                   colorScheme: none
                   spacingBottom: large
-                  spacingTop: large
+                  spacingTop: small
           revision_translation_affected:
             -
               value: true
@@ -98,22 +101,25 @@ default:
           content_translation_outdated:
             -
               value: false
-          field_icms_documents:
+          field_icms_content_entities:
             -
-              entity: b7eb12c9-c157-4eea-a112-05960d87714d
-          field_icms_media_elements:
+              entity: cb243a23-6d6f-4352-8bfd-e57eb50239ea
             -
-              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+              entity: 96ad394b-bb4b-49d3-a0d9-bd48d2f102a7
+            -
+              entity: 14df6761-7a2a-4a47-b849-0ced48e19863
+            -
+              entity: 419caab9-48f7-46de-9c3b-2ba39588fc7f
           field_icms_pretitle:
             -
-              value: Layout
+              value: 'Layout '
           field_icms_text:
             -
-              value: '<p>Das Download-Layout bietet den Website-Besuchern eine strukturierte Übersicht über alle verfügbaren Dokumente. Die Dateien werden in einer übersichtlichen Liste dargestellt, ergänzt durch aussagekräftige Titel und kurze Beschreibungen, die den Inhalt und Zweck der einzelnen Dateien erläutern.</p><p>Den Nutzern können sämtliche gängigen Dateiformate wie PDF, DOCX, XLSX, PPTX und weitere zur Verfügung gestellt werden. Damit eignet sich dieser Bereich ideal für den Zugriff auf Broschüren, Präsentationen, Formulare, Geschäftsberichte oder technische Dokumentationen. Die Dateien sind direkt herunterladbar, sodass ein effizienter Informationszugriff ohne zusätzliche Barrieren gewährleistet ist.</p>'
+              value: '<p>Ziel dieser Komponente ist es, den Mehrwert der Angebote klar zu kommunizieren, die Aufmerksamkeit der Besuchenden zu erregen und sie zur Interaktion oder zum Kauf zu motivieren.<br><br>Der Hintergrund kann ein Foto oder nur ein Hintergrund sein. Der Titel der Dienstleitung/des Produkts bleibt erhalten, die Beschreibung und die Icons sind optional.</p><p>Die Kacheln werden auf die jeweilige Produktseite verlinkt.</p>'
               format: icms_basic
           field_icms_title:
             -
-              value: Downloads
+              value: 'Unsere Angebote'
           field_icms_title_style:
             -
               value: heading-2
@@ -125,8 +131,8 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: 6f988338-10bb-440e-a678-50b3a35276c5
-          bundle: icms_layout_downloads
+          uuid: ed2694ca-41ff-4e76-9fc6-79115d12707d
+          bundle: icms_layout_flip_teasers
           default_langcode: de
         default:
           status:
@@ -134,14 +140,14 @@ default:
               value: true
           created:
             -
-              value: 1750350383
+              value: 1750349983
           behavior_settings:
             -
               value:
                 paragraphs_blokkli_data:
                   colorScheme: dark
                   spacingBottom: large
-                  spacingTop: large
+                  spacingTop: small
           revision_translation_affected:
             -
               value: true
@@ -151,22 +157,25 @@ default:
           content_translation_outdated:
             -
               value: false
-          field_icms_documents:
+          field_icms_content_entities:
             -
-              entity: b7eb12c9-c157-4eea-a112-05960d87714d
-          field_icms_media_elements:
+              entity: cb243a23-6d6f-4352-8bfd-e57eb50239ea
             -
-              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+              entity: 96ad394b-bb4b-49d3-a0d9-bd48d2f102a7
+            -
+              entity: 14df6761-7a2a-4a47-b849-0ced48e19863
+            -
+              entity: 419caab9-48f7-46de-9c3b-2ba39588fc7f
           field_icms_pretitle:
             -
-              value: Layout
+              value: 'Layout '
           field_icms_text:
             -
-              value: '<p>Das Download-Layout bietet den Website-Besuchern eine strukturierte Übersicht über alle verfügbaren Dokumente. Die Dateien werden in einer übersichtlichen Liste dargestellt, ergänzt durch aussagekräftige Titel und kurze Beschreibungen, die den Inhalt und Zweck der einzelnen Dateien erläutern.</p><p>Den Nutzern können sämtliche gängigen Dateiformate wie PDF, DOCX, XLSX, PPTX und weitere zur Verfügung gestellt werden. Damit eignet sich dieser Bereich ideal für den Zugriff auf Broschüren, Präsentationen, Formulare, Geschäftsberichte oder technische Dokumentationen. Die Dateien sind direkt herunterladbar, sodass ein effizienter Informationszugriff ohne zusätzliche Barrieren gewährleistet ist.</p>'
+              value: '<p>Ziel dieser Komponente ist es, den Mehrwert der Angebote klar zu kommunizieren, die Aufmerksamkeit der Besuchenden zu erregen und sie zur Interaktion oder zum Kauf zu motivieren.<br><br>Der Hintergrund kann ein Foto oder nur ein Hintergrund sein. Der Titel der Dienstleitung/des Produkts bleibt erhalten, die Beschreibung und die Icons sind optional.</p><p>Die Kacheln werden auf die jeweilige Produktseite verlinkt.</p>'
               format: icms_basic
           field_icms_title:
             -
-              value: Downloads
+              value: 'Unsere Angebote'
           field_icms_title_style:
             -
               value: heading-2
@@ -178,8 +187,8 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: 4000c44f-cb8a-4678-b29d-e76bb23519c7
-          bundle: icms_layout_downloads
+          uuid: d9a00a81-8ca9-4b48-ae7a-77ba6dc7970b
+          bundle: icms_layout_flip_teasers
           default_langcode: de
         default:
           status:
@@ -187,14 +196,14 @@ default:
               value: true
           created:
             -
-              value: 1750350383
+              value: 1750349983
           behavior_settings:
             -
               value:
                 paragraphs_blokkli_data:
                   colorScheme: light
                   spacingBottom: large
-                  spacingTop: large
+                  spacingTop: small
           revision_translation_affected:
             -
               value: true
@@ -204,22 +213,25 @@ default:
           content_translation_outdated:
             -
               value: false
-          field_icms_documents:
+          field_icms_content_entities:
             -
-              entity: b7eb12c9-c157-4eea-a112-05960d87714d
-          field_icms_media_elements:
+              entity: cb243a23-6d6f-4352-8bfd-e57eb50239ea
             -
-              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+              entity: 96ad394b-bb4b-49d3-a0d9-bd48d2f102a7
+            -
+              entity: 14df6761-7a2a-4a47-b849-0ced48e19863
+            -
+              entity: 419caab9-48f7-46de-9c3b-2ba39588fc7f
           field_icms_pretitle:
             -
-              value: Layout
+              value: 'Layout '
           field_icms_text:
             -
-              value: '<p>Das Download-Layout bietet den Website-Besuchern eine strukturierte Übersicht über alle verfügbaren Dokumente. Die Dateien werden in einer übersichtlichen Liste dargestellt, ergänzt durch aussagekräftige Titel und kurze Beschreibungen, die den Inhalt und Zweck der einzelnen Dateien erläutern.</p><p>Den Nutzern können sämtliche gängigen Dateiformate wie PDF, DOCX, XLSX, PPTX und weitere zur Verfügung gestellt werden. Damit eignet sich dieser Bereich ideal für den Zugriff auf Broschüren, Präsentationen, Formulare, Geschäftsberichte oder technische Dokumentationen. Die Dateien sind direkt herunterladbar, sodass ein effizienter Informationszugriff ohne zusätzliche Barrieren gewährleistet ist.</p>'
+              value: '<p>Ziel dieser Komponente ist es, den Mehrwert der Angebote klar zu kommunizieren, die Aufmerksamkeit der Besuchenden zu erregen und sie zur Interaktion oder zum Kauf zu motivieren.<br><br>Der Hintergrund kann ein Foto oder nur ein Hintergrund sein. Der Titel der Dienstleitung/des Produkts bleibt erhalten, die Beschreibung und die Icons sind optional.</p><p>Die Kacheln werden auf die jeweilige Produktseite verlinkt.</p>'
               format: icms_basic
           field_icms_title:
             -
-              value: Downloads
+              value: 'Unsere Angebote'
           field_icms_title_style:
             -
               value: heading-2
@@ -231,8 +243,8 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: 3581bcab-dd2c-4c69-bb40-9c340241b481
-          bundle: icms_layout_downloads
+          uuid: f58d2529-2fe1-49e8-b360-8a6ea1aeef7a
+          bundle: icms_layout_flip_teasers
           default_langcode: de
         default:
           status:
@@ -240,14 +252,14 @@ default:
               value: true
           created:
             -
-              value: 1750350383
+              value: 1750349983
           behavior_settings:
             -
               value:
                 paragraphs_blokkli_data:
                   colorScheme: accent
                   spacingBottom: large
-                  spacingTop: large
+                  spacingTop: small
           revision_translation_affected:
             -
               value: true
@@ -257,22 +269,25 @@ default:
           content_translation_outdated:
             -
               value: false
-          field_icms_documents:
+          field_icms_content_entities:
             -
-              entity: b7eb12c9-c157-4eea-a112-05960d87714d
-          field_icms_media_elements:
+              entity: cb243a23-6d6f-4352-8bfd-e57eb50239ea
             -
-              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+              entity: 96ad394b-bb4b-49d3-a0d9-bd48d2f102a7
+            -
+              entity: 14df6761-7a2a-4a47-b849-0ced48e19863
+            -
+              entity: 419caab9-48f7-46de-9c3b-2ba39588fc7f
           field_icms_pretitle:
             -
-              value: Layout
+              value: 'Layout '
           field_icms_text:
             -
-              value: '<p>Das Download-Layout bietet den Website-Besuchern eine strukturierte Übersicht über alle verfügbaren Dokumente. Die Dateien werden in einer übersichtlichen Liste dargestellt, ergänzt durch aussagekräftige Titel und kurze Beschreibungen, die den Inhalt und Zweck der einzelnen Dateien erläutern.</p><p>Den Nutzern können sämtliche gängigen Dateiformate wie PDF, DOCX, XLSX, PPTX und weitere zur Verfügung gestellt werden. Damit eignet sich dieser Bereich ideal für den Zugriff auf Broschüren, Präsentationen, Formulare, Geschäftsberichte oder technische Dokumentationen. Die Dateien sind direkt herunterladbar, sodass ein effizienter Informationszugriff ohne zusätzliche Barrieren gewährleistet ist.</p>'
+              value: '<p>Ziel dieser Komponente ist es, den Mehrwert der Angebote klar zu kommunizieren, die Aufmerksamkeit der Besuchenden zu erregen und sie zur Interaktion oder zum Kauf zu motivieren.<br><br>Der Hintergrund kann ein Foto oder nur ein Hintergrund sein. Der Titel der Dienstleitung/des Produkts bleibt erhalten, die Beschreibung und die Icons sind optional.</p><p>Die Kacheln werden auf die jeweilige Produktseite verlinkt.</p>'
               format: icms_basic
           field_icms_title:
             -
-              value: Downloads
+              value: 'Unsere Angebote'
           field_icms_title_style:
             -
               value: heading-2
@@ -287,8 +302,8 @@ default:
       value: Layout
   field_icms_teaser_text:
     -
-      value: '<p>Das <strong data-start="4" data-end="24">Downloads-Layout</strong> bietet eine übersichtliche Liste von Dateien wie PDFs, Präsentationen oder Dokumenten zum Herunterladen, oft ergänzt durch Titel, Beschreibungen und Dateiformate für eine einfache Auswahl.</p>'
+      value: '<p>Das <strong data-start="4" data-end="22">Angebot-Layout</strong> stellt ein spezifisches Produkt, eine Dienstleistung oder ein Paket strukturiert dar – meist mit Titel, Beschreibung, Preisangabe und Handlungsaufforderung –, um das Interesse der Nutzer zu wecken und den Kauf oder die Kontaktaufnahme zu fördern.</p>'
       format: icms_restricted
   field_icms_teaser_title:
     -
-      value: Downloads
+      value: Angebot

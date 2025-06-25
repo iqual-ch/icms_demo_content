@@ -407,6 +407,11 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_link:
+                    -
+                      uri: 'route:<nolink>'
+                      title: ''
+                      options: {  }
                   field_icms_link_label:
                     -
                       value: 'Mehr erfahren?'
@@ -500,6 +505,11 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_link:
+                    -
+                      uri: 'route:<nolink>'
+                      title: ''
+                      options: {  }
                   field_icms_link_label:
                     -
                       value: 'Mehr erfahren?'
@@ -593,6 +603,11 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_link:
+                    -
+                      uri: 'route:<nolink>'
+                      title: ''
+                      options: {  }
                   field_icms_link_label:
                     -
                       value: 'Mehr erfahren?'

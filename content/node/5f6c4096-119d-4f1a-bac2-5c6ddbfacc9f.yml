@@ -157,6 +157,11 @@ default:
                           content_translation_outdated:
                             -
                               value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
                           field_icms_link_label:
                             -
                               value: 'Mehr erfahren'
@@ -246,6 +251,11 @@ default:
                           content_translation_outdated:
                             -
                               value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
                           field_icms_link_label:
                             -
                               value: 'Mehr erfahren'
@@ -335,6 +345,11 @@ default:
                           content_translation_outdated:
                             -
                               value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
                           field_icms_link_label:
                             -
                               value: 'Mehr erfahren'
@@ -424,6 +439,11 @@ default:
                           content_translation_outdated:
                             -
                               value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
                           field_icms_link_label:
                             -
                               value: 'Mehr erfahren'
@@ -472,7 +492,7 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: ae03fd3a-4c00-4a44-806e-8eb4353442cb
+          uuid: a7238a9c-2777-468b-a70e-b4fa908fb095
           bundle: icms_layout_tabs
           default_langcode: de
         default:
@@ -505,7 +525,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: 6049f052-6ee8-4b63-ae81-7fc89d94a3d8
+                  uuid: eaeb667b-b1a5-4c97-b8ac-8721018faecb
                   bundle: icms_tab_element
                   default_langcode: de
                 default:
@@ -527,6 +547,54 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: f5cee41b-d21f-41af-9f39-d59b90a5a370
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
                   field_icms_media_elements:
                     -
                       entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
@@ -551,7 +619,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: e06f073c-ed1d-4f72-8572-5d1b864a8ab5
+                  uuid: a1653908-609d-48d5-9a27-0a2187d13cd7
                   bundle: icms_tab_element
                   default_langcode: de
                 default:
@@ -573,6 +641,54 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 8307501e-6d09-44e5-a2df-2f1aaa1bbd69
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
                   field_icms_media_elements:
                     -
                       entity: a15d0669-724a-47fe-8032-91e7a6246667
@@ -597,7 +713,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: cdc72798-3ad8-45c4-a950-3190d903a859
+                  uuid: c1236fda-75b9-4c62-a160-8994f99e32c9
                   bundle: icms_tab_element
                   default_langcode: de
                 default:
@@ -619,6 +735,54 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 5a34f255-0c16-423d-9539-656bc06cee72
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
                   field_icms_media_elements:
                     -
                       entity: da923ff9-3c3a-4d38-998d-29b826b1036f
@@ -643,7 +807,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: 928d8697-d2eb-4b4c-958e-01367790629a
+                  uuid: 40109650-1384-419b-8c20-af59fa84ad71
                   bundle: icms_tab_element
                   default_langcode: de
                 default:
@@ -665,6 +829,54 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: c8edc07c-73ad-4268-af52-ea28e4f9f6e1
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
                   field_icms_media_elements:
                     -
                       entity: 6462ab73-beb9-449b-b85b-29b185216c3e
@@ -698,7 +910,7 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: 8c676a3c-8fc2-4c2f-8454-2428a5b35b3b
+          uuid: 0e827030-efa0-4902-a488-5a99e066bc72
           bundle: icms_layout_tabs
           default_langcode: de
         default:
@@ -731,7 +943,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: abe82f34-26d5-4082-9602-9815370ce0d5
+                  uuid: d382fbda-1c68-414d-9dea-d812a38358f4
                   bundle: icms_tab_element
                   default_langcode: de
                 default:
@@ -753,6 +965,54 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 729bcbd1-ad50-47df-a406-775d08b3a696
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
                   field_icms_media_elements:
                     -
                       entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
@@ -777,7 +1037,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: 65df3c07-c130-48b9-8f7e-7021fba47e16
+                  uuid: 04305f87-817a-45b1-89ab-d73232d4d458
                   bundle: icms_tab_element
                   default_langcode: de
                 default:
@@ -799,6 +1059,54 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 157da808-7796-4404-95c5-e49c91b7dab9
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
                   field_icms_media_elements:
                     -
                       entity: a15d0669-724a-47fe-8032-91e7a6246667
@@ -823,7 +1131,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: 12df8b29-0f6c-4b73-81da-9ce4c57f5510
+                  uuid: 7177415d-676a-4660-a7e1-7ac45b12fb8c
                   bundle: icms_tab_element
                   default_langcode: de
                 default:
@@ -845,6 +1153,54 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 0f7c9686-f25f-4d1c-a9c8-1ce546412c36
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
                   field_icms_media_elements:
                     -
                       entity: da923ff9-3c3a-4d38-998d-29b826b1036f
@@ -869,7 +1225,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: 1cbd92d6-fa3a-4234-8738-8a959a0774f5
+                  uuid: 8d6c5af2-4c5c-446c-807c-da35a3b33168
                   bundle: icms_tab_element
                   default_langcode: de
                 default:
@@ -891,6 +1247,54 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 5e22437c-bf26-4304-8749-a14d49ec7b10
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
                   field_icms_media_elements:
                     -
                       entity: 6462ab73-beb9-449b-b85b-29b185216c3e
@@ -924,7 +1328,7 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: 66d21fc4-7453-49c1-8365-4a3967f7af99
+          uuid: cd6c34ff-f7be-4857-a0c0-2748eef087be
           bundle: icms_layout_tabs
           default_langcode: de
         default:
@@ -957,7 +1361,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: f0964b2b-4ad6-4212-a830-f4118257efdc
+                  uuid: 22e15174-b788-47c3-bc24-768ac1ff9953
                   bundle: icms_tab_element
                   default_langcode: de
                 default:
@@ -979,6 +1383,54 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 7944b69b-927a-490e-b970-005fe8b95667
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
                   field_icms_media_elements:
                     -
                       entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
@@ -1003,7 +1455,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: eb20014f-7cbe-47ed-ac18-48fd3d0f180f
+                  uuid: 3cbf9f56-8c10-4777-a30e-1877f46b637a
                   bundle: icms_tab_element
                   default_langcode: de
                 default:
@@ -1025,6 +1477,54 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: 617eb2b1-b33b-42b5-b0c1-81a8ffc73860
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
                   field_icms_media_elements:
                     -
                       entity: a15d0669-724a-47fe-8032-91e7a6246667
@@ -1049,7 +1549,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: 3e25dd0e-4942-4be8-8d66-ab74d0863f1b
+                  uuid: 04578fa5-4226-4a79-8c5f-e576bd156394
                   bundle: icms_tab_element
                   default_langcode: de
                 default:
@@ -1071,6 +1571,54 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: d5013410-5c4f-4582-a840-a88469b6d63f
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
                   field_icms_media_elements:
                     -
                       entity: da923ff9-3c3a-4d38-998d-29b826b1036f
@@ -1095,7 +1643,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: 10691f25-26a3-47e6-a679-f6402269f1bc
+                  uuid: 712285a5-eb41-4b55-b806-497b3c1a651e
                   bundle: icms_tab_element
                   default_langcode: de
                 default:
@@ -1117,6 +1665,54 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_buttons:
+                    -
+                      entity:
+                        _meta:
+                          version: '1.0'
+                          entity_type: paragraph
+                          uuid: b007681a-0b84-4223-a517-7a91482b1dba
+                          bundle: icms_button_element
+                          default_langcode: de
+                        default:
+                          status:
+                            -
+                              value: true
+                          created:
+                            -
+                              value: 1750359172
+                          behavior_settings:
+                            -
+                              value: {  }
+                          revision_translation_affected:
+                            -
+                              value: true
+                          content_translation_source:
+                            -
+                              value: und
+                          content_translation_outdated:
+                            -
+                              value: false
+                          field_icms_link:
+                            -
+                              uri: 'route:<nolink>'
+                              title: ''
+                              options: {  }
+                          field_icms_link_label:
+                            -
+                              value: 'Mehr erfahren'
+                          field_icms_link_style:
+                            -
+                              value: normal
+                          field_icms_link_subline:
+                            -
+                              value: 'Klicken Sie hier!'
+                          field_icms_link_target_blank:
+                            -
+                              value: false
+                          field_icms_text_alignment:
+                            -
+                              value: left
                   field_icms_media_elements:
                     -
                       entity: 6462ab73-beb9-449b-b85b-29b185216c3e

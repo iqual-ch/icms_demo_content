@@ -1,0 +1,69 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: da9b687d-2581-49f8-b813-475ec01eb2fa
+  bundle: main
+  default_langcode: en
+  depends:
+    d52f36c9-4760-4ee1-9f7c-6d199b41c772: menu_link_content
+    5b91175e-0a7a-4c92-ab87-9d6e82e60b90: node
+    d99e7252-4555-4701-a788-25befa086176: user
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Contenthub manueller Filter'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 5b91175e-0a7a-4c92-ab87-9d6e82e60b90
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:d52f36c9-4760-4ee1-9f7c-6d199b41c772'
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: '| ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/en'
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1750751113

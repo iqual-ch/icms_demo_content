@@ -5,12 +5,13 @@ _meta:
   bundle: icms_page
   default_langcode: de
   depends:
+    d99e7252-4555-4701-a788-25befa086176: user
     6462ab73-beb9-449b-b85b-29b185216c3e: media
     4ad45ce3-ea09-4ffc-b177-e401c8ad7183: media
 default:
   revision_uid:
     -
-      target_id: 1
+      entity: d99e7252-4555-4701-a788-25befa086176
   status:
     -
       value: true
@@ -29,6 +30,9 @@ default:
   sticky:
     -
       value: false
+  revision_translation_affected:
+    -
+      value: true
   moderation_state:
     -
       value: published
@@ -114,6 +118,9 @@ default:
                   behavior_settings:
                     -
                       value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -213,6 +220,9 @@ default:
                   behavior_settings:
                     -
                       value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -312,6 +322,9 @@ default:
                   behavior_settings:
                     -
                       value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
                   content_translation_source:
                     -
                       value: und
@@ -411,6 +424,9 @@ default:
                   behavior_settings:
                     -
                       value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
                   content_translation_source:
                     -
                       value: und

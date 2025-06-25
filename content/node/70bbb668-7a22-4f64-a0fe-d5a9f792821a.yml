@@ -1,0 +1,269 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 70bbb668-7a22-4f64-a0fe-d5a9f792821a
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+    00532b5f-2121-468b-bcf0-629d09606830: media
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+    b64307f3-9232-4837-a09d-dcfd877ad189: taxonomy_term
+    f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
+translations:
+  en:
+    status:
+      -
+        value: true
+    uid:
+      -
+        target_id: 1
+    title:
+      -
+        value: Home
+    created:
+      -
+        value: 1742218187
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    moderation_state:
+      -
+        value: published
+    metatag:
+      -
+        tag: meta
+        attributes:
+          name: title
+          content: 'Home | ICMS'
+      -
+        tag: link
+        attributes:
+          rel: canonical
+          href: 'http://default/en'
+    path:
+      -
+        alias: ''
+        langcode: en
+        pathauto: 0
+    content_translation_source:
+      -
+        value: de
+    content_translation_outdated:
+      -
+        value: false
+    field_icms_teaser_link_label:
+      -
+        value: 'Teaser Link Label'
+    field_icms_teaser_pretitle:
+      -
+        value: 'Teaser PreTitle'
+    field_icms_teaser_text:
+      -
+        value: '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit dictum pulvinar fames sapien feugiat.</p>'
+        format: icms_restricted
+    field_icms_teaser_title:
+      -
+        value: 'Teaser Title'
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: Home
+  created:
+    -
+      value: 1709580701
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Home | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/de'
+  path:
+    -
+      alias: ''
+      langcode: de
+      pathauto: 0
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 4
+      last_comment_timestamp: 1711537113
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 2
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a08f7586-8a45-4ed6-8332-800fa98dc4e5
+          bundle: icms_layout_hero_image
+          default_langcode: de
+        translations:
+          en:
+            status:
+              -
+                value: true
+            created:
+              -
+                value: 1740063585
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: PreTitle
+            field_icms_text:
+              -
+                value: '<p>Lorem ipsum dolor sit amet consectetur adipiscing, elit feugiat blandit at. Scelerisque eleifend volutpat eget est ultrices posuere habitant ullamcorper in interdum, class pulvinar litora purus etiam rutrum turpis primis. Enim habitant augue inceptos quis donec venenatis arcu ornare aptent praesent, eleifend velit parturient luctus phasellus sagittis taciti orci litora.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Lorem Ipsum'
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1740063585
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorMode: dark
+                  textShadow: none
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_media_element:
+            -
+              entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+          field_icms_pretitle:
+            -
+              value: 'iqual CMS'
+          field_icms_text:
+            -
+              value: '<p>Auf der Startseite werden sämtliche Teaserelemente aus den strukturierten Daten aggregiert dargestellt, wobei die neuesten Beiträge aus unterschiedlichen Inhaltsbereichen – wie Content Hub, News, Pressemitteilungen, Produkte, Team und weiteren – anhand ihrer Taxonomien gefiltert und chronologisch nach Aktualität ausgegeben werden. Vor, nach oder zwischen diesen Elementen können zudem beliebige Layouts eingefügt werden, um zusätzliche Inhalte, visuelle Trennelemente oder Call-to-Actions flexibel zu integrieren.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Strukturiert und frei definierte Inhalte'
+          field_icms_title_style:
+            -
+              value: heading-1
+          field_icms_title_weight:
+            -
+              value: p
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 5bb006d0-f115-4eea-89ee-8a142212f988
+          bundle: icms_layout_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750753263
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  textColumns: three
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Platzhalter
+          field_icms_text:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: Blindtext
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 00532b5f-2121-468b-bcf0-629d09606830
+  field_icms_teaser_link_label:
+    -
+      value: 'Teaser Link Label'
+  field_icms_teaser_pretitle:
+    -
+      value: 'Teaser PreTitle'
+  field_icms_teaser_text:
+    -
+      value: '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit dictum pulvinar fames sapien feugiat.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: 'Teaser Title'
+  field_icms_topics:
+    -
+      entity: 73a2d543-f54a-4839-82e8-b47627635b66
+    -
+      entity: b64307f3-9232-4837-a09d-dcfd877ad189
+    -
+      entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808

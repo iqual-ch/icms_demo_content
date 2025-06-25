@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: file
-  uuid: 0d6a4411-1e48-4c31-95fc-cf0eb6bb28a6
+  uuid: ebc05f63-bd6f-409c-8a5d-e46532bb1487
   default_langcode: de
 default:
   uid:
@@ -9,19 +9,19 @@ default:
       target_id: 1
   filename:
     -
-      value: Lorem-Ipsum-Dokument.pdf.jpg
+      value: Headerimage.png
   uri:
     -
-      value: 'public://media/documents/Lorem-Ipsum-Dokument.pdf.jpg'
+      value: 'public://media/images/Headerimage.png'
   filemime:
     -
-      value: image/jpeg
+      value: image/png
   filesize:
     -
-      value: 5796
+      value: 2906422
   status:
     -
       value: true
   created:
     -
-      value: 1748011955
+      value: 1733248294

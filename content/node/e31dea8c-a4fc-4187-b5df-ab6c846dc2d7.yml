@@ -126,6 +126,11 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_link:
+                    -
+                      uri: 'route:<nolink>'
+                      title: ''
+                      options: {  }
                   field_icms_link_label:
                     -
                       value: '+41 31 550 50 00'
@@ -168,6 +173,11 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_link:
+                    -
+                      uri: 'route:<nolink>'
+                      title: ''
+                      options: {  }
                   field_icms_link_label:
                     -
                       value: Email
@@ -268,6 +278,11 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_link:
+                    -
+                      uri: 'route:<nolink>'
+                      title: ''
+                      options: {  }
                   field_icms_link_label:
                     -
                       value: '+41 31 550 50 00'
@@ -310,6 +325,11 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_link:
+                    -
+                      uri: 'route:<nolink>'
+                      title: ''
+                      options: {  }
                   field_icms_link_label:
                     -
                       value: Email
@@ -410,6 +430,11 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_link:
+                    -
+                      uri: 'route:<nolink>'
+                      title: ''
+                      options: {  }
                   field_icms_link_label:
                     -
                       value: '+41 31 550 50 00'
@@ -452,6 +477,11 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_link:
+                    -
+                      uri: 'route:<nolink>'
+                      title: ''
+                      options: {  }
                   field_icms_link_label:
                     -
                       value: Email
@@ -552,6 +582,11 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_link:
+                    -
+                      uri: 'route:<nolink>'
+                      title: ''
+                      options: {  }
                   field_icms_link_label:
                     -
                       value: '+41 31 550 50 00'
@@ -594,6 +629,11 @@ default:
                   content_translation_outdated:
                     -
                       value: false
+                  field_icms_link:
+                    -
+                      uri: 'route:<nolink>'
+                      title: ''
+                      options: {  }
                   field_icms_link_label:
                     -
                       value: Email

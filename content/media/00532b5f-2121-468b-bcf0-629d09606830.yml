@@ -1,11 +1,11 @@
 _meta:
   version: '1.0'
   entity_type: media
-  uuid: e4998ae5-4bea-47f3-b4ac-0276f58f7851
-  bundle: document
+  uuid: 00532b5f-2121-468b-bcf0-629d09606830
+  bundle: image
   default_langcode: de
   depends:
-    4ace5f99-d64c-4a7d-8c72-6e9571feaefa: file
+    ebc05f63-bd6f-409c-8a5d-e46532bb1487: file
 default:
   status:
     -
@@ -15,10 +15,10 @@ default:
       target_id: 1
   name:
     -
-      value: Lorem-Ipsum-Dokument.pdf
+      value: Headerimage
   created:
     -
-      value: 1744640423
+      value: 1733248294
   revision_translation_affected:
     -
       value: true
@@ -44,8 +44,10 @@ default:
   content_translation_outdated:
     -
       value: false
-  field_media_document:
+  field_media_image:
     -
-      entity: 4ace5f99-d64c-4a7d-8c72-6e9571feaefa
-      display: true
-      description: ''
+      entity: ebc05f63-bd6f-409c-8a5d-e46532bb1487
+      alt: Headerimage
+      title: ''
+      width: 2108
+      height: 1384

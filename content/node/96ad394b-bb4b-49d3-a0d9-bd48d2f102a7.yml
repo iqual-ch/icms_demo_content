@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: node
-  uuid: 5ebf1aac-9d21-4f1d-83e3-c6fb6a5d4709
+  uuid: 96ad394b-bb4b-49d3-a0d9-bd48d2f102a7
   bundle: icms_page
   default_langcode: de
   depends:
@@ -19,10 +19,10 @@ default:
       entity: d99e7252-4555-4701-a788-25befa086176
   title:
     -
-      value: 'Hero Image'
+      value: 'Call to Action'
   created:
     -
-      value: 1750351850
+      value: 1750350114
   promote:
     -
       value: false
@@ -40,15 +40,15 @@ default:
       tag: meta
       attributes:
         name: title
-        content: 'Hero Image | ICMS'
+        content: 'Call to Action | ICMS'
     -
       tag: link
       attributes:
         rel: canonical
-        href: 'http://default/de/layouts/hero-image'
+        href: 'http://default/de/layouts/call-action'
   path:
     -
-      alias: /layouts/hero-image
+      alias: /layouts/call-action
       langcode: de
       pathauto: 1
   content_translation_source:
@@ -61,7 +61,7 @@ default:
     -
       status: 2
       cid: 0
-      last_comment_timestamp: 1750351876
+      last_comment_timestamp: 1750350137
       last_comment_name: ''
       last_comment_uid: 17
       comment_count: 0
@@ -71,8 +71,8 @@ default:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: fa810de9-2fcc-4544-9fb5-9eee1f38c04f
-          bundle: icms_layout_hero_image
+          uuid: 176e3ec0-c349-45fa-a6c4-572dbc616d9a
+          bundle: icms_layout_call_to_action
           default_langcode: de
         default:
           status:
@@ -80,15 +80,13 @@ default:
               value: true
           created:
             -
-              value: 1750351897
+              value: 1750350151
           behavior_settings:
             -
               value:
                 paragraphs_blokkli_data:
-                  buttonAlignment: left
-                  colorMode: none
-                  reverseColumns: '1'
-                  textShadow: none
+                  colorScheme: none
+                  spacingTop: large
           revision_translation_affected:
             -
               value: true
@@ -104,7 +102,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: 82772b12-da87-4948-8b06-5e2fafdb22ab
+                  uuid: 40a00c01-fa09-448f-8007-3c53d23a588a
                   bundle: icms_button_element
                   default_langcode: de
                 default:
@@ -113,7 +111,7 @@ default:
                       value: true
                   created:
                     -
-                      value: 1750351944
+                      value: 1750350216
                   behavior_settings:
                     -
                       value: {  }
@@ -133,13 +131,13 @@ default:
                       options: {  }
                   field_icms_link_label:
                     -
-                      value: 'Mehr Information'
+                      value: 'Call to Action'
                   field_icms_link_style:
                     -
-                      value: normal
+                      value: focus
                   field_icms_link_subline:
                     -
-                      value: 'Hier klicken'
+                      value: 'Bitte hier Klicken'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -149,29 +147,17 @@ default:
           field_icms_media_element:
             -
               entity: 6462ab73-beb9-449b-b85b-29b185216c3e
-          field_icms_pretitle:
-            -
-              value: Layout
           field_icms_text:
             -
-              value: '<p>Das Hero Image Layout ist die digitale Bühne, auf welcher der erste Eindruck entsteht. Dieses Layout erfüllt eine zentrale Aufgabe: Emotionen wecken, die Nutzenden gezielt führen und sie zu einer klaren Handlung motivieren.</p><p>Das Hero-Bild ist der erste Kontaktpunkt. Es sollte nicht nur ästhetisch ansprechend sein, sondern gezielt Emotionen auslösen, die zur Zielgruppe und Botschaft passen. Ob Menschen, die das Produkt nutzen, oder eine inspirierende Szene — das Bild erzählt eine Geschichte, die im Gedächtnis bleibt.</p><p>Die weiteren Elementen nebst dem Bild sind der Titel, der Pre-Title und/oder der Sub-Title sind optional.<br>Es können mehrere Buttons eingefügt werden. Hierbei sind klare Call-to Actions zu definieren.</p>'
-              format: icms_basic
-          field_icms_title:
-            -
-              value: 'Hero Image'
-          field_icms_title_style:
-            -
-              value: heading-2
-          field_icms_title_weight:
-            -
-              value: h2
+              value: '<p>Das „Call-to-Action“ Layout ist ein Schlüsselelement, um Besuchende zu einer bestimmten Handlung zu motivieren. Es soll die Aufmerksamkeit der Nutzenden erregen und ihn zu einer klar definierten Handlung motivieren, sei es der Kauf eines Produkts, das Ausfüllen eines Formulars oder das Abonnieren eines Newsletters. Design, strategische Platzierung sowie eine empathische Ansprache erhöhen die Konversionsrate und leiten den Besucher effektiv zum nächsten Schritt.</p>'
+              format: icms_minimal
     -
       entity:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: a0269356-4853-48e3-aeb9-590c175a6ea3
-          bundle: icms_layout_hero_image
+          uuid: bba4afe0-453d-4144-bec5-b3155ea2d0db
+          bundle: icms_layout_call_to_action
           default_langcode: de
         default:
           status:
@@ -179,14 +165,13 @@ default:
               value: true
           created:
             -
-              value: 1750351897
+              value: 1750350151
           behavior_settings:
             -
               value:
                 paragraphs_blokkli_data:
-                  buttonAlignment: left
-                  colorMode: dark
-                  textShadow: none
+                  colorScheme: dark
+                  spacingTop: large
           revision_translation_affected:
             -
               value: true
@@ -202,7 +187,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: e1539989-52cd-43cb-9021-240d019fde9b
+                  uuid: ff787769-f4f3-488b-bcae-a512d372c9ae
                   bundle: icms_button_element
                   default_langcode: de
                 default:
@@ -211,7 +196,7 @@ default:
                       value: true
                   created:
                     -
-                      value: 1750351944
+                      value: 1750350216
                   behavior_settings:
                     -
                       value: {  }
@@ -231,13 +216,13 @@ default:
                       options: {  }
                   field_icms_link_label:
                     -
-                      value: 'Mehr Information'
+                      value: 'Call to Action'
                   field_icms_link_style:
                     -
-                      value: normal
+                      value: focus
                   field_icms_link_subline:
                     -
-                      value: 'Hier klicken'
+                      value: 'Bitte hier Klicken'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -247,29 +232,17 @@ default:
           field_icms_media_element:
             -
               entity: 6462ab73-beb9-449b-b85b-29b185216c3e
-          field_icms_pretitle:
-            -
-              value: Layout
           field_icms_text:
             -
-              value: '<p>Das Hero Image Layout ist die digitale Bühne, auf welcher der erste Eindruck entsteht. Dieses Layout erfüllt eine zentrale Aufgabe: Emotionen wecken, die Nutzenden gezielt führen und sie zu einer klaren Handlung motivieren.</p><p>Das Hero-Bild ist der erste Kontaktpunkt. Es sollte nicht nur ästhetisch ansprechend sein, sondern gezielt Emotionen auslösen, die zur Zielgruppe und Botschaft passen. Ob Menschen, die das Produkt nutzen, oder eine inspirierende Szene — das Bild erzählt eine Geschichte, die im Gedächtnis bleibt.</p><p>Die weiteren Elementen nebst dem Bild sind der Titel, der Pre-Title und/oder der Sub-Title sind optional.<br>Es können mehrere Buttons eingefügt werden. Hierbei sind klare Call-to Actions zu definieren.</p>'
-              format: icms_basic
-          field_icms_title:
-            -
-              value: 'Hero Image'
-          field_icms_title_style:
-            -
-              value: heading-2
-          field_icms_title_weight:
-            -
-              value: h2
+              value: '<p>Das „Call-to-Action“ Layout ist ein Schlüsselelement, um Besuchende zu einer bestimmten Handlung zu motivieren. Es soll die Aufmerksamkeit der Nutzenden erregen und ihn zu einer klar definierten Handlung motivieren, sei es der Kauf eines Produkts, das Ausfüllen eines Formulars oder das Abonnieren eines Newsletters. Design, strategische Platzierung sowie eine empathische Ansprache erhöhen die Konversionsrate und leiten den Besucher effektiv zum nächsten Schritt.</p>'
+              format: icms_minimal
     -
       entity:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: 7e857d3d-e44d-4d93-ab64-545207f4f3fd
-          bundle: icms_layout_hero_image
+          uuid: 79b87d57-da66-43f5-b2e8-fef347df0509
+          bundle: icms_layout_call_to_action
           default_langcode: de
         default:
           status:
@@ -277,14 +250,13 @@ default:
               value: true
           created:
             -
-              value: 1750351897
+              value: 1750350151
           behavior_settings:
             -
               value:
                 paragraphs_blokkli_data:
-                  buttonAlignment: left
-                  colorMode: light
-                  textShadow: none
+                  colorScheme: light
+                  spacingTop: large
           revision_translation_affected:
             -
               value: true
@@ -300,7 +272,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: 14e75966-2a36-4ef4-ad75-500d9855837d
+                  uuid: 453fe2b1-b115-4d66-92d4-0e1772af12fa
                   bundle: icms_button_element
                   default_langcode: de
                 default:
@@ -309,7 +281,7 @@ default:
                       value: true
                   created:
                     -
-                      value: 1750351944
+                      value: 1750350216
                   behavior_settings:
                     -
                       value: {  }
@@ -329,13 +301,13 @@ default:
                       options: {  }
                   field_icms_link_label:
                     -
-                      value: 'Mehr Information'
+                      value: 'Call to Action'
                   field_icms_link_style:
                     -
-                      value: normal
+                      value: focus
                   field_icms_link_subline:
                     -
-                      value: 'Hier klicken'
+                      value: 'Bitte hier Klicken'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -345,29 +317,17 @@ default:
           field_icms_media_element:
             -
               entity: 6462ab73-beb9-449b-b85b-29b185216c3e
-          field_icms_pretitle:
-            -
-              value: Layout
           field_icms_text:
             -
-              value: '<p>Das Hero Image Layout ist die digitale Bühne, auf welcher der erste Eindruck entsteht. Dieses Layout erfüllt eine zentrale Aufgabe: Emotionen wecken, die Nutzenden gezielt führen und sie zu einer klaren Handlung motivieren.</p><p>Das Hero-Bild ist der erste Kontaktpunkt. Es sollte nicht nur ästhetisch ansprechend sein, sondern gezielt Emotionen auslösen, die zur Zielgruppe und Botschaft passen. Ob Menschen, die das Produkt nutzen, oder eine inspirierende Szene — das Bild erzählt eine Geschichte, die im Gedächtnis bleibt.</p><p>Die weiteren Elementen nebst dem Bild sind der Titel, der Pre-Title und/oder der Sub-Title sind optional.<br>Es können mehrere Buttons eingefügt werden. Hierbei sind klare Call-to Actions zu definieren.</p>'
-              format: icms_basic
-          field_icms_title:
-            -
-              value: 'Hero Image'
-          field_icms_title_style:
-            -
-              value: heading-2
-          field_icms_title_weight:
-            -
-              value: h2
+              value: '<p>Das „Call-to-Action“ Layout ist ein Schlüsselelement, um Besuchende zu einer bestimmten Handlung zu motivieren. Es soll die Aufmerksamkeit der Nutzenden erregen und ihn zu einer klar definierten Handlung motivieren, sei es der Kauf eines Produkts, das Ausfüllen eines Formulars oder das Abonnieren eines Newsletters. Design, strategische Platzierung sowie eine empathische Ansprache erhöhen die Konversionsrate und leiten den Besucher effektiv zum nächsten Schritt.</p>'
+              format: icms_minimal
     -
       entity:
         _meta:
           version: '1.0'
           entity_type: paragraph
-          uuid: 80bf29d9-0e54-45a5-b67a-b9c60d4362f0
-          bundle: icms_layout_hero_image
+          uuid: 03b1887b-9b80-4a7b-8cbd-a5a4188b1b01
+          bundle: icms_layout_call_to_action
           default_langcode: de
         default:
           status:
@@ -375,15 +335,13 @@ default:
               value: true
           created:
             -
-              value: 1750351897
+              value: 1750350151
           behavior_settings:
             -
               value:
                 paragraphs_blokkli_data:
-                  buttonAlignment: left
-                  colorMode: dark
-                  reverseColumns: '1'
-                  textShadow: none
+                  colorScheme: accent
+                  spacingTop: large
           revision_translation_affected:
             -
               value: true
@@ -399,7 +357,7 @@ default:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
-                  uuid: 6a0cff5b-b608-47db-ab63-3274aee4794e
+                  uuid: bdccb65b-e64c-41ff-bd55-1ebb216be13e
                   bundle: icms_button_element
                   default_langcode: de
                 default:
@@ -408,7 +366,7 @@ default:
                       value: true
                   created:
                     -
-                      value: 1750351944
+                      value: 1750350216
                   behavior_settings:
                     -
                       value: {  }
@@ -428,13 +386,13 @@ default:
                       options: {  }
                   field_icms_link_label:
                     -
-                      value: 'Mehr Information'
+                      value: 'Call to Action'
                   field_icms_link_style:
                     -
-                      value: normal
+                      value: focus
                   field_icms_link_subline:
                     -
-                      value: 'Hier klicken'
+                      value: 'Bitte hier Klicken'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -444,22 +402,10 @@ default:
           field_icms_media_element:
             -
               entity: 6462ab73-beb9-449b-b85b-29b185216c3e
-          field_icms_pretitle:
-            -
-              value: Layout
           field_icms_text:
             -
-              value: '<p>Das Hero Image Layout ist die digitale Bühne, auf welcher der erste Eindruck entsteht. Dieses Layout erfüllt eine zentrale Aufgabe: Emotionen wecken, die Nutzenden gezielt führen und sie zu einer klaren Handlung motivieren.</p><p>Das Hero-Bild ist der erste Kontaktpunkt. Es sollte nicht nur ästhetisch ansprechend sein, sondern gezielt Emotionen auslösen, die zur Zielgruppe und Botschaft passen. Ob Menschen, die das Produkt nutzen, oder eine inspirierende Szene — das Bild erzählt eine Geschichte, die im Gedächtnis bleibt.</p><p>Die weiteren Elementen nebst dem Bild sind der Titel, der Pre-Title und/oder der Sub-Title sind optional.<br>Es können mehrere Buttons eingefügt werden. Hierbei sind klare Call-to Actions zu definieren.</p>'
-              format: icms_basic
-          field_icms_title:
-            -
-              value: 'Hero Image'
-          field_icms_title_style:
-            -
-              value: heading-2
-          field_icms_title_weight:
-            -
-              value: h2
+              value: '<p>Das „Call-to-Action“ Layout ist ein Schlüsselelement, um Besuchende zu einer bestimmten Handlung zu motivieren. Es soll die Aufmerksamkeit der Nutzenden erregen und ihn zu einer klar definierten Handlung motivieren, sei es der Kauf eines Produkts, das Ausfüllen eines Formulars oder das Abonnieren eines Newsletters. Design, strategische Platzierung sowie eine empathische Ansprache erhöhen die Konversionsrate und leiten den Besucher effektiv zum nächsten Schritt.</p>'
+              format: icms_minimal
   field_icms_teaser_image:
     -
       entity: 6462ab73-beb9-449b-b85b-29b185216c3e
@@ -468,8 +414,8 @@ default:
       value: Layout
   field_icms_teaser_text:
     -
-      value: '<p>Das <strong data-start="4" data-end="25">Hero-Image-Layout</strong> ist ein grossformatiges, aufmerksamkeitsstarkes Bildelement im oberen Bereich einer Webseite, das mit prägnanter Botschaft und visuellem Eindruck den Einstieg in den Inhalt unterstützt und das Markenbild prägt.</p>'
+      value: '<p>Das <strong data-start="4" data-end="29">Call-to-Action-Layout</strong> hebt eine zentrale Handlungsaufforderung wie „Jetzt anfragen“ oder „Mehr erfahren“ visuell hervor, um Nutzer gezielt zur Interaktion oder Konversion zu motivieren.</p>'
       format: icms_restricted
   field_icms_teaser_title:
     -
-      value: 'Hero Image'
+      value: 'Call to Action'

@@ -1,4 +1,5 @@
 name: 'ICMS Demo Content'
 description: 'Provide default content for the ICMS Demo.'
 type: 'Content'
-
+recipes:
+  - icms_base_content

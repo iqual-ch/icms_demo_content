@@ -44,11 +44,11 @@ translations:
         tag: link
         attributes:
           rel: canonical
-          href: 'http://default/en'
+          href: 'http://default/de'
     path:
       -
         alias: ''
-        langcode: en
+        langcode: de
         pathauto: 0
     content_translation_source:
       -
@@ -206,7 +206,7 @@ default:
           entity_type: paragraph
           uuid: 5bb006d0-f115-4eea-89ee-8a142212f988
           bundle: icms_layout_text
-          default_langcode: en
+          default_langcode: de
         default:
           status:
             -

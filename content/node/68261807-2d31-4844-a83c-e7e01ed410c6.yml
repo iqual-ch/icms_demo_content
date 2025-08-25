@@ -1,0 +1,1075 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 68261807-2d31-4844-a83c-e7e01ed410c6
+  bundle: icms_page
+  default_langcode: de
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+    a15d0669-724a-47fe-8032-91e7a6246667: media
+    da923ff9-3c3a-4d38-998d-29b826b1036f: media
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: Timeline
+  created:
+    -
+      value: 1755870717
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Timeline | ICMS'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://starterkit.ddev.site/en/layouts/timeline'
+    -
+      tag: link
+      attributes:
+        rel: image_src
+        href: 'https://starterkit.ddev.site/sites/default/files/styles/icms_og_image/public/media/images/Placeholder-iqual-CMS.png?h=a92f03cd&itok=7uKpaykS'
+  path:
+    -
+      alias: /layouts/timeline
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1755870879
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9d332e8d-0356-41d2-9cf0-2327ecae4766
+          bundle: icms_layout_timeline
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755870918
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: small
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Timeline-Layout verwandelt Daten und Ereignisse in eine klare, visuelle Geschichte, die auf einen Blick erfasst werden kann. Chronologisch geordnet und stilvoll aufbereitet, macht es selbst komplexe Abläufe verständlich und schafft einen roten Faden, der begeistert. Ob für Unternehmenshistorien, Projektverläufe, Reisepläne oder Biografien – mit einer Timeline setzen Sie Ihre Meilensteine und Entwicklungen eindrucksvoll in Szene und verleihen Ihrer Geschichte eine lebendige, professionelle Präsentation.</p>'
+              format: icms_basic
+          field_icms_timeline_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 2bed1bce-cdd4-4ca3-aa8c-1b362104bf18
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: One
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 814a5d82-1929-4f4f-a8d6-c47c19dbc499
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value:
+                        paragraphs_blokkli_data:
+                          reverseColumns: '1'
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Two
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 4dad1399-abc1-4670-9189-0fe51bc5f45e
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value:
+                        paragraphs_blokkli_data:
+                          reverseColumns: '0'
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Three
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: d588e642-1f12-4dcf-8072-2c7328d473fd
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value:
+                        paragraphs_blokkli_data:
+                          reverseColumns: '1'
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Four
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+          field_icms_title:
+            -
+              value: Timeline
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 22f9133f-6867-408a-9fbb-d0a4c397afd7
+          bundle: icms_layout_timeline
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755870918
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: dark
+                  spacingBottom: small
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Timeline-Layout verwandelt Daten und Ereignisse in eine klare, visuelle Geschichte, die auf einen Blick erfasst werden kann. Chronologisch geordnet und stilvoll aufbereitet, macht es selbst komplexe Abläufe verständlich und schafft einen roten Faden, der begeistert. Ob für Unternehmenshistorien, Projektverläufe, Reisepläne oder Biografien – mit einer Timeline setzen Sie Ihre Meilensteine und Entwicklungen eindrucksvoll in Szene und verleihen Ihrer Geschichte eine lebendige, professionelle Präsentation.</p>'
+              format: icms_basic
+          field_icms_timeline_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 3930d88c-d409-4a3d-9998-639c130e5f42
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: One
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 1b933e9b-e9e8-44e1-9584-ce1bb7ad967c
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value:
+                        paragraphs_blokkli_data:
+                          reverseColumns: '1'
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Two
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 2c7f09dd-b032-42d3-b3d2-b3bd3ec7ae52
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value:
+                        paragraphs_blokkli_data:
+                          reverseColumns: '0'
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Three
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: afdf1cfa-1169-4463-8f20-71e4ccc9f1c4
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value:
+                        paragraphs_blokkli_data:
+                          reverseColumns: '1'
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Four
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+          field_icms_title:
+            -
+              value: Timeline
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: f54eb373-bb1f-4a41-b764-4f4b83c949b5
+          bundle: icms_layout_timeline
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755870918
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: light
+                  spacingBottom: small
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Timeline-Layout verwandelt Daten und Ereignisse in eine klare, visuelle Geschichte, die auf einen Blick erfasst werden kann. Chronologisch geordnet und stilvoll aufbereitet, macht es selbst komplexe Abläufe verständlich und schafft einen roten Faden, der begeistert. Ob für Unternehmenshistorien, Projektverläufe, Reisepläne oder Biografien – mit einer Timeline setzen Sie Ihre Meilensteine und Entwicklungen eindrucksvoll in Szene und verleihen Ihrer Geschichte eine lebendige, professionelle Präsentation.</p>'
+              format: icms_basic
+          field_icms_timeline_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 29ecaaff-af62-44cf-a68e-e6aed34b1b19
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: One
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: d6edc549-ef61-4edf-9661-fba77021daf3
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value:
+                        paragraphs_blokkli_data:
+                          reverseColumns: '1'
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Two
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 37828744-4310-4f34-b5f1-00cb9420993d
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value:
+                        paragraphs_blokkli_data:
+                          reverseColumns: '0'
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Three
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 87c532fc-c373-4308-8ac1-0484a59179a0
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value:
+                        paragraphs_blokkli_data:
+                          reverseColumns: '1'
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Four
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+          field_icms_title:
+            -
+              value: Timeline
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 59b9a122-69b4-4f1f-b2bd-daee22168263
+          bundle: icms_layout_timeline
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755870918
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: accent
+                  spacingBottom: small
+                  spacingTop: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: Layout
+          field_icms_text:
+            -
+              value: '<p>Das Timeline-Layout verwandelt Daten und Ereignisse in eine klare, visuelle Geschichte, die auf einen Blick erfasst werden kann. Chronologisch geordnet und stilvoll aufbereitet, macht es selbst komplexe Abläufe verständlich und schafft einen roten Faden, der begeistert. Ob für Unternehmenshistorien, Projektverläufe, Reisepläne oder Biografien – mit einer Timeline setzen Sie Ihre Meilensteine und Entwicklungen eindrucksvoll in Szene und verleihen Ihrer Geschichte eine lebendige, professionelle Präsentation.</p>'
+              format: icms_basic
+          field_icms_timeline_elements:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: fa492060-01a2-4554-95bb-c822b85bcba5
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: One
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: b787750d-e89a-47f2-a360-9c77f7089192
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value:
+                        paragraphs_blokkli_data:
+                          reverseColumns: '1'
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: a15d0669-724a-47fe-8032-91e7a6246667
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Two
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: c0be4400-ab9d-496d-82d4-45a7656d2971
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value:
+                        paragraphs_blokkli_data:
+                          reverseColumns: '0'
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Three
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 59b37ea2-1130-4611-8a78-e589896f8dd7
+                  bundle: icms_timeline_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1755871265
+                  behavior_settings:
+                    -
+                      value:
+                        paragraphs_blokkli_data:
+                          reverseColumns: '1'
+                  revision_translation_affected:
+                    -
+                      value: true
+                  content_translation_source:
+                    -
+                      value: und
+                  content_translation_outdated:
+                    -
+                      value: false
+                  field_icms_media_elements:
+                    -
+                      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+                    -
+                      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+                  field_icms_pretitle:
+                    -
+                      value: 'Lorem ipsum'
+                  field_icms_text:
+                    -
+                      value: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>'
+                      format: icms_basic
+                  field_icms_title:
+                    -
+                      value: Four
+                  field_icms_title_style:
+                    -
+                      value: heading-2
+                  field_icms_title_weight:
+                    -
+                      value: h2
+          field_icms_title:
+            -
+              value: Timeline
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: Layout
+  field_icms_teaser_text:
+    -
+      value: '<p>Das <strong data-start="4" data-end="18">Timeline-Layout</strong> bietet eine visuelle und intuitive Darstellung wichtiger Ereignisse und Entwicklungen. Ideal, um Unternehmenshistorien, Projektverläufe oder Reiseabläufe chronologisch darzustellen.</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: Timeline

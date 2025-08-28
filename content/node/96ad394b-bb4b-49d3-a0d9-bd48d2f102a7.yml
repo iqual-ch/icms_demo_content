@@ -45,10 +45,10 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'http://default/de/layouts/call-action'
+        href: 'http://default/de/layouts/call-to-action'
   path:
     -
-      alias: /layouts/call-action
+      alias: /layouts/call-to-action
       langcode: de
       pathauto: 1
   content_translation_source:

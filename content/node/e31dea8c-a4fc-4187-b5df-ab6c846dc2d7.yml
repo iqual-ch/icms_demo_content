@@ -137,9 +137,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Ruf uns an!'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -184,9 +181,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Schreibe uns eine Email!'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -289,9 +283,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Ruf uns an!'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -336,9 +327,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Schreibe uns eine Email!'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -441,9 +429,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Ruf uns an!'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -488,9 +473,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Schreibe uns eine Email!'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -593,9 +575,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Ruf uns an!'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -640,9 +619,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Schreibe uns eine Email!'
                   field_icms_link_target_blank:
                     -
                       value: false

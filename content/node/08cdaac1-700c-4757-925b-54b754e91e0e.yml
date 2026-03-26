@@ -137,9 +137,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Kontaktieren Sie uns!'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -496,9 +493,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Kontaktieren Sie uns!'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -879,9 +873,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Kontaktieren Sie uns!'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -1262,9 +1253,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Kontaktieren Sie uns!'
                   field_icms_link_target_blank:
                     -
                       value: false

@@ -135,9 +135,6 @@ default:
                   field_icms_link_style:
                     -
                       value: focus
-                  field_icms_link_subline:
-                    -
-                      value: 'Bitte hier Klicken'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -220,9 +217,6 @@ default:
                   field_icms_link_style:
                     -
                       value: focus
-                  field_icms_link_subline:
-                    -
-                      value: 'Bitte hier Klicken'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -305,9 +299,6 @@ default:
                   field_icms_link_style:
                     -
                       value: focus
-                  field_icms_link_subline:
-                    -
-                      value: 'Bitte hier Klicken'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -390,9 +381,6 @@ default:
                   field_icms_link_style:
                     -
                       value: focus
-                  field_icms_link_subline:
-                    -
-                      value: 'Bitte hier Klicken'
                   field_icms_link_target_blank:
                     -
                       value: false

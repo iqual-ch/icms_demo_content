@@ -138,9 +138,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Hier klicken!'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -240,9 +237,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Hier klicken!'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -342,9 +336,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Hier klicken!'
                   field_icms_link_target_blank:
                     -
                       value: false
@@ -444,9 +435,6 @@ default:
                   field_icms_link_style:
                     -
                       value: normal
-                  field_icms_link_subline:
-                    -
-                      value: 'Hier klicken!'
                   field_icms_link_target_blank:
                     -
                       value: false

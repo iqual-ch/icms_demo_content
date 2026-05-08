@@ -11,7 +11,6 @@ _meta:
     3ae39fff-ab61-4bd0-9f49-9cbf722e1f54: node
     d890cf10-c1e3-46d7-ae15-4d799b344fee: node
     7c4d9a87-99d8-434e-aaa0-a989b224fa6d: node
-    cb243a23-6d6f-4352-8bfd-e57eb50239ea: node
     96ad394b-bb4b-49d3-a0d9-bd48d2f102a7: node
     14df6761-7a2a-4a47-b849-0ced48e19863: node
     419caab9-48f7-46de-9c3b-2ba39588fc7f: node
@@ -22,7 +21,6 @@ _meta:
     e12fc9a5-207a-40bc-9b2c-33aa2e251f89: node
     08cdaac1-700c-4757-925b-54b754e91e0e: node
     273160d7-2a9f-424e-a097-de946819114e: node
-    5f6c4096-119d-4f1a-bac2-5c6ddbfacc9f: node
     e978affa-fb09-4d9d-bc97-7e8fad2b1798: node
     6b798f09-3634-402c-846e-6c4079936eaf: node
     0ab08c7e-57e3-4774-a4f0-4e2d193c7dd1: node
@@ -178,8 +176,6 @@ default:
               value: false
           field_icms_content_entities:
             -
-              entity: cb243a23-6d6f-4352-8bfd-e57eb50239ea
-            -
               entity: 96ad394b-bb4b-49d3-a0d9-bd48d2f102a7
             -
               entity: 14df6761-7a2a-4a47-b849-0ced48e19863
@@ -201,8 +197,6 @@ default:
               entity: 08cdaac1-700c-4757-925b-54b754e91e0e
             -
               entity: 273160d7-2a9f-424e-a097-de946819114e
-            -
-              entity: 5f6c4096-119d-4f1a-bac2-5c6ddbfacc9f
             -
               entity: e978affa-fb09-4d9d-bc97-7e8fad2b1798
             -

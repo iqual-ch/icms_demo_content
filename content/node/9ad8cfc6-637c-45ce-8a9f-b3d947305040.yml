@@ -134,15 +134,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Weitere Fragen?'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_faq_elements:
             -
               entity:
@@ -211,15 +205,9 @@ default:
                           field_icms_link_label:
                             -
                               value: 'Mehr zu Frage 1'
-                          field_icms_link_style:
-                            -
-                              value: normal
                           field_icms_link_target_blank:
                             -
                               value: false
-                          field_icms_text_alignment:
-                            -
-                              value: left
                   field_icms_question:
                     -
                       value: 'Frage 1'
@@ -290,15 +278,9 @@ default:
                           field_icms_link_label:
                             -
                               value: 'Mehr zu Frage 2'
-                          field_icms_link_style:
-                            -
-                              value: normal
                           field_icms_link_target_blank:
                             -
                               value: false
-                          field_icms_text_alignment:
-                            -
-                              value: left
                   field_icms_question:
                     -
                       value: 'Frage 2'
@@ -369,15 +351,9 @@ default:
                           field_icms_link_label:
                             -
                               value: 'Mehr zu Frage 3'
-                          field_icms_link_style:
-                            -
-                              value: normal
                           field_icms_link_target_blank:
                             -
                               value: false
-                          field_icms_text_alignment:
-                            -
-                              value: left
                   field_icms_question:
                     -
                       value: 'Frage 3'
@@ -448,15 +424,9 @@ default:
                           field_icms_link_label:
                             -
                               value: 'Mehr zu Frage 4'
-                          field_icms_link_style:
-                            -
-                              value: normal
                           field_icms_link_target_blank:
                             -
                               value: false
-                          field_icms_text_alignment:
-                            -
-                              value: left
                   field_icms_question:
                     -
                       value: 'Frage 4'
@@ -527,15 +497,9 @@ default:
                           field_icms_link_label:
                             -
                               value: 'Mehr zu Frage 5'
-                          field_icms_link_style:
-                            -
-                              value: normal
                           field_icms_link_target_blank:
                             -
                               value: false
-                          field_icms_text_alignment:
-                            -
-                              value: left
                   field_icms_question:
                     -
                       value: 'Frage 5'
@@ -626,15 +590,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Weitere Fragen?'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_faq_elements:
             -
               entity:
@@ -893,15 +851,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Weitere Fragen?'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_faq_elements:
             -
               entity:
@@ -1160,15 +1112,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Weitere Fragen?'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_faq_elements:
             -
               entity:

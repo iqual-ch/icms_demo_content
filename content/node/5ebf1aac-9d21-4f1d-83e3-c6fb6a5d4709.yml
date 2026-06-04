@@ -134,15 +134,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Mehr Information'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_media_element:
             -
               entity: 6462ab73-beb9-449b-b85b-29b185216c3e
@@ -229,15 +223,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Mehr Information'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_media_element:
             -
               entity: 6462ab73-beb9-449b-b85b-29b185216c3e
@@ -324,15 +312,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Mehr Information'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_media_element:
             -
               entity: 6462ab73-beb9-449b-b85b-29b185216c3e
@@ -420,15 +402,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Mehr Information'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_media_element:
             -
               entity: 6462ab73-beb9-449b-b85b-29b185216c3e

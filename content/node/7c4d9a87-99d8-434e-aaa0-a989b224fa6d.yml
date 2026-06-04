@@ -131,15 +131,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Mehr erfahren?'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_pretitle:
             -
               value: Layout
@@ -221,15 +215,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Mehr erfahren?'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_pretitle:
             -
               value: Layout
@@ -311,15 +299,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Mehr erfahren?'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_pretitle:
             -
               value: Layout
@@ -406,15 +388,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Mehr erfahren?'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_pretitle:
             -
               value: Layout
@@ -501,15 +477,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Mehr erfahren?'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_pretitle:
             -
               value: Layout
@@ -596,15 +566,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Mehr erfahren?'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_pretitle:
             -
               value: Layout

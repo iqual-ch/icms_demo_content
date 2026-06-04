@@ -134,15 +134,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Interessiert?'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_logo_elements:
             -
               entity:
@@ -490,15 +484,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Interessiert?'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_logo_elements:
             -
               entity:
@@ -870,15 +858,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Interessiert?'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_logo_elements:
             -
               entity:
@@ -1250,15 +1232,9 @@ default:
                   field_icms_link_label:
                     -
                       value: 'Interessiert?'
-                  field_icms_link_style:
-                    -
-                      value: normal
                   field_icms_link_target_blank:
                     -
                       value: false
-                  field_icms_text_alignment:
-                    -
-                      value: left
           field_icms_logo_elements:
             -
               entity:

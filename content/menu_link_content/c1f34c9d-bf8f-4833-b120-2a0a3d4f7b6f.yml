@@ -1,0 +1,106 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: c1f34c9d-bf8f-4833-b120-2a0a3d4f7b6f
+  bundle: main
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Sed diam'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'route:<nolink>'
+      title: null
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 10
+  expanded:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 0
+  content_translation_status:
+    -
+      value: true
+translations:
+  de:
+    title:
+      -
+        value: 'Sed diam'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true
+  fr:
+    title:
+      -
+        value: 'Sed diam'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true
+  it:
+    title:
+      -
+        value: 'Sed diam'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true

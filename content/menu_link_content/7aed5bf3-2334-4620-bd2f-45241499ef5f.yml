@@ -1,0 +1,111 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 7aed5bf3-2334-4620-bd2f-45241499ef5f
+  bundle: footer
+  default_langcode: en
+  depends:
+    5a730856-b7e9-4f3f-9f39-ada114d2df55: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Ullamcorper suscipit'
+  menu_name:
+    -
+      value: footer
+  link:
+    -
+      uri: 'route:<nolink>'
+      title: null
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:5a730856-b7e9-4f3f-9f39-ada114d2df55'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 0
+  content_translation_status:
+    -
+      value: true
+translations:
+  de:
+    title:
+      -
+        value: 'Ullamcorper suscipit'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true
+  fr:
+    title:
+      -
+        value: 'Ullamcorper suscipit'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true
+  it:
+    title:
+      -
+        value: 'Ullamcorper suscipit'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true

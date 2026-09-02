@@ -1,0 +1,111 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: f45eb9c8-caf4-422f-a6cf-f7a213a08377
+  bundle: main
+  default_langcode: en
+  depends:
+    c1f34c9d-bf8f-4833-b120-2a0a3d4f7b6f: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Euismod tincidunt'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'route:<nolink>'
+      title: null
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 10
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:c1f34c9d-bf8f-4833-b120-2a0a3d4f7b6f'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 0
+  content_translation_status:
+    -
+      value: true
+translations:
+  de:
+    title:
+      -
+        value: 'Euismod tincidunt'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true
+  fr:
+    title:
+      -
+        value: 'Euismod tincidunt'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true
+  it:
+    title:
+      -
+        value: 'Euismod tincidunt'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true

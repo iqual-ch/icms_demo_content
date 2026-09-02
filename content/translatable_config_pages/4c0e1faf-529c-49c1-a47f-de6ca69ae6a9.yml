@@ -1,0 +1,367 @@
+_meta:
+  version: '1.0'
+  entity_type: translatable_config_pages
+  uuid: 4c0e1faf-529c-49c1-a47f-de6ca69ae6a9
+  bundle: global
+  default_langcode: en
+  depends:
+    4ad45ce3-ea09-4ffc-b177-e401c8ad7183: media
+    9a5cbe80-1c43-4418-9819-0e08c8855ae7: media
+default:
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_status:
+    -
+      value: true
+  field_icms_company_address:
+    -
+      value: '<p>Lorem Ipsum AG<br>Doloramstrasse 42<br>3000 Sitamet</p>'
+      format: icms_basic
+  field_icms_company_description:
+    -
+      value: '<p>Lorem sit adipiscing ornare posuere sociosqu mauris ipsum amet elit potenti tortor porttitor montes. <strong>ipsum amet</strong> mollis dignissim cubilia ligula lorem sit.</p>'
+      format: icms_basic
+  field_icms_company_logo:
+    -
+      entity: 4ad45ce3-ea09-4ffc-b177-e401c8ad7183
+  field_icms_company_logo_alt:
+    -
+      entity: 9a5cbe80-1c43-4418-9819-0e08c8855ae7
+  field_icms_company_name:
+    -
+      value: 'Lorem Ipsum AG'
+  field_icms_contact_buttons:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: bb5edd0a-4e2f-462c-a579-af8838b2c22a
+          bundle: icms_button_element
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_link:
+            -
+              uri: 'mailto:hello@example.com'
+              title: null
+              options: {  }
+          field_icms_link_label:
+            -
+              value: 'Contact us'
+          field_icms_link_title:
+            -
+              value: 'Lorem ipsum'
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_link:
+              -
+                uri: 'mailto:hello@example.com'
+                title: null
+                options: {  }
+            field_icms_link_label:
+              -
+                value: 'Kontaktieren Sie uns'
+            field_icms_link_title:
+              -
+                value: 'Lorem ipsum'
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_link:
+              -
+                uri: 'mailto:hello@example.com'
+                title: null
+                options: {  }
+            field_icms_link_label:
+              -
+                value: Contactez-nous
+            field_icms_link_title:
+              -
+                value: 'Lorem ipsum'
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_link:
+              -
+                uri: 'mailto:hello@example.com'
+                title: null
+                options: {  }
+            field_icms_link_label:
+              -
+                value: Contattateci
+            field_icms_link_title:
+              -
+                value: 'Lorem ipsum'
+  field_icms_email_address:
+    -
+      value: hello@example.com
+  field_icms_meta_links:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 72ee9083-9c82-4b63-946c-88b6a1cb7361
+          bundle: icms_button_element
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_link:
+            -
+              uri: 'https://www.example.com'
+              title: null
+              options: {  }
+          field_icms_link_label:
+            -
+              value: 'Lorem portal'
+          field_icms_link_target_blank:
+            -
+              value: true
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_link:
+              -
+                uri: 'https://www.example.com'
+                title: null
+                options: {  }
+            field_icms_link_label:
+              -
+                value: 'Lorem Portal'
+            field_icms_link_target_blank:
+              -
+                value: true
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_link:
+              -
+                uri: 'https://www.example.com'
+                title: null
+                options: {  }
+            field_icms_link_label:
+              -
+                value: 'Portail lorem'
+            field_icms_link_target_blank:
+              -
+                value: true
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_link:
+              -
+                uri: 'https://www.example.com'
+                title: null
+                options: {  }
+            field_icms_link_label:
+              -
+                value: 'Portale lorem'
+            field_icms_link_target_blank:
+              -
+                value: true
+  field_icms_phone_number:
+    -
+      value: '+41 31 000 00 00'
+  field_icms_social_media_links:
+    -
+      uri: 'https://www.linkedin.com/company/example'
+      title: LinkedIn
+      options: {  }
+    -
+      uri: 'https://www.instagram.com/example'
+      title: Instagram
+      options: {  }
+    -
+      uri: 'https://www.youtube.com/@example'
+      title: YouTube
+      options: {  }
+translations:
+  de:
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 1
+    content_translation_status:
+      -
+        value: true
+    field_icms_company_address:
+      -
+        value: '<p>Lorem Ipsum AG<br>Doloramstrasse 42<br>3000 Sitamet</p>'
+        format: icms_basic
+    field_icms_company_description:
+      -
+        value: '<p>Sed omnis voluptatem laudantium eaque veritatis vitae perspiciatis iste accusantium totam quae architecto dicta. <strong>perspiciatis iste</strong> doloremque aperiam inventore beatae sed omnis.</p>'
+        format: icms_basic
+    field_icms_company_name:
+      -
+        value: 'Lorem Ipsum AG'
+    field_icms_email_address:
+      -
+        value: hello@example.com
+    field_icms_phone_number:
+      -
+        value: '+41 31 000 00 00'
+  fr:
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 1
+    content_translation_status:
+      -
+        value: true
+    field_icms_company_address:
+      -
+        value: '<p>Lorem Ipsum AG<br>Doloramstrasse 42<br>3000 Sitamet</p>'
+        format: icms_basic
+    field_icms_company_description:
+      -
+        value: '<p>Vero odio blanditiis deleniti dolores excepturi provident accusamus dignissimos praesentium corrupti quas occaecati similique. <strong>accusamus dignissimos</strong> voluptatum quos molestias cupiditate vero odio.</p>'
+        format: icms_basic
+    field_icms_company_name:
+      -
+        value: 'Lorem Ipsum AG'
+    field_icms_email_address:
+      -
+        value: hello@example.com
+    field_icms_phone_number:
+      -
+        value: '+41 31 000 00 00'
+  it:
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 1
+    content_translation_status:
+      -
+        value: true
+    field_icms_company_address:
+      -
+        value: '<p>Lorem Ipsum AG<br>Doloramstrasse 42<br>3000 Sitamet</p>'
+        format: icms_basic
+    field_icms_company_description:
+      -
+        value: '<p>Nemo voluptas fugit ratione neque dolorem eius enim aspernatur consequuntur sequi porro adipisci modi. <strong>enim aspernatur</strong> magni nesciunt quisquam numquam nemo voluptas.</p>'
+        format: icms_basic
+    field_icms_company_name:
+      -
+        value: 'Lorem Ipsum AG'
+    field_icms_email_address:
+      -
+        value: hello@example.com
+    field_icms_phone_number:
+      -
+        value: '+41 31 000 00 00'

@@ -1,0 +1,111 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 1443b2c6-a1e6-46a7-b61a-ab7301d583ee
+  bundle: main
+  default_langcode: en
+  depends:
+    8e40fd03-507a-4e88-bebc-31163badf3ee: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Adipiscing elit'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'route:<nolink>'
+      title: null
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 20
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:8e40fd03-507a-4e88-bebc-31163badf3ee'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 0
+  content_translation_status:
+    -
+      value: true
+translations:
+  de:
+    title:
+      -
+        value: 'Adipiscing elit'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true
+  fr:
+    title:
+      -
+        value: 'Adipiscing elit'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true
+  it:
+    title:
+      -
+        value: 'Adipiscing elit'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true

@@ -1,0 +1,111 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 4e9a9d98-6523-4eca-8822-5e07a08ae0f6
+  bundle: footer
+  default_langcode: en
+  depends:
+    5a730856-b7e9-4f3f-9f39-ada114d2df55: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Lobortis nisl'
+  menu_name:
+    -
+      value: footer
+  link:
+    -
+      uri: 'route:<nolink>'
+      title: null
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 10
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:5a730856-b7e9-4f3f-9f39-ada114d2df55'
+  revision_translation_affected:
+    -
+      value: true
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 0
+  content_translation_status:
+    -
+      value: true
+translations:
+  de:
+    title:
+      -
+        value: 'Lobortis nisl'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true
+  fr:
+    title:
+      -
+        value: 'Lobortis nisl'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true
+  it:
+    title:
+      -
+        value: 'Lobortis nisl'
+    revision_translation_affected:
+      -
+        value: true
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    content_translation_uid:
+      -
+        target_id: 0
+    content_translation_status:
+      -
+        value: true

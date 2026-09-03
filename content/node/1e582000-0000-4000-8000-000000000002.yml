@@ -13105,6 +13105,133 @@ default:
             field_icms_title:
               -
                 value: 'Sequi porro adipisci modi'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: d671ced3-c552-49d1-a91c-6ba7848eb441
+          bundle: icms_layout_listing
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  slider: false
+                  sliderColumns: 1
+                  alignHorizontalFull: left
+                  spacingTop: small
+                  spacingBottom: small
+                  teaserVariant: teaser
+                  colorScheme: none
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_content_types:
+            -
+              value: icms_page
+          field_icms_listing_type:
+            -
+              value: all
+          field_icms_pretitle:
+            -
+              value: 'Listing · pages, alphabetical'
+          field_icms_sorting:
+            -
+              value: alphabetical
+          field_icms_text:
+            -
+              value: '<p>Cubilia ligula lorem sit adipiscing ornare posuere sociosqu mauris ipsum amet elit potenti tortor. <strong>sociosqu mauris</strong> dolor consectetur mollis dignissim cubilia ligula.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Ornare posuere sociosqu mauris'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Auflistung · Seiten, alphabetisch'
+            field_icms_text:
+              -
+                value: '<p>Inventore beatae sed omnis voluptatem laudantium eaque veritatis vitae perspiciatis iste accusantium totam quae. <strong>veritatis vitae</strong> unde natus doloremque aperiam inventore beatae.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Eaque veritatis vitae perspiciatis'
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Liste · pages, alphabétique'
+            field_icms_text:
+              -
+                value: '<p>Molestias cupiditate vero odio blanditiis deleniti dolores excepturi provident accusamus dignissimos praesentium corrupti quas. <strong>excepturi provident</strong> iusto ducimus voluptatum quos molestias cupiditate.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Dolores excepturi provident accusamus'
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Elenco · pagine, alfabetico'
+            field_icms_text:
+              -
+                value: '<p>Quisquam numquam nemo voluptas fugit ratione neque dolorem eius enim aspernatur consequuntur sequi porro. <strong>dolorem eius</strong> ipsam odit magni nesciunt quisquam numquam.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Neque dolorem eius enim aspernatur'
   field_icms_teaser_image:
     -
       entity: 6462ab73-beb9-449b-b85b-29b185216c3e

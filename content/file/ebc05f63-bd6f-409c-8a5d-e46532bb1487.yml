@@ -9,16 +9,16 @@ default:
       target_id: 1
   filename:
     -
-      value: Headerimage.png
+      value: Headerimage.jpg
   uri:
     -
-      value: 'public://media/images/Headerimage.png'
+      value: 'public://media/images/Headerimage.jpg'
   filemime:
     -
-      value: image/png
+      value: image/jpeg
   filesize:
     -
-      value: 2906422
+      value: 559374
   status:
     -
       value: true

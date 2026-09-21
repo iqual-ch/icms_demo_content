@@ -195,9 +195,6 @@ default:
           field_icms_pretitle:
             -
               value: 'Lorem ipsum'
-          field_icms_subtitle:
-            -
-              value: 'Elit potenti tortor porttitor montes dolor.'
           field_icms_text:
             -
               value: 'Cubilia ligula lorem sit adipiscing ornare posuere sociosqu mauris ipsum amet elit potenti tortor.'
@@ -228,9 +225,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'Lorem ipsum'
-            field_icms_subtitle:
-              -
-                value: 'Accusantium totam quae architecto dicta unde.'
             field_icms_text:
               -
                 value: 'Inventore beatae sed omnis voluptatem laudantium eaque veritatis vitae perspiciatis iste accusantium totam quae.'
@@ -254,9 +248,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'Lorem ipsum'
-            field_icms_subtitle:
-              -
-                value: 'Praesentium corrupti quas occaecati similique iusto.'
             field_icms_text:
               -
                 value: 'Molestias cupiditate vero odio blanditiis deleniti dolores excepturi provident accusamus dignissimos praesentium corrupti quas.'
@@ -280,9 +271,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'Lorem ipsum'
-            field_icms_subtitle:
-              -
-                value: 'Consequuntur sequi porro adipisci modi ipsam.'
             field_icms_text:
               -
                 value: 'Quisquam numquam nemo voluptas fugit ratione neque dolorem eius enim aspernatur consequuntur sequi porro.'
@@ -324,9 +312,6 @@ default:
           field_icms_pretitle:
             -
               value: 'Sociosqu mauris'
-          field_icms_subtitle:
-            -
-              value: 'Ornare posuere sociosqu mauris ipsum amet elit.'
           field_icms_text:
             -
               value: '<p>Porttitor montes dolor consectetur mollis dignissim cubilia ligula lorem sit adipiscing ornare posuere sociosqu. <strong>ligula lorem</strong> amet elit potenti tortor porttitor montes.</p>'
@@ -357,9 +342,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'Veritatis vitae'
-            field_icms_subtitle:
-              -
-                value: 'Laudantium eaque veritatis vitae perspiciatis iste accusantium.'
             field_icms_text:
               -
                 value: '<p>Architecto dicta unde natus doloremque aperiam inventore beatae sed omnis voluptatem laudantium eaque veritatis. <strong>beatae sed</strong> iste accusantium totam quae architecto dicta.</p>'
@@ -383,9 +365,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'Excepturi provident'
-            field_icms_subtitle:
-              -
-                value: 'Deleniti dolores excepturi provident accusamus dignissimos praesentium.'
             field_icms_text:
               -
                 value: '<p>Occaecati similique iusto ducimus voluptatum quos molestias cupiditate vero odio blanditiis deleniti dolores excepturi. <strong>cupiditate vero</strong> dignissimos praesentium corrupti quas occaecati similique.</p>'
@@ -409,9 +388,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'Dolorem eius'
-            field_icms_subtitle:
-              -
-                value: 'Ratione neque dolorem eius enim aspernatur consequuntur.'
             field_icms_text:
               -
                 value: '<p>Adipisci modi ipsam odit magni nesciunt quisquam numquam nemo voluptas fugit ratione neque dolorem. <strong>numquam nemo</strong> aspernatur consequuntur sequi porro adipisci modi.</p>'
@@ -746,9 +722,6 @@ default:
           field_icms_pretitle:
             -
               value: 'Cubilia ligula'
-          field_icms_subtitle:
-            -
-              value: 'Mollis dignissim cubilia ligula lorem sit adipiscing.'
           field_icms_text:
             -
               value: '<p>Sociosqu mauris ipsum amet elit potenti tortor porttitor montes dolor consectetur mollis dignissim cubilia. <strong>porttitor montes</strong> sit adipiscing ornare posuere sociosqu mauris.</p>'
@@ -779,9 +752,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'Inventore beatae'
-            field_icms_subtitle:
-              -
-                value: 'Doloremque aperiam inventore beatae sed omnis voluptatem.'
             field_icms_text:
               -
                 value: '<p>Veritatis vitae perspiciatis iste accusantium totam quae architecto dicta unde natus doloremque aperiam inventore. <strong>architecto dicta</strong> omnis voluptatem laudantium eaque veritatis vitae.</p>'
@@ -805,9 +775,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'Molestias cupiditate'
-            field_icms_subtitle:
-              -
-                value: 'Voluptatum quos molestias cupiditate vero odio blanditiis.'
             field_icms_text:
               -
                 value: '<p>Excepturi provident accusamus dignissimos praesentium corrupti quas occaecati similique iusto ducimus voluptatum quos molestias. <strong>occaecati similique</strong> odio blanditiis deleniti dolores excepturi provident.</p>'
@@ -831,9 +798,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'Quisquam numquam'
-            field_icms_subtitle:
-              -
-                value: 'Magni nesciunt quisquam numquam nemo voluptas fugit.'
             field_icms_text:
               -
                 value: '<p>Dolorem eius enim aspernatur consequuntur sequi porro adipisci modi ipsam odit magni nesciunt quisquam. <strong>adipisci modi</strong> voluptas fugit ratione neque dolorem eius.</p>'
@@ -975,9 +939,6 @@ default:
           field_icms_pretitle:
             -
               value: 'Potenti tortor'
-          field_icms_subtitle:
-            -
-              value: 'Amet elit potenti tortor porttitor montes dolor.'
           field_icms_text:
             -
               value: '<p>Dignissim cubilia ligula lorem sit adipiscing ornare posuere sociosqu mauris ipsum amet elit potenti. <strong>posuere sociosqu</strong> montes dolor consectetur mollis dignissim cubilia.</p><ul><li>Adipiscing ornare posuere sociosqu</li><li>Tortor porttitor montes dolor</li><li>Lorem sit adipiscing ornare</li></ul>'
@@ -1008,9 +969,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'Totam quae'
-            field_icms_subtitle:
-              -
-                value: 'Iste accusantium totam quae architecto dicta unde.'
             field_icms_text:
               -
                 value: '<p>Aperiam inventore beatae sed omnis voluptatem laudantium eaque veritatis vitae perspiciatis iste accusantium totam. <strong>eaque veritatis</strong> dicta unde natus doloremque aperiam inventore.</p><ul><li>Voluptatem laudantium eaque veritatis</li><li>Quae architecto dicta unde</li><li>Sed omnis voluptatem laudantium</li></ul>'
@@ -1034,9 +992,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'Corrupti quas'
-            field_icms_subtitle:
-              -
-                value: 'Dignissimos praesentium corrupti quas occaecati similique iusto.'
             field_icms_text:
               -
                 value: '<p>Quos molestias cupiditate vero odio blanditiis deleniti dolores excepturi provident accusamus dignissimos praesentium corrupti. <strong>dolores excepturi</strong> similique iusto ducimus voluptatum quos molestias.</p><ul><li>Blanditiis deleniti dolores excepturi</li><li>Quas occaecati similique iusto</li><li>Vero odio blanditiis deleniti</li></ul>'
@@ -1060,9 +1015,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'Sequi porro'
-            field_icms_subtitle:
-              -
-                value: 'Aspernatur consequuntur sequi porro adipisci modi ipsam.'
             field_icms_text:
               -
                 value: '<p>Nesciunt quisquam numquam nemo voluptas fugit ratione neque dolorem eius enim aspernatur consequuntur sequi. <strong>neque dolorem</strong> modi ipsam odit magni nesciunt quisquam.</p><ul><li>Fugit ratione neque dolorem</li><li>Porro adipisci modi ipsam</li><li>Nemo voluptas fugit ratione</li></ul>'
@@ -1378,9 +1330,6 @@ default:
           field_icms_pretitle:
             -
               value: FAQ
-          field_icms_subtitle:
-            -
-              value: 'Ligula lorem sit adipiscing ornare posuere sociosqu.'
           field_icms_text:
             -
               value: '<p>Amet elit potenti tortor porttitor montes dolor consectetur mollis dignissim cubilia ligula lorem sit. <strong>consectetur mollis</strong> posuere sociosqu mauris ipsum amet elit.</p>'
@@ -1411,9 +1360,6 @@ default:
             field_icms_pretitle:
               -
                 value: FAQ
-            field_icms_subtitle:
-              -
-                value: 'Beatae sed omnis voluptatem laudantium eaque veritatis.'
             field_icms_text:
               -
                 value: '<p>Iste accusantium totam quae architecto dicta unde natus doloremque aperiam inventore beatae sed omnis. <strong>natus doloremque</strong> eaque veritatis vitae perspiciatis iste accusantium.</p>'
@@ -1437,9 +1383,6 @@ default:
             field_icms_pretitle:
               -
                 value: FAQ
-            field_icms_subtitle:
-              -
-                value: 'Cupiditate vero odio blanditiis deleniti dolores excepturi.'
             field_icms_text:
               -
                 value: '<p>Dignissimos praesentium corrupti quas occaecati similique iusto ducimus voluptatum quos molestias cupiditate vero odio. <strong>ducimus voluptatum</strong> dolores excepturi provident accusamus dignissimos praesentium.</p>'
@@ -1463,9 +1406,6 @@ default:
             field_icms_pretitle:
               -
                 value: FAQ
-            field_icms_subtitle:
-              -
-                value: 'Numquam nemo voluptas fugit ratione neque dolorem.'
             field_icms_text:
               -
                 value: '<p>Aspernatur consequuntur sequi porro adipisci modi ipsam odit magni nesciunt quisquam numquam nemo voluptas. <strong>odit magni</strong> neque dolorem eius enim aspernatur consequuntur.</p>'
@@ -1605,9 +1545,6 @@ default:
           field_icms_pretitle:
             -
               value: 'Consectetur mollis'
-          field_icms_subtitle:
-            -
-              value: 'Modi ipsam odit magni nesciunt quisquam.'
           field_icms_text:
             -
               value: 'Adipiscing ornare posuere sociosqu mauris ipsum amet elit potenti tortor porttitor montes.'
